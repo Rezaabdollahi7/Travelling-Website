@@ -1,4 +1,4 @@
-const TourismMagazineContext =`
+const TourismMagazineContext = `
     <!--Tourism Magazine -->
     <section class="tourism-magazine container-fluid">
         <div class="main-row ">
@@ -40,7 +40,7 @@ const TourismMagazineContext =`
                 <div class="row tab-content-row">
                     <!-- tabs content -->
                     <div class="tab-content" id="pills-tabContent">
-
+                      <!-- first tab content -->
                         <div class="tab-pane fade show active flex flex-row mt-4" id="pills-home" role="tabpanel"
                             aria-labelledby="pills-home-tab" tabindex="0">
                             <div class="row">
@@ -126,15 +126,255 @@ const TourismMagazineContext =`
                         <!-- end of first tab -->
 
                         <div class="tab-pane fade" id="pills-profile" role="tabpanel"
-                            aria-labelledby="pills-profile-tab" tabindex="0">2
+                            aria-labelledby="pills-profile-tab" tabindex="0">
+                            
+                                  <div class="row">
+                                <!-- first card -->
+                                <div class=" travel-items mb-2 col-sm-12 col-xl-6 d-flex flex-column flex-md-row justify-content-between align-items-center">
+                                    <div class=" col-12 col-md-6 img-wrapper position-relative d-flex justify-content-center align-items-center ">
+                                        <img src="./assets/images/عکس‌های وبلاگ/Istanbul-Tram-T1-Visual.jpg" alt=""
+                                            class="img-fluid travel-img">
+                                    </div>
+                                    <div class="col-12 col-md-6 pe-2 ps-2">
+                                        <h4 class="travel-header text-justify ">حمل و نقل عمومی در استانبول ترکیه</h4>
+                                        <p class="travel-desciption text-justify ">این متن صرفا برای نمونه بوده تا کاربر
+                                            بتواند اندازه آن در محیط واقعی وب را
+                                            تصور کند و تصویری ذهنی از آن داشته باشد تا بتواند تصمیم گیری کند ...</p>
+                                    </div>
+                                </div>
+                                <div class=" travel-items mb-2 col-sm-12 col-xl-6 d-flex flex-column flex-md-row justify-content-between align-items-center">
+                                    <div class="col-12 col-md-6 img-wrapper position-relative d-flex justify-content-center align-items-center">
+                                        <img src="./assets/images/عکس‌های وبلاگ/louis-magnotti-YvCg5X3pWzc-unsplash.jpg" alt=""
+                                            class="img-fluid travel-img">
+                                    </div>
+                                    <div class="col-12 col-md-6 pe-2 ps-2">
+                                        <h4 class="travel-header text-justify"> راهنمای خرید بلیت هواپیما     </h4>
+                                        <p class="travel-desciption text-justify ">این متن صرفا برای نمونه بوده تا کاربر
+                                            بتواند اندازه آن در محیط واقعی وب را
+                                            تصور کند و تصویری ذهنی از آن داشته باشد تا بتواند تصمیم گیری کند ...</p>
+                                    </div>
+                                </div>
+                                <div class=" travel-items mb-2 col-sm-12 col-xl-6 d-flex flex-column flex-md-row justify-content-between align-items-center">
+                                    <div class="col-12 col-md-6 img-wrapper position-relative d-flex justify-content-center align-items-center">
+                                        <img src="./assets/images/عکس‌های وبلاگ/56-3710787-colors-streaming-winter-prayer-hall-nasir-ol-molk-mosque-shiraz-14288444120-.jpg" alt=""
+                                            class="img-fluid travel-img">
+                                    </div>
+                                    <div class="col-12 col-md-6 pe-2 ps-2">
+                                        <h4 class="travel-header text-justify"> مسجد نصیرالملک، شاهکار معماری ایرانی</h4>
+                                        <p class="travel-desciption text-justify ">این متن صرفا برای نمونه بوده تا کاربر
+                                            بتواند اندازه آن در محیط واقعی وب را
+                                            تصور کند و تصویری ذهنی از آن داشته باشد تا بتواند تصمیم گیری کند ...</p>
+                                    </div>
+                                </div>
+                                <div class=" travel-items mb-2 col-sm-12 col-xl-6 d-flex flex-column flex-md-row justify-content-between align-items-center">
+                                    <div class="col-12 col-md-6 img-wrapper position-relative d-flex justify-content-center align-items-center">
+                                        <img src="./assets/images/عکس‌های وبلاگ/turkey-istanbul-rooftop.jpg" alt=""
+                                            class="img-fluid travel-img">
+                                    </div>
+                                    <div class="col-12 col-md-6 pe-2 ps-2">
+                                        <h4 class="travel-header text-justify">    معروفترین غذاهای خیابانی استانبول</h4>
+                                        <p class="travel-desciption text-justify ">این متن صرفا برای نمونه بوده تا کاربر
+                                            بتواند اندازه آن در محیط واقعی وب را
+                                            تصور کند و تصویری ذهنی از آن داشته باشد تا بتواند تصمیم گیری کند ...</p>
+                                    </div>
+                                </div>
+                                <div class=" travel-items mb-2 col-sm-12 col-xl-6 d-flex flex-column flex-md-row justify-content-between align-items-center">
+                                    <div class="col-12 col-md-6 img-wrapper position-relative d-flex justify-content-center align-items-center">
+                                        <img src="./assets/images/عکس‌های وبلاگ/water-planet-aquapark-alanya.jpg" alt=""
+                                            class="img-fluid travel-img">
+                                    </div>
+                                    <div class="col-12 col-md-6 pe-2 ps-2">
+                                        <h4 class="travel-header text-justify"> بزرگ‌ترین پارک آبی آنتالیا</h4>
+                                        <p class="travel-desciption text-justify ">این متن صرفا برای نمونه بوده تا کاربر
+                                            بتواند اندازه آن در محیط واقعی وب را
+                                            تصور کند و تصویری ذهنی از آن داشته باشد تا بتواند تصمیم گیری کند ...</p>
+                                    </div>
+                                </div>
+                                <div class=" travel-items mb-2 col-sm-12 col-xl-6 d-flex flex-column flex-md-row justify-content-between align-items-center">
+                                    <div class="col-12 col-md-6 img-wrapper position-relative d-flex justify-content-center align-items-center">
+                                        <img src="./assets/images/عکس‌های وبلاگ/averie-woodard-5d20kdvFCfA-unsplash.jpg" alt=""
+                                            class="img-fluid travel-img">
+                                    </div>
+                                    <div class="col-12 col-md-6 pe-2 ps-2">
+                                        <h4 class="travel-header text-justify"> فواید سفر کردن</h4>
+                                        <p class="travel-desciption text-justify ">این متن صرفا برای نمونه بوده تا کاربر
+                                            بتواند اندازه آن در محیط واقعی وب را
+                                            تصور کند و تصویری ذهنی از آن داشته باشد تا بتواند تصمیم گیری کند ...</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="seemore col-12 d-flex justify-content-center align-items-center mt-5 outline-none border-0" >
+                                <button>بیشتر ببینید</button>
+                            </div>
                         </div>
                         <!-- end of second tab -->
                         <div class="tab-pane fade" id="pills-contact" role="tabpanel"
-                            aria-labelledby="pills-contact-tab" tabindex="0">3
+                            aria-labelledby="pills-contact-tab" tabindex="0">
+                            
+                                  <div class="row">
+                                <!-- first card -->
+                                <div class=" travel-items mb-2 col-sm-12 col-xl-6 d-flex flex-column flex-md-row justify-content-between align-items-center">
+                                    <div class=" col-12 col-md-6 img-wrapper position-relative d-flex justify-content-center align-items-center ">
+                                        <img src="./assets/images/عکس‌های وبلاگ/Istanbul-Tram-T1-Visual.jpg" alt=""
+                                            class="img-fluid travel-img">
+                                    </div>
+                                    <div class="col-12 col-md-6 pe-2 ps-2">
+                                        <h4 class="travel-header text-justify ">حمل و نقل عمومی در استانبول ترکیه</h4>
+                                        <p class="travel-desciption text-justify ">این متن صرفا برای نمونه بوده تا کاربر
+                                            بتواند اندازه آن در محیط واقعی وب را
+                                            تصور کند و تصویری ذهنی از آن داشته باشد تا بتواند تصمیم گیری کند ...</p>
+                                    </div>
+                                </div>
+                                <div class=" travel-items mb-2 col-sm-12 col-xl-6 d-flex flex-column flex-md-row justify-content-between align-items-center">
+                                    <div class="col-12 col-md-6 img-wrapper position-relative d-flex justify-content-center align-items-center">
+                                        <img src="./assets/images/عکس‌های وبلاگ/louis-magnotti-YvCg5X3pWzc-unsplash.jpg" alt=""
+                                            class="img-fluid travel-img">
+                                    </div>
+                                    <div class="col-12 col-md-6 pe-2 ps-2">
+                                        <h4 class="travel-header text-justify"> راهنمای خرید بلیت هواپیما     </h4>
+                                        <p class="travel-desciption text-justify ">این متن صرفا برای نمونه بوده تا کاربر
+                                            بتواند اندازه آن در محیط واقعی وب را
+                                            تصور کند و تصویری ذهنی از آن داشته باشد تا بتواند تصمیم گیری کند ...</p>
+                                    </div>
+                                </div>
+                                <div class=" travel-items mb-2 col-sm-12 col-xl-6 d-flex flex-column flex-md-row justify-content-between align-items-center">
+                                    <div class="col-12 col-md-6 img-wrapper position-relative d-flex justify-content-center align-items-center">
+                                        <img src="./assets/images/عکس‌های وبلاگ/56-3710787-colors-streaming-winter-prayer-hall-nasir-ol-molk-mosque-shiraz-14288444120-.jpg" alt=""
+                                            class="img-fluid travel-img">
+                                    </div>
+                                    <div class="col-12 col-md-6 pe-2 ps-2">
+                                        <h4 class="travel-header text-justify"> مسجد نصیرالملک، شاهکار معماری ایرانی</h4>
+                                        <p class="travel-desciption text-justify ">این متن صرفا برای نمونه بوده تا کاربر
+                                            بتواند اندازه آن در محیط واقعی وب را
+                                            تصور کند و تصویری ذهنی از آن داشته باشد تا بتواند تصمیم گیری کند ...</p>
+                                    </div>
+                                </div>
+                                <div class=" travel-items mb-2 col-sm-12 col-xl-6 d-flex flex-column flex-md-row justify-content-between align-items-center">
+                                    <div class="col-12 col-md-6 img-wrapper position-relative d-flex justify-content-center align-items-center">
+                                        <img src="./assets/images/عکس‌های وبلاگ/turkey-istanbul-rooftop.jpg" alt=""
+                                            class="img-fluid travel-img">
+                                    </div>
+                                    <div class="col-12 col-md-6 pe-2 ps-2">
+                                        <h4 class="travel-header text-justify">    معروفترین غذاهای خیابانی استانبول</h4>
+                                        <p class="travel-desciption text-justify ">این متن صرفا برای نمونه بوده تا کاربر
+                                            بتواند اندازه آن در محیط واقعی وب را
+                                            تصور کند و تصویری ذهنی از آن داشته باشد تا بتواند تصمیم گیری کند ...</p>
+                                    </div>
+                                </div>
+                                <div class=" travel-items mb-2 col-sm-12 col-xl-6 d-flex flex-column flex-md-row justify-content-between align-items-center">
+                                    <div class="col-12 col-md-6 img-wrapper position-relative d-flex justify-content-center align-items-center">
+                                        <img src="./assets/images/عکس‌های وبلاگ/water-planet-aquapark-alanya.jpg" alt=""
+                                            class="img-fluid travel-img">
+                                    </div>
+                                    <div class="col-12 col-md-6 pe-2 ps-2">
+                                        <h4 class="travel-header text-justify"> بزرگ‌ترین پارک آبی آنتالیا</h4>
+                                        <p class="travel-desciption text-justify ">این متن صرفا برای نمونه بوده تا کاربر
+                                            بتواند اندازه آن در محیط واقعی وب را
+                                            تصور کند و تصویری ذهنی از آن داشته باشد تا بتواند تصمیم گیری کند ...</p>
+                                    </div>
+                                </div>
+                                <div class=" travel-items mb-2 col-sm-12 col-xl-6 d-flex flex-column flex-md-row justify-content-between align-items-center">
+                                    <div class="col-12 col-md-6 img-wrapper position-relative d-flex justify-content-center align-items-center">
+                                        <img src="./assets/images/عکس‌های وبلاگ/averie-woodard-5d20kdvFCfA-unsplash.jpg" alt=""
+                                            class="img-fluid travel-img">
+                                    </div>
+                                    <div class="col-12 col-md-6 pe-2 ps-2">
+                                        <h4 class="travel-header text-justify"> فواید سفر کردن</h4>
+                                        <p class="travel-desciption text-justify ">این متن صرفا برای نمونه بوده تا کاربر
+                                            بتواند اندازه آن در محیط واقعی وب را
+                                            تصور کند و تصویری ذهنی از آن داشته باشد تا بتواند تصمیم گیری کند ...</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="seemore col-12 d-flex justify-content-center align-items-center mt-5 outline-none border-0" >
+                                <button>بیشتر ببینید</button>
+                            </div>
                         </div>
                         <!-- end of third tab -->
                         <div class="tab-pane fade" id="pills-about" role="tabpanel" aria-labelledby="pills-about-tab"
-                            tabindex="0">4 </div>
+                            tabindex="0">
+                                  <div class="row">
+                                <!-- first card -->
+                                <div class=" travel-items mb-2 col-sm-12 col-xl-6 d-flex flex-column flex-md-row justify-content-between align-items-center">
+                                    <div class=" col-12 col-md-6 img-wrapper position-relative d-flex justify-content-center align-items-center ">
+                                        <img src="./assets/images/عکس‌های وبلاگ/Istanbul-Tram-T1-Visual.jpg" alt=""
+                                            class="img-fluid travel-img">
+                                    </div>
+                                    <div class="col-12 col-md-6 pe-2 ps-2">
+                                        <h4 class="travel-header text-justify ">حمل و نقل عمومی در استانبول ترکیه</h4>
+                                        <p class="travel-desciption text-justify ">این متن صرفا برای نمونه بوده تا کاربر
+                                            بتواند اندازه آن در محیط واقعی وب را
+                                            تصور کند و تصویری ذهنی از آن داشته باشد تا بتواند تصمیم گیری کند ...</p>
+                                    </div>
+                                </div>
+                                <div class=" travel-items mb-2 col-sm-12 col-xl-6 d-flex flex-column flex-md-row justify-content-between align-items-center">
+                                    <div class="col-12 col-md-6 img-wrapper position-relative d-flex justify-content-center align-items-center">
+                                        <img src="./assets/images/عکس‌های وبلاگ/louis-magnotti-YvCg5X3pWzc-unsplash.jpg" alt=""
+                                            class="img-fluid travel-img">
+                                    </div>
+                                    <div class="col-12 col-md-6 pe-2 ps-2">
+                                        <h4 class="travel-header text-justify"> راهنمای خرید بلیت هواپیما     </h4>
+                                        <p class="travel-desciption text-justify ">این متن صرفا برای نمونه بوده تا کاربر
+                                            بتواند اندازه آن در محیط واقعی وب را
+                                            تصور کند و تصویری ذهنی از آن داشته باشد تا بتواند تصمیم گیری کند ...</p>
+                                    </div>
+                                </div>
+                                <div class=" travel-items mb-2 col-sm-12 col-xl-6 d-flex flex-column flex-md-row justify-content-between align-items-center">
+                                    <div class="col-12 col-md-6 img-wrapper position-relative d-flex justify-content-center align-items-center">
+                                        <img src="./assets/images/عکس‌های وبلاگ/56-3710787-colors-streaming-winter-prayer-hall-nasir-ol-molk-mosque-shiraz-14288444120-.jpg" alt=""
+                                            class="img-fluid travel-img">
+                                    </div>
+                                    <div class="col-12 col-md-6 pe-2 ps-2">
+                                        <h4 class="travel-header text-justify"> مسجد نصیرالملک، شاهکار معماری ایرانی</h4>
+                                        <p class="travel-desciption text-justify ">این متن صرفا برای نمونه بوده تا کاربر
+                                            بتواند اندازه آن در محیط واقعی وب را
+                                            تصور کند و تصویری ذهنی از آن داشته باشد تا بتواند تصمیم گیری کند ...</p>
+                                    </div>
+                                </div>
+                                <div class=" travel-items mb-2 col-sm-12 col-xl-6 d-flex flex-column flex-md-row justify-content-between align-items-center">
+                                    <div class="col-12 col-md-6 img-wrapper position-relative d-flex justify-content-center align-items-center">
+                                        <img src="./assets/images/عکس‌های وبلاگ/turkey-istanbul-rooftop.jpg" alt=""
+                                            class="img-fluid travel-img">
+                                    </div>
+                                    <div class="col-12 col-md-6 pe-2 ps-2">
+                                        <h4 class="travel-header text-justify">    معروفترین غذاهای خیابانی استانبول</h4>
+                                        <p class="travel-desciption text-justify ">این متن صرفا برای نمونه بوده تا کاربر
+                                            بتواند اندازه آن در محیط واقعی وب را
+                                            تصور کند و تصویری ذهنی از آن داشته باشد تا بتواند تصمیم گیری کند ...</p>
+                                    </div>
+                                </div>
+                                <div class=" travel-items mb-2 col-sm-12 col-xl-6 d-flex flex-column flex-md-row justify-content-between align-items-center">
+                                    <div class="col-12 col-md-6 img-wrapper position-relative d-flex justify-content-center align-items-center">
+                                        <img src="./assets/images/عکس‌های وبلاگ/water-planet-aquapark-alanya.jpg" alt=""
+                                            class="img-fluid travel-img">
+                                    </div>
+                                    <div class="col-12 col-md-6 pe-2 ps-2">
+                                        <h4 class="travel-header text-justify"> بزرگ‌ترین پارک آبی آنتالیا</h4>
+                                        <p class="travel-desciption text-justify ">این متن صرفا برای نمونه بوده تا کاربر
+                                            بتواند اندازه آن در محیط واقعی وب را
+                                            تصور کند و تصویری ذهنی از آن داشته باشد تا بتواند تصمیم گیری کند ...</p>
+                                    </div>
+                                </div>
+                                <div class=" travel-items mb-2 col-sm-12 col-xl-6 d-flex flex-column flex-md-row justify-content-between align-items-center">
+                                    <div class="col-12 col-md-6 img-wrapper position-relative d-flex justify-content-center align-items-center">
+                                        <img src="./assets/images/عکس‌های وبلاگ/averie-woodard-5d20kdvFCfA-unsplash.jpg" alt=""
+                                            class="img-fluid travel-img">
+                                    </div>
+                                    <div class="col-12 col-md-6 pe-2 ps-2">
+                                        <h4 class="travel-header text-justify"> فواید سفر کردن</h4>
+                                        <p class="travel-desciption text-justify ">این متن صرفا برای نمونه بوده تا کاربر
+                                            بتواند اندازه آن در محیط واقعی وب را
+                                            تصور کند و تصویری ذهنی از آن داشته باشد تا بتواند تصمیم گیری کند ...</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="seemore col-12 d-flex justify-content-center align-items-center mt-5 outline-none border-0" >
+                                <button>بیشتر ببینید</button>
+                            </div>
+                             </div>
                          <!-- end of forth tab -->
                     </div>
                     <!-- end of tabs content -->

@@ -37,6 +37,7 @@ nav{
 	position: sticky;
 	top: 0;
 	box-shadow: 0px 0px 10px #00000040;
+	z-index: 999;
 }
 .nav-links{
 	align-items: center;
@@ -52,10 +53,13 @@ nav{
 	text-decoration: none ;
 	color: inherit;
 }
-.nav-links ul li:hover a::after{
+.nav-links a::after{
 	content: "";
 	display: block;
 	height: 100%;
+	border-bottom: 2px solid transparent;
+}
+.nav-links ul li:hover a::after{
 	border-bottom: 2px solid var(--purple-800);
 }
 .icontainer{
@@ -99,6 +103,7 @@ nav{
 	border-radius: 15px;
 	margin: 0 auto 3rem;
 	overflow: hidden;
+	color: var(--black-800);
 }
 .search-box__top{
 	color: var(--black-800);
@@ -115,14 +120,18 @@ nav{
 	flex: 1;
 	text-align: center;
 	padding: 1rem 0;
+	cursor: pointer;
 }
 .travelType:hover span{
 	color: var(--purple-800);
 }
-.travelType:hover span::after{
+.travelType span::after{
 	content: "";
 	display: block;
-	height: 70%;
+	height: 55%;
+	border-bottom: 2px solid transparent;
+}
+.travelType:hover span::after{
 	border-bottom: 2px solid var(--purple-800);
 }
 .back-div , .back-div img{
@@ -147,9 +156,10 @@ nav{
 	padding: 0.4rem 0.7rem;
 	border: 1px solid var(--purple-800);
 	border-radius: 10px;
+	cursor: pointer;
 }
 .search-box__radio input:checked + label{
-	border: none;
+	border: 1px solid var(--purple-800);
 	background-color: var(--purple-800);
 	color: var(--white-900);
 }
@@ -163,6 +173,7 @@ nav{
 	border: 1px solid var(--purple-800);
 	padding: 0.5rem;
 	border-radius: 10px;
+	position: relative;
 }
 .input-container span{
 	font-size: 0.8rem;
@@ -173,6 +184,19 @@ nav{
 	background-color: transparent;
 	flex: 1;
 	width: 210px;
+}
+.input-container:nth-child(2){
+	padding-right: 0.8rem;
+}
+.input-container:nth-child(2) > i{
+	right: -16px;
+	top: 15px;
+	position: absolute;
+	background-color: var(--purple-800);
+	color: var(--white-900);
+	padding: 0.3rem;
+	border-radius: 30%;
+	cursor: pointer;
 }
 .input-container:last-child{
 	border: none;

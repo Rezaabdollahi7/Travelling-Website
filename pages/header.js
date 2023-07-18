@@ -67,10 +67,11 @@ const header = `    <header>
             <div class="input-container flexDiv">
                 <span class="input-inner-label">مقصد</span>
                 <input type="text" placeholder="نام شهر یا فرودگاه">
+                <i class='fa-solid fa-arrows-left-right'></i>
             </div>
             <div class="input-container flexDiv">
                 <span class="input-inner-label">تاریخ رفت</span>
-                <input type="date" placeholder="انتخاب کنید">
+                <input type="text" placeholder="انتخاب کنید">
             </div>
             <div class="input-container flexDiv">
                 <span class="input-inner-label">مسافران و کلاس</span>

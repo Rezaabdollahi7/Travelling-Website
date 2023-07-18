@@ -24,38 +24,451 @@ body {
 	background-color: var(--white-800);
 }
 
-/* ======= tourism-magazine ====================*/
-.tourism-magazine .tourism-magazine-tittle h3,
-.faq .faq-tittle h3 {
+#tour-classification {
+	height: auto;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
+
+
+.tour-classification-gallery {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 50px;
+	overflow-x: hidden;
+	width: 900px;
+}
+
+.tour-classification-gallery .img {
+	width: 355px;
+	position: relative;
+}
+
+.tour-classification-gallery .img img {
+	position: relative;
+	width: 100%;
+	object-fit: cover;
+}
+
+.tour-classification-gallery .img:hover p {
+	visibility: visible;
+	opacity: 1;
+}
+
+.tour-classification-gallery .img p {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: var(--white-800);
+	color: var(--black-800);
+	padding: 4px 12px;
+	border-radius: 40px;
+	font-size: 13px;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: visibility 0s, opacity 0.5s linear;
+	transition: visibility 0s, opacity 0.2s linear;
+	z-index: 10;
+}
+
+.tour-classification-gallery .img-1 p,
+.tour-classification-gallery .img-4 p {
+	position: absolute;
+	top: 40%;
+	left: 36%;
+}
+
+
+.tour-classification-gallery .img-3 p {
+	position: absolute;
+	top: 30%;
+	left: 33%;
+}
+
+.tour-classification-gallery .img-2 p {
+	position: absolute;
+	top: 30%;
+	left: 38%;
+}
+
+
+/* responsive part  */
+
+
+@media (max-width: 930px) {
+	.tour-classification-gallery {
+		display: flex;
+		/* flex-wrap: wrap; */
+		width: 650px;
+	}
+
+	.tour-classification-gallery .img {
+		width: 250px;
+	}
+}
+
+@media (max-width: 700px) {
+	.tour-classification-gallery {
+		display: flex;
+		flex-direction: column;
+		width: 300px;
+		margin-top: 30px;
+	}
+
+	.tour-classification-gallery .img-1 p,
+	.tour-classification-gallery .img-4 p {
+		position: absolute;
+		top: 40%;
+		left: 34%;
+	}
+
+	.tour-classification-gallery .img-3 p {
+		position: absolute;
+		top: 20%;
+		left: 27%;
+	}
+
+	.tour-classification-gallery .img-2 p {
+		position: absolute;
+		top: 20%;
+		left: 34%;
+	}
+}
+
+@media (max-width: 480px) {
+	.tour-classification-title h1 {
+		font-size: 17px;
+	}
+
+	.tour-classification-title h1::before,
+	.tour-classification-title h1::after {
+		width: 50px;
+	}
+
+	.tour-classification-title h1::before {
+		margin-left: -58px;
+	}
+
+	.tour-classification-title p {
+		font-size: 13px;
+	}
+
+
+}
+
+
+
+/* part 2  */
+
+
+#suggested-destinations {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+
+.slider {
+	width: 100%;
+	height: auto;
+	background: var(--blue-800);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 7px;
+	
+}
+
+.dots {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	padding: 20px;
 }
 
+.dot {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: var(--white-800);
+	margin: 5px;
+}
+
+.slideshow-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 900px;
+	overflow: hidden;
+}
+
+.slideshow-container::-webkit-scrollbar {
+	display: none;
+}
+
+.myslides {
+	/* width: 300px; */
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: end;
+}
+
+.myslides img {
+	width: 100%;
+	object-fit: cover;
+}
+
+.myslides-text {
+	display: flex;
+	width: 100%;
+}
+
+
+.myslides-text i {
+	color: var(--white-800);
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-top: 7px;
+}
+
+.myslides-text p {
+	color: var(--white-800);
+}
+
+@media (max-width: 930px) {
+	.slideshow-container {
+		width: 700px
+	}
+}
+
+@media (max-width: 700px) {
+	.slideshow-container {
+		width: 100%;
+		overflow: scroll;
+	}
+
+	.myslides {
+		margin: 0 5px;
+
+	}
+
+	.myslides img {
+		width: 130px;
+		margin: 5px;
+	}
+}
+
+
+
+/* newsletter  */
+
+#newsletter {
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.newsletter-card {
+	position: relative;
+	width: 900px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 70px;
+	background: var(--white-900);
+	border-radius: 12px;
+	box-shadow: 0px 0px 6px #0000001A;
+}
+
+.newsletter-card-text {
+	width: 437px;
+	direction: rtl;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 30px;
+}
+
+.newsletter-card-text h1 {
+	font-size: 17px;
+	color: var(--black-800);
+	font-weight: 800;
+}
+
+.newsletter-card-text p {
+	margin-top: 5px;
+	font-size: 14px;
+	width: 360px;
+	color: var(--gray-800);
+}
+
+.email-bar {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 40px;
+}
+
+.email-bar input {
+	position: relative;
+	padding: 6px;
+	border: none;
+	outline: none;
+	width: 240px;
+	box-shadow: 0px 20px 50px #0000001F;
+	border-radius: 10px;
+	width: 340px;
+}
+
+.email-bar input::placeholder {
+	font-size: 14px;
+	opacity: calc(60%);
+	color: var(--black-800);
+	font-family: 'iranyekan', sans-serif;
+}
+
+.email-bar i {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 5px;
+	font-size: 16px;
+	background: var(--purple-800);
+	color: var(--white-800);
+	text-align: center;
+	border-radius: 6px;
+	cursor: pointer;
+	padding-top: 6px;
+}
+
+.newsletter-card-img img {
+	width: 100%;
+	object-fit: cover;
+}
+
+@media (max-width: 800px) {
+	.newsletter-card {
+		padding: 20px;
+	}
+
+	.newsletter-card-text h1 {
+		font-size: 15px;
+	}
+
+	.newsletter-card-text p {
+		width: 250px;
+		font-size: 13px;
+	}
+}
+
+@media (max-width: 688px) {
+
+
+	.newsletter-card {
+		width: 300px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin-top: 30px;
+	}
+
+	.newsletter-card-text {
+		width: 300px;
+		padding: 30px 0;
+	}
+
+	.newsletter-card-img img {
+		border-radius: 20px;
+	}
+}
+/* ========================================================= */
+.featurs .featurs-items-container {
+	padding: 0px 12%;
+
+}
+.featurs .featurs-item{
+	background-color: var(--blue-300);
+	border-radius: 12px;
+	box-shadow: 0px 0px 6px #0000001A;
+}
+.featurs .featurs-item img{
+	width: 90px;
+}
+.featurs-img{
+	width: 110px;
+	height: 110px;
+}
+.featurs .featurs-item .featurs-tittle{
+	color: var(--black-800);
+	font-weight: 600;
+}
+
+.featurs .featurs-item .feauturs-desc{
+	color: var(--gray-800);
+}
+@media screen and (max-width:1150px){
+	.featurs .featurs-item .featurs-tittle {
+		font-size: 14px;
+	}
+		.featurs .featurs-item .feauturs-desc {
+			font-size: 12px;
+		}
+}
+/* end featurs */
+
+
+/* ======= tourism-magazine ====================*/
+.tourism-magazine .tourism-magazine-tittle h3,
+.faq .faq-tittle h3 , .tour-classification-title h3 , .suggested-destinations-title h3, .featurs-title h3{
+	padding: 20px;
+	font-size: 19px;
+	font-weight: 700;
+	color: var(--black-800);
+}
+
 .tourism-magazine .tourism-magazine-tittle h3::after,
-.faq .faq-tittle h3::after {
+.faq .faq-tittle h3::after , .tour-classification-title h3::after , .suggested-destinations-title::after , .featurs-title h3::after{
 	content: "";
 	width: 90px;
-	height: 3px;
+	height: 2px;
 	background-color: var(--gray-800);
 	position: absolute;
-	top: 34px;
-	left: -61px;
+	top: 30px;
+	left: -64px;
 
 }
 
 .tourism-magazine .tourism-magazine-tittle h3::before,
-.faq .faq-tittle h3::before {
+.faq .faq-tittle h3::before ,.tour-classification-title h3::before , .suggested-destinations-title h3::before , .featurs-title h3::before{
 	content: "";
-	height: 3px;
+	height: 2px;
 	background-color: var(--gray-800);
 	position: absolute;
 	width: 90px;
-	top: 34px;
-	right: -59px;
+	top: 30px;
+	right: -64px;
 
 }
 
 .tourism-magazine .tourism-magazine-tittle .sub-tittle,
-.faq .faq-tittle .sub-tittle {
+.faq .faq-tittle .sub-tittle ,.tour-classification-title .sub-tittle , .suggested-destinations-title .sub-tittle,
+.featurs-title .sub-tittle{
 	margin-top: -10px;
 	color: var(--gray-800);
 }
@@ -271,3 +684,27 @@ footer .brands-logo li{
 	}
 }
 /* ============ end footer ========== */
+
+figure {
+	display: inline-block;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
+
+figure img.hoverly {
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+	vertical-align: middle;
+}
+
+figure img.hoverly:hover {
+	-webkit-transform: scale(1.08);
+	-moz-transform: scale(1.08);
+	-ms-transform: scale(1.08);
+	-o-transform: scale(1.08);
+	transform: scale(1.08);
+}

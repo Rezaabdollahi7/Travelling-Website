@@ -55,7 +55,7 @@ const footerContext = `    <!-- start footer -->
                             <li class="d-flex align-items-center justify-content-center"><a href="#" class=""><i class="fa-brands fa-linkedin-in fa-xl"></i></a></li>
                             <li class="d-flex align-items-center justify-content-center"><a href="#" class=""><i class="fa-brands fa-instagram fa-xl"></i></a></li>
                         </ul>
-                        <li class="text-center mt-4 mb-2 designer-info fs-14"><span>Designed By : </span>Pargan System</li>
+                        <li class="text-center mt-4 mb-2 designer-info fs-14"><span>Code By : </span> Code-n</li>
                     </ul>
                 </div>
                 <div class="brands-logo col-xl-7">

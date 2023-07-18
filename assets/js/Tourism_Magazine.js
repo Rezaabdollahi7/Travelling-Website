@@ -1,6 +1,6 @@
 const TourismMagazineContext = `
     <!--Tourism Magazine -->
-    <section class="tourism-magazine container-fluid">
+    <section class="tourism-magazine container-fluid mt-7">
         <div class="main-row ">
             <div class="row">
                 <div class="tourism-magazine-tittle position-relative d-flex align-items-center justify-content-center flex-column">

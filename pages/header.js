@@ -60,6 +60,7 @@ const header = `    <header>
             <label for="bidirect">رفت و برگشت</label>
         </div>
         <div class="search-box__infos flexDiv">
+            <div class="fromToContainer">
             <div class="input-container flexDiv">
                 <span class="input-inner-label">مبدا</span>
                 <input type="text" placeholder="نام شهر یا فرودگاه">
@@ -69,6 +70,8 @@ const header = `    <header>
                 <input type="text" placeholder="نام شهر یا فرودگاه">
                 <i class='fa-solid fa-arrows-left-right'></i>
             </div>
+            </div>
+            <div class=fromToContainer>
             <div class="input-container flexDiv">
                 <span class="input-inner-label">تاریخ رفت</span>
                 <input type="text" placeholder="انتخاب کنید">
@@ -76,6 +79,7 @@ const header = `    <header>
             <div class="input-container flexDiv">
                 <span class="input-inner-label">مسافران و کلاس</span>
                 <input type="text" placeholder="انتخاب کنید">
+            </div>
             </div>
             <div class="input-container">
                 <button type="submit"><i class="fa-solid fa-search"></i> جست و جو</button>

@@ -124,8 +124,18 @@ body {
 		flex-direction: column;
 	}
 }
-
+@media screen and (min-width:1185px) {
+	.tourism-magazine .tab-content-row {
+			padding: 0 5%;
+		}
+}
+@media screen and (min-width:1532px) {
+	.tourism-magazine .tab-content-row {
+			padding: 0 13%;
+		}
+}
 /* ======= end of tourism-magazine ====================*/
+
 /* ======= start faq section       =================== */
 .faq-row {
 	padding: 0 6%;
@@ -156,23 +166,108 @@ body {
 .accordion-button::after {
 	margin-right: auto;
 	margin-left: 0;
-
 }
 
 .accordion-body {
 	background-color: var(--gray-500);
-	border-radius: 0 0 15px 15px;
+	border-radius:15px;
 }
-
 .accordion-body p {
 	margin-bottom: 0;
 }
-
-.accordion-button:not(.collapsed) {
-	background-color: var(--white-900);
-	border: 1px solid transparent;
-	box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
-	box-shadow: 0;
+.accordion-button:not(.collapsed)::after ,.accordion-button::after {
+	background-image:url(./images/chervon.png);
 }
+.accordion-button:focus ,.accordion-button:focus-visible , .accordion-button:focus-within{
+	outline: 0;
+	border: 0;
+}
+.accordion {
+	 --bs-accordion-border-color:unset; 
+	 --bs-accordion-border-width:unset;
+	 --bs-accordion-inner-border-radius:unset; 
+	 --bs-accordion-btn-focus-border-color:unset; 
+	 --bs-accordion-btn-focus-box-shadow:none; 
+	 --bs-accordion-active-color:unset; 
+	 --bs-accordion-active-bg:unset;
+	--bs-accordion-btn-bg:unset;
+	--bs-accordion-btn-icon:url('./images/chervon.png');
 
+}
+@media screen and (max-width:770px){
+	.accordion-button {
+			font-size: 15px;
+		}
+}
 /* ======= end of faq section   =================== */
+
+/* ======= start footer         =================== */
+footer{
+	background-color: var(--gray-300);
+}
+footer .footer-row{
+	padding: 0px 12%;
+}
+footer ul li{
+	list-style: none;
+}
+footer ul li.list-items{
+	margin-bottom: 20px;
+}
+footer ul li.list-items a{
+	color: var(--gray-900);
+	transition: all 0.3s ease-out;
+}
+footer ul li.list-items:hover a{
+	color: var(--blue-900);
+}
+footer ul li.list-items:nth-child(1)>a:nth-child(1) {
+	color: var(--black-800);
+	font-weight: 800;
+	font-size: 15px;
+}
+footer .company-info{
+	padding: 10px 20px;
+}
+footer .company-info .list-items{
+	color: var(--black-800);
+}
+footer .company-info .list-items span{
+	color: var(--blue-900);
+}
+footer .company-info .sochial-media li{
+	background-color: var(--gray-300);
+	border-radius: 10px;
+	padding: 7px 7px;
+	width: 42px;
+	margin-right: 7px;
+}
+footer .company-info .sochial-media li a{
+	color: var(--black-800);
+	transition: all 0.2s ease-in-out;
+}
+footer .company-info .sochial-media li a:hover{
+	color: var(--blue-900);
+}
+footer .designer-info span{
+	color: var(--gray-900);
+}
+footer .designer-info{
+	color: var(--blue-900);
+}
+footer .brands-logo{
+	margin-top: -6%;
+}
+footer .brands-logo li{
+	background-color: var(--white-900);
+	width: 70px;
+	padding: 5px;
+	border-radius: 10px;
+	margin-right: 10px;
+}
+@media screen and (max-width:1200px) {
+	footer .brands-logo{
+		margin-top: 40px;
+	}
+}
+/* ============ end footer ========== */

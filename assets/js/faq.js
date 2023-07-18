@@ -19,7 +19,7 @@ const faqContext=`
                     </h2>
                     <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body">
-                            <p>.با استفاده از تقویم قیمتی و سیستم اطلاع از تغییر قیمت در سفر آسون، می‌توانید به موقع از قیمت ارزانترین بلیط هواپیما خارجی و داخلی مقصد مورد نظرتان مطلع شده و خرید نمایید</p>
+                            <p>با استفاده از تقویم قیمتی و سیستم اطلاع از تغییر قیمت در سفر آسون، می‌توانید به موقع از قیمت ارزانترین بلیط هواپیما خارجی و داخلی مقصد مورد نظرتان مطلع شده و خرید نمایید</p>
                         </div>
                     </div>
                 </div>
@@ -32,7 +32,7 @@ const faqContext=`
                     </h2>
                     <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body">
-                            <p>.با استفاده از تقویم قیمتی و سیستم اطلاع از تغییر قیمت در سفر آسون، می‌توانید به موقع از قیمت ارزانترین بلیط هواپیما خارجی و داخلی مقصد مورد نظرتان مطلع شده و خرید نمایید</p>
+                            <p>با استفاده از تقویم قیمتی و سیستم اطلاع از تغییر قیمت در سفر آسون، می‌توانید به موقع از قیمت ارزانترین بلیط هواپیما خارجی و داخلی مقصد مورد نظرتان مطلع شده و خرید نمایید</p>
                         </div>
                     </div>
                 </div>
@@ -45,7 +45,7 @@ const faqContext=`
                     </h2>
                     <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body">
-                            <p>.با استفاده از تقویم قیمتی و سیستم اطلاع از تغییر قیمت در سفر آسون، می‌توانید به موقع از قیمت ارزانترین بلیط هواپیما خارجی و داخلی مقصد مورد نظرتان مطلع شده و خرید نمایید</p>
+                            <p>با استفاده از تقویم قیمتی و سیستم اطلاع از تغییر قیمت در سفر آسون، می‌توانید به موقع از قیمت ارزانترین بلیط هواپیما خارجی و داخلی مقصد مورد نظرتان مطلع شده و خرید نمایید</p>
                         </div>
                     </div>
                 </div>
@@ -58,7 +58,7 @@ const faqContext=`
                     </h2>
                     <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body">
-                            <p>.با استفاده از تقویم قیمتی و سیستم اطلاع از تغییر قیمت در سفر آسون، می‌توانید به موقع از قیمت ارزانترین
+                            <p>با استفاده از تقویم قیمتی و سیستم اطلاع از تغییر قیمت در سفر آسون، می‌توانید به موقع از قیمت ارزانترین
                                 بلیط هواپیما خارجی و داخلی مقصد مورد نظرتان مطلع شده و خرید نمایید</p>
                         </div>
                     </div>
@@ -72,7 +72,7 @@ const faqContext=`
                     </h2>
                     <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body">
-                            <p>.با استفاده از تقویم قیمتی و سیستم اطلاع از تغییر قیمت در سفر آسون، می‌توانید به موقع از قیمت ارزانترین
+                            <p>با استفاده از تقویم قیمتی و سیستم اطلاع از تغییر قیمت در سفر آسون، می‌توانید به موقع از قیمت ارزانترین
                                 بلیط هواپیما خارجی و داخلی مقصد مورد نظرتان مطلع شده و خرید نمایید</p>
                         </div>
                     </div>
@@ -86,7 +86,7 @@ const faqContext=`
                     </h2>
                     <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body">
-                            <p>.با استفاده از تقویم قیمتی و سیستم اطلاع از تغییر قیمت در سفر آسون، می‌توانید به موقع از قیمت ارزانترین
+                            <p>با استفاده از تقویم قیمتی و سیستم اطلاع از تغییر قیمت در سفر آسون، می‌توانید به موقع از قیمت ارزانترین
                                 بلیط هواپیما خارجی و داخلی مقصد مورد نظرتان مطلع شده و خرید نمایید</p>
                         </div>
                     </div>
@@ -100,7 +100,7 @@ const faqContext=`
                     </h2>
                     <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body">
-                            <p>.با استفاده از تقویم قیمتی و سیستم اطلاع از تغییر قیمت در سفر آسون، می‌توانید به موقع از قیمت ارزانترین
+                            <p>با استفاده از تقویم قیمتی و سیستم اطلاع از تغییر قیمت در سفر آسون، می‌توانید به موقع از قیمت ارزانترین
                                 بلیط هواپیما خارجی و داخلی مقصد مورد نظرتان مطلع شده و خرید نمایید</p>
                         </div>
                     </div>

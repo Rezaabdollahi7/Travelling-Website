@@ -73,10 +73,114 @@ const header = `    <header>
             <div class="input-container flexDiv">
                 <span class="input-inner-label">مبدا</span>
                 <input type="text" placeholder="نام شهر یا فرودگاه">
+                <ul class="search-box-ul list-unstyled d-inline-block px-2">
+                    <li class="mb-1 fw-medium">مسیرهای پر تردد</li>
+                    <li class="d-flex flex-column mb-2">
+                        <div class="city-section d-flex align-items-center justify-content-between">
+                            <p class="city-text d-inline m-0 fw-bold">تهران</p>
+                            <span>همه فرودگاه ها</span>
+                            <span>THR</span>
+                        </div>
+                        <div class="airport-section pt-1  d-flex justify-content-between">
+                            <i class="fa-solid fa-arrow-turn-down fa-rotate-90 "></i>
+                            <p class="d-inline airport-name fw-bold mb-0">فرودگاه امام خمینی تهران</p>
+                            <span>IKA</span>
+                        </div>
+                    </li>
+                    <li class="d-flex flex-column mb-2">
+                        <div class="city-section d-flex align-items-center justify-content-between">
+                            <p class="city-text d-inline m-0 fw-bold">استانبول</p>
+                            <span>همه فرودگاه ها</span>
+                            <span>THR</span>
+                        </div>
+                        <div class="airport-section pt-1  d-flex justify-content-between">
+                            <i class="fa-solid fa-arrow-turn-down fa-rotate-90 "></i>
+                            <p class="d-inline airport-name fw-bold mb-0">فرودگاه جدید استانبول </p>
+                            <span>IStall</span>
+                        </div>
+                    </li>
+                    <li class="d-flex flex-column mb-2">
+                        <div class="city-section d-flex align-items-center justify-content-between">
+                            <p class="city-text d-inline m-0 fw-bold">تفلیس</p>
+                            <span>همه فرودگاه ها</span>
+                            <span>THR</span>
+                        </div>
+                        <div class="airport-section pt-1  d-flex justify-content-between">
+                            <i class="fa-solid fa-arrow-turn-down fa-rotate-90 "></i>
+                            <p class="d-inline airport-name fw-bold mb-0">فرودگاه بین المللی تفلیس </p>
+                            <span>TBS</span>
+                        </div>
+                    </li>
+                    <li class="d-flex flex-column mb-2">
+                        <div class="city-section d-flex align-items-center justify-content-between">
+                            <p class="city-text d-inline m-0 fw-bold">بانکوک</p>
+                            <span>همه فرودگاه ها</span>
+                            <span>ISTALL</span>
+                        </div>
+                        <div class="airport-section pt-1  d-flex justify-content-between">
+                            <i class="fa-solid fa-arrow-turn-down fa-rotate-90 "></i>
+                            <p class="d-inline airport-name fw-bold mb-0"> فرودگاه بین المللی بانکوک</p>
+                            <span>DMK</span>
+                        </div>
+                    </li>
+            
+                </ul>
             </div>
             <div class="input-container flexDiv">
                 <span class="input-inner-label">مقصد</span>
                 <input type="text" placeholder="نام شهر یا فرودگاه">
+                <ul class="search-box-ul list-unstyled d-inline-block px-2">
+                    <li class="mb-1 fw-medium">مسیرهای پر تردد</li>
+                    <li class="d-flex flex-column mb-2">
+                        <div class="city-section d-flex align-items-center justify-content-between">
+                            <p class="city-text d-inline m-0 fw-bold">تهران</p>
+                            <span>همه فرودگاه ها</span>
+                            <span>THR</span>
+                        </div>
+                        <div class="airport-section pt-1  d-flex justify-content-between">
+                            <i class="fa-solid fa-arrow-turn-down fa-rotate-90 "></i>
+                            <p class="d-inline airport-name fw-bold mb-0">فرودگاه امام خمینی تهران</p>
+                            <span>IKA</span>
+                        </div>
+                    </li>
+                    <li class="d-flex flex-column mb-2">
+                        <div class="city-section d-flex align-items-center justify-content-between">
+                            <p class="city-text d-inline m-0 fw-bold">استانبول</p>
+                            <span>همه فرودگاه ها</span>
+                            <span>THR</span>
+                        </div>
+                        <div class="airport-section pt-1  d-flex justify-content-between">
+                            <i class="fa-solid fa-arrow-turn-down fa-rotate-90 "></i>
+                            <p class="d-inline airport-name fw-bold mb-0">فرودگاه جدید استانبول </p>
+                            <span>IStall</span>
+                        </div>
+                    </li>
+                    <li class="d-flex flex-column mb-2">
+                        <div class="city-section d-flex align-items-center justify-content-between">
+                            <p class="city-text d-inline m-0 fw-bold">تفلیس</p>
+                            <span>همه فرودگاه ها</span>
+                            <span>THR</span>
+                        </div>
+                        <div class="airport-section pt-1  d-flex justify-content-between">
+                            <i class="fa-solid fa-arrow-turn-down fa-rotate-90 "></i>
+                            <p class="d-inline airport-name fw-bold mb-0">فرودگاه بین المللی تفلیس </p>
+                            <span>TBS</span>
+                        </div>
+                    </li>
+                    <li class="d-flex flex-column mb-2">
+                        <div class="city-section d-flex align-items-center justify-content-between">
+                            <p class="city-text d-inline m-0 fw-bold">بانکوک</p>
+                            <span>همه فرودگاه ها</span>
+                            <span>ISTALL</span>
+                        </div>
+                        <div class="airport-section pt-1  d-flex justify-content-between">
+                            <i class="fa-solid fa-arrow-turn-down fa-rotate-90 "></i>
+                            <p class="d-inline airport-name fw-bold mb-0"> فرودگاه بین المللی بانکوک</p>
+                            <span>DMK</span>
+                        </div>
+                    </li>
+            
+                </ul>
                 <i class='fa-solid fa-arrows-left-right'></i>
             </div>
             </div>
@@ -88,6 +192,58 @@ const header = `    <header>
             <div class="input-container flexDiv">
                 <span class="input-inner-label">مسافران و کلاس</span>
                 <input type="text" placeholder="انتخاب کنید">
+                <ul class="search-box-ul box-ul-passengers list-unstyled d-inline-block px-2">
+                    <li class="d-flex flex-column mb-2">
+                        <div class="passengers-section d-flex align-items-center justify-content-start column-gap-1">
+                            <p class="adult-text d-inline m-0 fw-bold">بزرگسال</p>
+                            <span>(۱۲ سال به بالا)</span>
+                        </div>
+                        <div class="adult-count-section pt-1  d-flex justify-content-center">
+                            <div class="passengers">
+                                <i class="fa-solid fa-plus-square"></i>
+                                <span class="passengers-num">1</span>
+                                <i class="fa-solid fa-minus-square"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="d-flex flex-column mb-2">
+                        <div class="passengers-section d-flex align-items-center justify-content-start column-gap-1">
+                            <p class="adult-text d-inline m-0 fw-bold">کودک</p>
+                            <span>(۲ تا ۱۲ سال)</span>
+                        </div>
+                        <div class="adult-count-section pt-1  d-flex justify-content-center">
+                            <div class="passengers">
+                                <i class="fa-solid fa-plus-square"></i>
+                                <span class="passengers-num">0</span>
+                                <i class="fa-solid fa-minus-square"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="d-flex flex-column mb-2">
+                        <div class="passengers-section d-flex align-items-center justify-content-start column-gap-1">
+                            <p class="adult-text d-inline m-0 fw-bold">نوزاد</p>
+                            <span>(۱ تا ۲ سال)</span>
+                        </div>
+                        <div class="adult-count-section pt-1  d-flex justify-content-center">
+                            <div class="passengers">
+                                <i class="fa-solid fa-plus-square"></i>
+                                <span class="passengers-num">0</span>
+                                <i class="fa-solid fa-minus-square"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="d-flex flex-column mb-2">
+                        <p class="fw-bold">کلاس کابین</p>
+                        <input list="class-cabin-list" id="class-cabin-input" name="class-cabin-input" placeholder="تمامی کابین ها">
+                        <datalist id="class-cabin-list">
+                            <option value="تمامی کابین ها">
+                            <option value="اکونومی">
+                            <option value="فرست">
+                            <option value="بیزینس">
+                            <option value="پریمیوم">    
+                        </datalist>
+                    </li>
+                </ul>
             </div>
             </div>
             <div class="input-container">

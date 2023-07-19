@@ -11,7 +11,7 @@ import suggested_destinations from './suggested_destinations.js';
 
 
 const mainBox = document.querySelector('main');
-mainBox.innerHTML += header;
+// mainBox.innerHTML += header;
 mainBox.innerHTML += popTours;
 mainBox.innerHTML+=featursContext;
 mainBox.innerHTML+=tour_classification;

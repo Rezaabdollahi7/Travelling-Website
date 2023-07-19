@@ -848,7 +848,6 @@ nav{
 	background-color: var(--white-900);
 	border-radius: 15px;
 	margin: 0 auto 3rem;
-	overflow: hidden;
 	color: var(--black-800);
 }
 .search-box__top{
@@ -858,6 +857,11 @@ nav{
 	justify-content: space-around;
 	box-shadow: 0px 0px 10px #00000040;
 	padding: 0 0.5rem;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none; 
+	-ms-user-select: none; user-select: none; 
 }
 .top-icon{
 	aspect-ratio: 1/1;
@@ -868,6 +872,92 @@ nav{
 	text-align: center;
 	padding: 1rem 0;
 	cursor: pointer;
+}
+.fromToContainer .input-container:first-child{
+	position: relative;
+}
+.search-box-ul{
+	position: absolute;
+	top: 70px;
+	left: -5px;
+	display: none !important;
+	z-index: 2;
+}
+.box-ul-passengers:hover , #class-cabin-list:focus + .search-box-ul{
+	display: inline-block !important;
+}
+.fromToContainer .input-container input:focus ~ .search-box-ul{
+	display: inline-block !important;
+}
+.search-box-ul {
+	width: 200px;
+	box-shadow: 0px 0px 6px #00000033;
+	border-radius: 5px;
+	background-color: #fff;
+}
+.passengers{
+	background-color: var(--gray-500);
+	border-radius: 2px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	column-gap: 1rem;
+	padding: 0 0.7rem;
+}
+.input-container .passengers span{
+	font-size: 1rem;
+}
+.passengers i{
+	font-size: 1.3rem;
+	cursor: pointer;
+}
+.passengers i:first-child{
+	color: var(--purple-800);
+}
+.passengers i:last-child{
+	color: var(--gray-800);
+}
+.search-box-ul li:nth-child(1) {
+	font-size: 13px;
+}
+
+.search-box-ul .city-section span:nth-child(2),
+.search-box-ul .city-section span:nth-child(3),
+.search-box-ul .passengers-section span{
+	color: #b8b8b8;
+	padding-right: 2%;
+	font-size: 13px;
+}
+.search-box-ul li:last-child p{
+	margin: 0;
+}
+.input-container .search-box-ul li:last-child input{
+	border: 1px solid var(--gray-900);
+	border-radius: 10px;
+	padding: 0.2rem 0.3rem;
+}
+.airport-section:hover,
+.city-section:hover {
+	background-color: #b8b8b84a;
+}
+
+.airport-section i {
+	color: #b8b8b8;
+	padding-left: 12px;
+	padding-right: 16px;
+}
+
+.airport-section span {
+	color: #b8b8b8;
+	/* padding-right: 7%; */
+}
+
+.airport-section p {
+	font-size: 11px;
+}
+
+.airport-section .airport-name {
+	margin-right: -15px;
 }
 .travelType:hover span{
 	color: var(--purple-800);

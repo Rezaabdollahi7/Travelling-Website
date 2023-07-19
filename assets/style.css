@@ -931,6 +931,9 @@ nav{
 .search-box-ul li:last-child p{
 	margin: 0;
 }
+.box-ul-passengers li:last-child{
+	border-top: 1px solid var(--gray-500);
+}
 .input-container .search-box-ul li:last-child input{
 	border: 1px solid var(--gray-900);
 	border-radius: 10px;

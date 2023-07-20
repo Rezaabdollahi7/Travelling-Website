@@ -939,6 +939,44 @@ nav{
 	border-radius: 10px;
 	padding: 0.2rem 0.3rem;
 }
+.dropdown ul.dropdown-menu li {
+	text-align: right;
+}
+
+.dropdown button {
+	border-radius: 15px;
+	width: 140px;
+	border: 1px solid #707070;
+}
+
+.dropdown ul.dropdown-menu {
+	border-radius: 15px;
+	width: 140px;
+	border: 1px solid #707070;
+	overflow: hidden;
+}
+
+.dropdown-toggle:hover{
+	border: 1px solid #707070;
+}
+.dropdown-toggle:active::after{
+	transform: rotate(137deg);
+} 
+
+.dropdown-toggle::after {
+	position: absolute;
+	left: 5%;
+	top: 33%;
+	border-top: unset;
+	border-right: unset;
+	padding: -8px;
+	width: 4px;
+	height: 4px;
+	border-bottom: 2px solid black;
+	border-left: 2px solid black;
+	transform: rotate(318deg);
+	padding: 3px;
+}
 .airport-section:hover,
 .city-section:hover {
 	background-color: #b8b8b84a;
@@ -1045,7 +1083,7 @@ nav{
 	border: none;
 	padding: 0;
 }
-.input-container:last-child button{
+.input-container .searchSubmit{
 	background-color: var(--purple-800);
 	flex: 1;
 	color: var(--white-900);

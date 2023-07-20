@@ -233,21 +233,25 @@ const header = `    <header>
                         </div>
                     </li>
                     <li class="d-flex flex-column mb-2">
-                        <p class="fw-bold">کلاس کابین</p>
-                        <input list="class-cabin-list" id="class-cabin-input" name="class-cabin-input" placeholder="تمامی کابین ها">
-                        <datalist id="class-cabin-list">
-                            <option value="تمامی کابین ها">
-                            <option value="اکونومی">
-                            <option value="فرست">
-                            <option value="بیزینس">
-                            <option value="پریمیوم">    
-                        </datalist>
+                    <div class="dropdown">
+                    <button class="btn b dropdown-toggle rounded-4 d-flex position-relative justify-content-between" type="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        تمامی کابین ها
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">تمامی کابین ها</a></li>
+                        <li><a class="dropdown-item" href="#">اکونومی </a></li>
+                        <li><a class="dropdown-item" href="#"> فرست</a></li>
+                        <li><a class="dropdown-item" href="#"> بیزینس</a></li>
+                        <li><a class="dropdown-item" href="#"> پریمیوم</a></li>
+                    </ul>
+                </div>
                     </li>
                 </ul>
             </div>
             </div>
             <div class="input-container">
-                <button type="submit"><i class="fa-solid fa-search"></i> جست و جو</button>
+                <button class="searchSubmit" type="submit"><i class="fa-solid fa-search"></i> جست و جو</button>
             </div>
         </div>
     </div>

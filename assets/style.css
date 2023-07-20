@@ -977,6 +977,9 @@ nav{
 	transform: rotate(318deg);
 	padding: 3px;
 }
+.dropdown{
+	padding: 1rem 0 0.3rem;
+}
 .airport-section:hover,
 .city-section:hover {
 	background-color: #b8b8b84a;

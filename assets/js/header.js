@@ -234,7 +234,7 @@ const header = `    <header>
                     </li>
                     <li class="d-flex flex-column mb-2">
                     <div class="dropdown">
-                    <button class="btn b dropdown-toggle rounded-4 d-flex position-relative justify-content-between" type="button"
+                    <button class="btn b dropdown-toggle rounded-4 d-flex position-relative w-100 justify-content-between" type="button"
                         data-bs-toggle="dropdown" aria-expanded="false">
                         تمامی کابین ها
                     </button>

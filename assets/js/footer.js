@@ -4,7 +4,7 @@ const footerContext = `    <!-- start footer -->
             <div class="row d-flex footer-row">
                 <div class="col-6 col-xl-2 ">
                     <ul class="p-0 text-center text-xl-end">
-                        <li class="list-items "><a href="#">سفرهای مامان و بابا</a></li>
+                        <h5 class="mb-4">سفرهای مامان و بابا </h5>
                         <li class="list-items"><a href="#">درباره ما</a></li>
                         <li class="list-items"><a href="#">تماس با ما</a></li>
                         <li class="list-items"><a href="#">قوانین و مقررات</a></li>
@@ -14,7 +14,7 @@ const footerContext = `    <!-- start footer -->
                 </div>
                 <div class="col-6 col-xl-2 ">
                     <ul class="p-0 text-center text-xl-end">
-                        <li class="list-items"><a href="#">تور خارجی </a></li>
+                        <h5 class="mb-4">تور خارجی  </h5>
                         <li class="list-items"><a href="#"> تور ترکیه</a></li>
                         <li class="list-items"><a href="#">تور گرجستان </a></li>
                         <li class="list-items"><a href="#"> تور وان</a></li>
@@ -24,7 +24,7 @@ const footerContext = `    <!-- start footer -->
                 </div>
                 <div class="col-6 col-xl-2 mt-4 mt-xl-0">
                     <ul class="p-0 text-center text-xl-end">
-                        <li class="list-items"><a href="#">تور داخلی </a></li>
+                        <h5 class="mb-4"> تور داخلی </h5>
                         <li class="list-items"><a href="#"> تور کیش</a></li>
                         <li class="list-items"><a href="#"> تور مشهد</a></li>
                         <li class="list-items"><a href="#">تور شیراز </a></li>
@@ -34,7 +34,7 @@ const footerContext = `    <!-- start footer -->
                 </div>
                 <div class="col-6 col-xl-2 mt-4 mt-xl-0 ">
                     <ul class="p-0 text-center text-xl-end">
-                        <li class="list-items"><a href="#"> لینک های مفید</a></li>
+                        <h5 class="mb-4">لینک های مفید</h5>
                         <li class="list-items"><a href="#">لینک های مفید </a></li>
                         <li class="list-items"><a href="#">لینک های مفید </a></li>
                         <li class="list-items"><a href="#">لینک های مفید </a></li>

@@ -12,8 +12,8 @@ const faqContext=`
             <div class="accordion accordion-flush" id="accordionFlushExample">
                 <div class="accordion-item">
                     <h2 class="accordion-header">
-                        <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <button class=" accordion-button  collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne" >
                             چطور بلیط هواپیما ارزان بخرم؟
                         </button>
                     </h2>
@@ -25,8 +25,8 @@ const faqContext=`
                 </div>
                 <div class="accordion-item mt-2">
                     <h2 class="accordion-header">
-                        <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        <button class=" accordion-button  collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo" >
                             چطور بلیط هواپیما ارزان بخرم؟
                         </button>
                     </h2>
@@ -39,7 +39,7 @@ const faqContext=`
                 <div class="accordion-item mt-2">
                     <h2 class="accordion-header">
                         <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                            data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree" >
                             چطور بلیط هواپیما ارزان بخرم؟
                         </button>
                     </h2>
@@ -51,8 +51,8 @@ const faqContext=`
                 </div>
                 <div class="accordion-item mt-2">
                     <h2 class="accordion-header">
-                        <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                        <button class=" accordion-button  collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour" >
                             چطور بلیط هواپیما ارزان بخرم؟
                         </button>
                     </h2>
@@ -65,8 +65,8 @@ const faqContext=`
                 </div>
                 <div class="accordion-item mt-2">
                     <h2 class="accordion-header">
-                        <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                        <button class=" accordion-button  collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive" >
                             چطور بلیط هواپیما ارزان بخرم؟
                         </button>
                     </h2>
@@ -79,8 +79,8 @@ const faqContext=`
                 </div>
                 <div class="accordion-item mt-2">
                     <h2 class="accordion-header">
-                        <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                        <button class=" accordion-button  collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven" >
                             چطور بلیط هواپیما ارزان بخرم؟
                         </button>
                     </h2>
@@ -93,8 +93,8 @@ const faqContext=`
                 </div>
                 <div class="accordion-item mt-2">
                     <h2 class="accordion-header">
-                        <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                        <button class=" accordion-button  collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix" >
                             چطور بلیط هواپیما ارزان بخرم؟
                         </button>
                     </h2>

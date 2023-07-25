@@ -561,8 +561,8 @@ body {
 
 .accordion-header {
 	padding: 10px 0;
-	border-radius: 15px;
 	box-shadow: 0px 0px 6px #0000001A;
+	border-radius: 15px;
 }
 
 .accordion-button {
@@ -588,10 +588,21 @@ body {
 
 .accordion-body {
 	background-color: var(--gray-500);
-	border-radius:15px;
+	border-radius:0 0 15px 15px;
+	overflow: hidden;
 }
 .accordion-body p {
 	margin-bottom: 0;
+	animation: faq-move 0.3s ease;
+}
+@keyframes faq-move {
+	0%{
+		transform: translateX(-150px);
+	}
+	100%{
+		transform: translateX(0px);
+
+	}
 }
 .accordion-button:not(.collapsed)::after ,.accordion-button::after {
 	background-image:url(./images/chervon.png);
@@ -599,6 +610,9 @@ body {
 .accordion-button:focus ,.accordion-button:focus-visible , .accordion-button:focus-within{
 	outline: 0;
 	border: 0;
+}
+.accordion-header.active{
+	border-radius: 15px 15px 0px 0px;
 }
 .accordion {
 	 --bs-accordion-border-color:unset; 
@@ -951,7 +965,7 @@ nav{
 
 .dropdown ul.dropdown-menu {
 	border-radius: 15px;
-	width: 140px;
+	width: 100%;
 	border: 1px solid #707070;
 	overflow: hidden;
 }
@@ -1201,10 +1215,10 @@ nav{
 	margin: 3rem 0;
 }
 @media screen and (min-width: 1400px){
-	body{
+	/* body{
 		width: 1360px;
 		margin: 0 auto !important;
-	}
+	} */
 }
 @media screen and (max-width: 1200px){
 	.header-search-box{

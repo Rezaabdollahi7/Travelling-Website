@@ -21,10 +21,7 @@ mainBox.innerHTML += TourismMagazineContext;
 mainBox.innerHTML += faqContext;
 mainBox.innerHTML += footerContext;
 
-// scrollContainer.addEventListener("wheel", (evt) => {
-//     evt.preventDefault();
-//     scrollContainer.scrollLeft += evt.deltaY;
-// });
+
 
 const swiper = new Swiper('.swiperTours', {
     // Optional parameters

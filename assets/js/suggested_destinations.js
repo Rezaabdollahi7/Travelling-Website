@@ -18,44 +18,36 @@ const suggested_destinations = `    <!-- part 2 مقاصد پیشنهادی -->
 
             <div class=" slideshow-container">
 
-                <div class=" myslides">
-                <figure>
-                    <img class="hoverly" src="./assets/images/عکس‌های مقاصد پیشنهادی/Maldive1.jpg" alt="">
-                </figure>
-                    <div class="myslides-text mt-1">
+                <div class=" myslides"> 
+                     <img src="./assets/images/عکس‌های مقاصد پیشنهادی/Maldive1.png" alt="">
+                    <div class="myslides-text"> 
                         <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
-                        <p>مالدیو</p>
-                    </div>
-                </div>
-
-                <div class=" myslides">
-                <figure>
-                    <img class="hoverly" src="./assets/images/عکس‌های مقاصد پیشنهادی/Thailand1.jpg" alt="">
-                </figure>
-                    <div class="myslides-text mt-1">
+                        <p>مالدیو</p> 
+                    </div> 
+                </div> 
+ 
+                <div class=" myslides"> 
+                      <img src="./assets/images/عکس‌های مقاصد پیشنهادی/Thailand1.png" alt="">
+                    <div class="myslides-text"> 
                         <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
-                        <p>تایلند</p>
-                    </div>
-                </div>
-
-                <div class=" myslides">
-                <figure>
-                    <img class="hoverly" src="./assets/images/عکس‌های مقاصد پیشنهادی/France.jpg" alt="">
-                </figure>
-                    <div class="myslides-text mt-1">
-                        <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
-                        <p>فرانسه</p>
-                    </div>
-                </div>
-
-                <div class=" myslides">
-                <figure>
-                    <img class="hoverly" src="./assets/images/عکس‌های مقاصد پیشنهادی/Kenya1.jpg" alt="">
-                </figure>
-                    <div class="myslides-text mt-1">
-                        <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
-                        <p>کنیا</p>
-                    </div>
+                        <p>تایلند</p> 
+                    </div> 
+                </div> 
+ 
+                <div class=" myslides"> 
+                      <img src="./assets/images/عکس‌های مقاصد پیشنهادی/France2.png" alt="">
+                    <div class="myslides-text"> 
+                       <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
+                        <p>فرانسه</p> 
+                    </div> 
+                </div> 
+ 
+                <div class=" myslides"> 
+                      <img src="./assets/images/عکس‌های مقاصد پیشنهادی/Kenya1.png" alt="">
+                    <div class="myslides-text"> 
+                       <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
+                        <p>کنیا</p> 
+                    </div> 
                 </div>
 
             </div>

@@ -38,7 +38,18 @@ body {
 /* .comments-row {
     padding: 0 2%;
 } */
-
+nav.navbar{
+    z-index: 999 !important;
+}
+.pl-2percent{
+    padding-left: 2%;
+}
+.w-70{
+    width: 70%;
+}
+.mr-8percent{
+    margin-right: 8%;
+}
 .comments .send-comment #comment-input {
     height: 135px;
     background: #EFF2F5 0% 0% no-repeat padding-box;
@@ -5035,7 +5046,9 @@ img {
 #visaPostPage .visa-page-main-tittle .breadcrumb-wrapper {
     background-color: var(--blue-800);
 }
-
+#visaPostPage .pl-5px{
+    padding-left: 5px;
+}
 
 
 #visaPostPage .visa-page-main-tittle .breadcrumb-wrapper .breadcrumb-item+.breadcrumb-item::before,
@@ -5436,9 +5449,6 @@ i.fa-comment-dots,
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     list-style: none;
 }
 
@@ -5602,7 +5612,12 @@ i.fa-comment-dots,
 #homePage .same-as-selected {
     background-color: rgba(0, 0, 0, 0.1);
 }
-
+#homePage .input-container.passengers-wrapper input{
+    margin-bottom: -40px;
+}
+#homePage .input-container.passengers-wrapper .dropdown {
+    width: 103%;
+}
 @media screen and (max-width: 524px) {
     #homePage .tour-classification-gallery p {
         visibility: visible !important;
@@ -5767,7 +5782,7 @@ i.fa-comment-dots,
 
 
 #homePage .myslides-text i {
-    color: var(--white-800);
+    color: var(--white-900);
     margin-left: 5px;
     margin-right: 5px;
     padding-top: 7px;
@@ -5799,7 +5814,10 @@ i.fa-comment-dots,
     align-items: center;
     justify-content: center;
 }
-
+#homePage #newsletter button{
+    color: var(--white-900);
+    margin-top: 8px;
+}
 #homePage .newsletter-card {
     position: relative;
     width: 100%;
@@ -7828,7 +7846,15 @@ i.fa-comment-dots,
 #hotelListPage .sort-part .h5 {
     font-size: 1.1rem !important;
 }
-
+#hotelListPage .sort-part i.fa-star-half-stroke{
+    margin-right: -2px;
+}
+#hotelListPage .sort-part i.fa-hotel{
+    margin-right: -1px;
+}
+#hotelListPage .sort-part i.fa-location-dot{
+    margin-right: 1px;
+}
 #hotelListPage .star-container i {
     color: #B9B9B9;
 }

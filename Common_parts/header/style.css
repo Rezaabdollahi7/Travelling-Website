@@ -1,0 +1,358 @@
+@import url('../Common_styles/tittle.css');
+
+nav .header-li a::after,
+nav .header-li button::after {
+	content: "";
+	position: relative;
+	display: block;
+	top: 14px;
+	border-bottom: 2px solid transparent;
+}
+
+nav .header-li:hover>a::after,
+nav .header-li:hover>button {
+	border-bottom: 2px solid var(--purple-800);
+}
+
+nav .header-li:nth-child(2) a::after {
+	top: 45px;
+}
+
+nav li {
+	text-align: center;
+}
+
+nav .main-nav .navbar-toggler {
+	box-shadow: none !important;
+}
+
+nav .main-nav {
+	padding: 0 10rem;
+}
+
+nav .navbar-brand {
+	margin: 0;
+}
+
+nav .icontainer {
+	color: var(--white-900);
+	border-radius: 28px;
+	font-size: 1.3rem;
+	width: 32px;
+	height: 32px;
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	justify-content: center;
+	column-gap: 0.5rem;
+	margin-right: 6px;
+	cursor: pointer;
+}
+
+nav .icontainer:nth-child(1) {
+	background-color: var(--blue-800);
+}
+
+nav .icontainer:nth-child(2) {
+	background-color: var(--purple-800);
+}
+
+nav .icontainer.showHidden-a {
+	width: 120px;
+}
+
+nav .icontainer.showHidden-a .iconHide {
+	display: block;
+}
+
+nav .iconHide {
+	display: none;
+	font-size: 0.8rem;
+}
+
+nav .iconHide a {
+	text-decoration: none;
+	color: var(--white-900);
+}
+
+nav .header-tours {
+	position: absolute;
+	top: calc(100% + 25px);
+	right: -200px;
+	background-color: var(--gray-300);
+	display: flex;
+	width: 550px;
+	justify-content: space-between;
+	text-align: center;
+	border-radius: 10px;
+	font-size: 0.8rem;
+	padding: 0 1rem;
+	display: none;
+}
+
+nav .header-tours.active-menu {
+	display: flex;
+}
+
+nav .header-tours h6 {
+	color: var(--purple-800);
+}
+
+nav .header-tours a {
+	color: var(--black-800);
+	margin-bottom: 0.3rem;
+	position: relative;
+}
+
+nav .header-tours a:hover {
+	color: var(--blue-900);
+}
+
+nav .header-tours li:last-child a {
+	width: 100%;
+	height: 30%;
+}
+
+nav .header-tours li:last-child {
+	display: flex;
+	justify-content: space-between;
+}
+
+nav .header-tours img {
+	width: 170px;
+	aspect-ratio: 4/1.6;
+	object-fit: cover;
+	border-radius: 20px;
+	filter: brightness(0.7);
+}
+
+nav .custom-overly {
+	height: 89%;
+	position: absolute;
+	width: 86%;
+	background-color: #0000004d;
+	color: #fff;
+	border-radius: 13px;
+	right: 7%;
+	top: 4%;
+	font-weight: 700;
+}
+
+nav .dropdown button,
+nav .dropdown button:hover {
+	background-color: transparent;
+	color: var(--black-800);
+}
+
+nav .dropdown button::after {
+	content: "+";
+	width: 10px;
+	height: 2px;
+	color: var(--purple-800);
+}
+
+nav .dropdown button:active {
+	background-color: unset;
+	color: unsetk;
+
+}
+
+nav .dropdown .dropdown-menu {
+	width: 520px;
+	background-color: var(--gray-300);
+}
+
+nav .dropdown .dropdown-menu .dropdown-ul-tittle {
+	color: var(--purple-800);
+}
+
+nav .dropdown-item-img {
+	aspect-ratio: 3/1;
+	height: 75px;
+	border-radius: 14px;
+}
+
+nav .dropdown .dropdown-menu li .dropdown-item {
+	font-size: 12px;
+}
+
+nav .dropdown-menu[data-bs-popper] {
+	left: unset;
+}
+
+nav .dropdown .dropdown-menu li .dropdown-item:hover {
+	background-color: var(--gray-300);
+	color: var(--blue-900);
+}
+
+nav .dropdown .dropdown-menu .dropdown-ul-tittle,
+nav .dropdown .dropdown-menu li {
+	text-align: center;
+}
+
+nav .dropdown .dropdown-menu div.col-6:nth-child(4)>li:nth-child(1)>a:nth-child(1) {
+	background-color: transparent;
+}
+
+nav .btn-check:checked+.btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check)+.btn:active {
+	color: unset;
+	background-color: unset;
+	border: 0;
+}
+
+.btn-check:checked+.btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check)+.btn:active {
+	color: var(--black-800) !important;
+}
+
+nav .navbar-nav .nav-link.active,
+nav .navbar-nav .nav-link.show {
+	color: var(--black-800);
+}
+
+nav .nav-link {
+	color: var(--black-800);
+}
+
+nav .overly {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: var(--white-900);
+	z-index: 10;
+	font-weight: 600;
+}
+
+@media screen and (max-width: 935px) {
+	nav .dropdown .dropdown-menu {
+		width: 341px;
+	}
+
+	nav .custom-overly {
+
+		width: 82% !important;
+
+		right: 9%;
+
+	}
+}
+
+@media screen and (max-width: 1010px) {
+	nav .activate {
+		position: unset !important;
+	}
+
+	nav .header-tours {
+		right: 0 !important;
+		left: 0 !important;
+		width: 95% !important;
+	}
+
+	nav .header-tours:hover {
+		top: 50% !important;
+	}
+
+	nav .header-li a::after {
+		display: none !important;
+	}
+}
+
+@media screen and (max-width:527px) {
+	nav .header-tours li:last-child {
+		display: none !important;
+	}
+}
+
+@media screen and (max-width:991px) {
+	nav .nav-icons {
+		order: -1;
+	}
+
+	nav .hamburger-container {
+		order: -2;
+	}
+
+	nav .main-nav {
+		padding: 0 2rem !important;
+	}
+
+	.main-nav ul.dropdown-menu {
+		height: 60vh;
+		overflow-y: auto;
+		overflow-x: hidden;
+	}
+
+	.main-nav ul.dropdown-menu .custom-overly {
+		top: 3px;
+		right: 14px;
+		width: 88.5%;
+		height: 93%;
+	}
+
+}
+
+@media screen and (max-width:380px) {
+	nav .main-nav {
+		padding: 0.1rem !important;
+	}
+
+	nav ul.dropdown-menu {
+		width: 98% !important;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 326px) {
+	nav .navbar-toggler {
+		padding: 0.08rem 0.03rem;
+	}
+
+	nav .custom-overly {
+		top: 4px !important;
+		right: 13px !important;
+	}
+}
+
+nav .dropdown button {
+	padding-top: 2px;
+}
+
+.breadcrumb-wrapper {
+	background-color: var(--blue-800);
+}
+
+.breadcrumb-item a {
+	font-weight: 400;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+	float: right;
+	margin-left: 0.5rem;
+	font-size: 1.2rem;
+	margin-top: 0.2rem;
+	content: url("../../assets/images/عکس های ویزا/visaPost/chevron-double-left.svg") !important;
+	width: 20px;
+	height: 20px;
+	-webkit-filter: invert(100%);
+	filter: invert(100%);
+}
+ .breadcrumbs {
+ 	background-color: var(--blue-800);
+ }.page-about {
+	margin-top: 3.8rem;
+}
+.breadcrumbs .page-name {
+	font-size: 19px !important;
+}

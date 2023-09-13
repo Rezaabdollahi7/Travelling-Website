@@ -1,0 +1,1823 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travelling Website</title>
+
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+  <!-- swiper.js -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+
+  <link rel="stylesheet" href="../assets/stylesheet.css">
+  <link rel="stylesheet" href="../assets/main.css">
+  
+</head>
+
+<body id="homePage" >
+
+  <nav class="navbar navbar-expand-lg bg-white position-fixed top-0 start-0 end-0 shadow-sm" style="z-index: 999;">
+    <div class="main-nav container">
+      <div class="hamburger-container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+          <img src="../assets/images/Logo Header1.jpg" alt="LOGO" height="45px">
+        </a>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul
+          class="navbar-nav p-0 ms-auto  mb-2 mb-lg-0 position-relative align-items-center d-flex justify-content-center align-items-center">
+          <li class="header-li nav-item ">
+            <a class="nav-link active" aria-current="page" href="#">خانه</a>
+          </li>
+          <li class="dropdown header-li nav-item me-lg-4  p-0">
+            <a href="#"></a>
+            <button class="btn btn-secondary dropdown-toggle border-0 " type="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              تور
+            </button>
+            <ul class="dropdown-menu container mt-4  border-0 rounded-4 p-lg-2">
+              <li class="row">
+                <ul class="col-6  col-lg-2">
+                  <h6 class="dropdown-ul-tittle">تور خارجی</h6>
+                  <li><a class="dropdown-item" href="#">تور ترکیه</a></li>
+                  <li><a class="dropdown-item" href="#">تور امارات</a></li>
+                  <li><a class="dropdown-item" href="#">تور گرجستان</a></li>
+                  <li><a class="dropdown-item" href="#">تور مالدیو</a></li>
+                  <li><a class="dropdown-item" href="#">تور روسیه</a></li>
+                  <li><a class="dropdown-item" href="#">تور تایلند</a></li>
+                </ul>
+                <ul class="col-6  col-lg-2">
+                  <h6 class="dropdown-ul-tittle">تور داخلی</h6>
+                  <li><a class="dropdown-item" href="#">تور کیش</a></li>
+                  <li><a class="dropdown-item" href="#">تور مشهد</a></li>
+                  <li><a class="dropdown-item" href="#">تور قشم</a></li>
+                  <li><a class="dropdown-item" href="#">تور شیراز</a></li>
+                  <li><a class="dropdown-item" href="#">تور یزد</a></li>
+                  <li><a class="dropdown-item" href="#">تور اصفهان</a></li>
+                </ul>
+                <ul class="col-6  col-lg-3 mt-4 mt-lg-0 ">
+                  <h6 class="dropdown-ul-tittle">تور زمینی</h6>
+                  <li><a class="dropdown-item" href="#">تور ترکیه زمینی</a></li>
+                  <li><a class="dropdown-item" href="#">تور وان</a></li>
+                  <li><a class="dropdown-item" href="#">تور آنکارا</a></li>
+                  <li><a class="dropdown-item" href="#">تور ارمنستان</a></li>
+                  <li><a class="dropdown-item" href="#">تور دور ترکیه</a></li>
+                  <li><a class="dropdown-item" href="#">تور آذربایجان</a></li>
+                </ul>
+                <ul
+                  class="col-6  col-lg-5 d-flex flex-column justify-content-between align-items-center mt-4 mt-lg-0 ">
+                  <li><a class="dropdown-item position-relative" href="#">
+                      <div
+                        class="custom-overly d-flex justify-content-center justify-content-center align-items-center">
+                        تور خارجی</div>
+                      <img src="../assets/images/عکس‌های گروه تورها/1.webp" alt="تور خارجی"
+                        class="img-fluid dropdown-item-img ">
+                    </a></li>
+                  <li><a class="dropdown-item position-relative" href="#">
+                      <div
+                        class="custom-overly d-flex justify-content-center justify-content-center align-items-center">
+                        تور داخلی</div>
+                      <img src="../assets/images/عکس‌های گروه تورها/2.webp" alt="تور داخلی"
+                        class="img-fluid dropdown-item-img ">
+                    </a></li>
+                  <li><a class="dropdown-item position-relative" href="#">
+                      <div
+                        class="custom-overly d-flex justify-content-center justify-content-center align-items-center">
+                        تور زمینی</div>
+                      <img src="../assets/images/عکس‌های گروه تورها/dino-reichmuth-A5rCN8626Ck-unsplash.png"
+                        alt="تور زمینی" class="img-fluid dropdown-item-img ">
+                    </a></li>
+                </ul>
+              </li>
+
+            </ul>
+          </li>
+          <li class="header-li nav-item me-lg-4 ">
+            <a href="#" class="nav-link">
+              ویزا
+            </a>
+          </li>
+          <li class="header-li nav-item me-lg-4 ">
+            <a href="#" class="nav-link">
+              مجله گردشگری
+            </a>
+          </li>
+          <li class="header-li nav-item me-lg-4">
+            <a href="#" class="nav-link">
+              درباره ما
+            </a>
+          </li>
+          <li class="header-li nav-item me-lg-4">
+            <a href="#" class="nav-link">
+              تماس با ما
+            </a>
+          </li>
+
+        </ul>
+      </div>
+      <div class="nav-icons d-flex">
+        <span class="icontainer">
+          <i class="fa-solid fa-user-circle"></i>
+          <span class="iconHide"><a id="sign-in" href="#">ورود</a> / <a id="sign-up" href="#">ثبت
+              نام</a></span>
+        </span>
+        <span class="icontainer">
+          <i class="fa-solid fa-headset"></i>
+          <span class="iconHide"><a href="tel:02112345678">021-12345678</a></span>
+        </span>
+      </div>
+    </div>
+  </nav>
+  <section class="search-box flexDiv">
+    <div class="back-div">
+      <div class="backgroundSwiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img src="../assets/images/banner2.jpg" alt="banner-slide">
+          </div>
+          <div class="swiper-slide">
+            <img src="../assets/images/banner2.jpg" alt="banner-slide">
+          </div>
+          <div class="swiper-slide">
+            <img src="../assets/images/banner2.jpg" alt="banner-slide">
+          </div>
+          <div class="swiper-slide">
+            <img src="../assets/images/banner2.jpg" alt="banner-slide">
+          </div>
+          <div class="swiper-slide">
+            <img src="../assets/images/banner2.jpg" alt="banner-slide">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="backSwiperBtns">
+      <span class="nextBg">
+        <i class="fa-solid fa-chevron-circle-right"></i>
+      </span>
+      <span class="prevBg">
+        <i class="fa-solid fa-chevron-circle-left"></i>
+      </span>
+    </div>
+    <div class="container">
+      <div class="search-box-container container">
+        <div class="search-box__top">
+          <div class="forHover travelType head_clicked">
+            <img class="top-icon" src="../assets/images/عکس‌های باکس سرچ/airline.svg" alt="icon">
+            <span>پرواز خارجی</span>
+          </div>
+          <div class="forHover travelType">
+            <img class="top-icon" src="../assets/images/عکس‌های باکس سرچ/airline-1.svg" alt="icon">
+            <span>پرواز داخلی</span>
+          </div>
+          <div class="forHover travelType">
+            <img class="top-icon" src="../assets/images/عکس‌های باکس سرچ/airline-2.svg" alt="icon">
+            <span>هتل خارجی</span>
+          </div>
+          <div class="forHover travelType">
+            <img class="top-icon" src="../assets/images/عکس‌های باکس سرچ/airline-3.svg" alt="icon">
+            <span>هتل داخلی</span>
+          </div>
+          <div class="forHover travelType">
+            <img class="top-icon" src="../assets/images/عکس‌های باکس سرچ/airline-4.svg" alt="icon">
+            <span>تور</span>
+          </div>
+        </div>
+        <div class="search-box__radio">
+          <input type="radio" name="travelSide" id="single" checked="checked">
+          <label for="single">یک طرفه</label>
+          <input type="radio" name="travelSide" id="bidirect">
+          <label for="bidirect">رفت و برگشت</label>
+        </div>
+        <form action="" method="post" target="_blank" class="search-box__infos flexDiv">
+          <div class="fromToContainer">
+            <div class="input-container flexDiv " id="Origin-input-container ">
+              <span class="input-inner-label">مبدا</span>
+              <input type="text" placeholder="نام شهر یا فرودگاه">
+              <ul class="origin-search-ul search-box-ul list-unstyled d-inline-block px-2 w-100">
+                <li class="mb-1 fw-medium">مسیرهای پر تردد</li>
+                <li class="d-flex flex-column mb-2">
+                  <div class="city-section d-flex align-items-center justify-content-between" style="padding-left: 2%;">
+                    <div style="width:70%">
+                      <p class="city-text d-inline m-0 fw-bold">تهران</p>
+                      <span>همه فرودگاه ها</span>
+                    </div>
+                    <span>THR</span>
+                  </div>
+                  <div class="airport-section pt-1  d-flex justify-content-between ps-2">
+                    <div style="width:70%; margin-right:8%" class="d-flex items-center justify-content-start">
+                      <i class="fa-solid fa-arrow-turn-down fa-rotate-90 "></i>
+                      <p class="d-inline airport-name  mb-0">فرودگاه امام خمینی تهران</p>
+                    </div>
+                    <span>IKA</span>
+                  </div>
+                </li>
+                <li class="d-flex flex-column mb-2">
+                  <div class="city-section d-flex align-items-center justify-content-between" style="padding-left: 2%;">
+                    <div style="width:70%">
+                      <p class="city-text d-inline m-0 fw-bold">استانبول</p>
+                      <span>همه فرودگاه ها</span>
+                    </div>
+                    <span>THR</span>
+                  </div>
+                  <div class="airport-section pt-1  d-flex justify-content-between ps-2">
+                    <div style="width:70%; margin-right:8%" class="d-flex items-center justify-content-start">
+                      <i class="fa-solid fa-arrow-turn-down fa-rotate-90 "></i>
+                      <p class="d-inline airport-name  mb-0">فرودگاه جدید استانبول</p>
+                    </div>
+                    <span>IKA</span>
+                  </div>
+                </li>
+                <li class="d-flex flex-column mb-2">
+                  <div class="city-section d-flex align-items-center justify-content-between" style="padding-left: 2%;">
+                    <div style="width:70%">
+                      <p class="city-text d-inline m-0 fw-bold">تفلیس</p>
+                      <span>همه فرودگاه ها</span>
+                    </div>
+                    <span>THR</span>
+                  </div>
+                  <div class="airport-section pt-1  d-flex justify-content-between ps-2">
+                    <div style="width:70%; margin-right:8%" class="d-flex items-center justify-content-start">
+                      <i class="fa-solid fa-arrow-turn-down fa-rotate-90 "></i>
+                      <p class="d-inline airport-name  mb-0">فرودگاه بین‌المللی تفلیس</p>
+                    </div>
+                    <span>IKA</span>
+                  </div>
+                </li>
+                <li class="d-flex flex-column mb-2">
+                  <div class="city-section d-flex align-items-center justify-content-between" style="padding-left: 2%;">
+                    <div style="width:70%">
+                      <p class="city-text d-inline m-0 fw-bold">بانکوک</p>
+                      <span>همه فرودگاه ها</span>
+                    </div>
+                    <span>ISTALL</span>
+                  </div>
+                  <div class="airport-section pt-1  d-flex justify-content-between ps-2">
+                    <div style="width:70%; margin-right:8%" class="d-flex items-center justify-content-start">
+                      <i class="fa-solid fa-arrow-turn-down fa-rotate-90 "></i>
+                      <p class="d-inline airport-name  mb-0 me-2">فرودگاه بین‌المللی بانکوک</p>
+                    </div>
+                    <span>IKA</span>
+                  </div>
+                </li>
+  
+              </ul>
+            </div>
+            <div class="input-container flexDiv" id="Destination-input-container">
+              <span class="input-inner-label">مقصد</span>
+              <input type="text" placeholder="نام شهر یا فرودگاه">
+              <ul class="origin-search-ul search-box-ul list-unstyled d-inline-block px-2 w-100">
+                <li class="mb-1 fw-medium">مسیرهای پر تردد</li>
+                <li class="d-flex flex-column mb-2">
+                  <div class="city-section d-flex align-items-center justify-content-between" style="padding-left: 2%;">
+                    <div style="width:70%">
+                      <p class="city-text d-inline m-0 fw-bold">تهران</p>
+                      <span>همه فرودگاه ها</span>
+                    </div>
+                    <span>THR</span>
+                  </div>
+                  <div class="airport-section pt-1  d-flex justify-content-between ps-2">
+                    <div style="width:70%; margin-right:8%" class="d-flex items-center justify-content-start">
+                      <i class="fa-solid fa-arrow-turn-down fa-rotate-90 "></i>
+                      <p class="d-inline airport-name  mb-0">فرودگاه امام خمینی تهران</p>
+                    </div>
+                    <span>IKA</span>
+                  </div>
+                </li>
+                <li class="d-flex flex-column mb-2">
+                  <div class="city-section d-flex align-items-center justify-content-between" style="padding-left: 2%;">
+                    <div style="width:70%">
+                      <p class="city-text d-inline m-0 fw-bold">استانبول</p>
+                      <span>همه فرودگاه ها</span>
+                    </div>
+                    <span>THR</span>
+                  </div>
+                  <div class="airport-section pt-1  d-flex justify-content-between ps-2">
+                    <div style="width:70%; margin-right:8%" class="d-flex items-center justify-content-start">
+                      <i class="fa-solid fa-arrow-turn-down fa-rotate-90 "></i>
+                      <p class="d-inline airport-name  mb-0">فرودگاه جدید استانبول</p>
+                    </div>
+                    <span>IKA</span>
+                  </div>
+                </li>
+                <li class="d-flex flex-column mb-2">
+                  <div class="city-section d-flex align-items-center justify-content-between" style="padding-left: 2%;">
+                    <div style="width:70%">
+                      <p class="city-text d-inline m-0 fw-bold">تفلیس</p>
+                      <span>همه فرودگاه ها</span>
+                    </div>
+                    <span>THR</span>
+                  </div>
+                  <div class="airport-section pt-1  d-flex justify-content-between ps-2">
+                    <div style="width:70%; margin-right:8%" class="d-flex items-center justify-content-start">
+                      <i class="fa-solid fa-arrow-turn-down fa-rotate-90 "></i>
+                      <p class="d-inline airport-name  mb-0">فرودگاه بین‌المللی تفلیس</p>
+                    </div>
+                    <span>IKA</span>
+                  </div>
+                </li>
+                <li class="d-flex flex-column mb-2">
+                  <div class="city-section d-flex align-items-center justify-content-between" style="padding-left: 2%;">
+                    <div style="width:70%">
+                      <p class="city-text d-inline m-0 fw-bold">بانکوک</p>
+                      <span>همه فرودگاه ها</span>
+                    </div>
+                    <span>ISTALL</span>
+                  </div>
+                  <div class="airport-section pt-1  d-flex justify-content-between ps-2">
+                    <div style="width:70%; margin-right:8%" class="d-flex items-center justify-content-start">
+                      <i class="fa-solid fa-arrow-turn-down fa-rotate-90 "></i>
+                      <p class="d-inline airport-name  mb-0 me-2">فرودگاه بین‌المللی بانکوک</p>
+                    </div>
+                    <span>IKA</span>
+                  </div>
+                </li>
+  
+              </ul>
+              <i id="changeValue-search" class="fa-solid fa-arrow-right-arrow-left"></i>
+            </div>
+          </div>
+          <div class=fromToContainer>
+            <div class="input-container flexDiv data-input-container" id="data-input-container">
+              <span class="input-inner-label">تاریخ رفت</span>
+              <input type="text" placeholder="انتخاب کنید">
+            </div>
+  
+            <div class="input-container d-flex passengers-wrapper passengers-input-container dropdown-toggle" id="jq-toggle-btn">
+              <span class="input-inner-label">مسافران و کلاس</span>
+              <input type="text" placeholder="انتخاب کنید" class=" " style="margin-bottom: -40px;">
+              <div id="jq-to-toggle-2" class="custom-dropdown-layer d-none jq-class"></div>
+              <div class="dropdown " style="width: 103%;">
+                <ul id="jq-to-toggle-1" class="dropdown-menu main-drop border-0 passengers-main-ul w-100 d-none jq-class">
+                  <li><a class="dropdown-item d-flex flex-column" href="javascript:void(0);">
+                      <div class="passengers-section d-flex align-items-center justify-content-start column-gap-1">
+                        <p class="adult-text d-inline m-0 fw-bold">بزرگسال</p>
+                        <span>(۱۲ سال به بالا)</span>
+                      </div>
+  
+                      <div class="passenger-count-wrapper mt-1 d-flex align-items-center flex-row justify-content-center">
+                        <div class="passenger-count d-flex  p-2 justify-content-between flex-row">
+  
+                          <span class="passengers-plus-btn"><i class="fa-solid fa-plus"></i></span>
+                          <div class="passenger-input-wrapper  d-flex align-items-baseline">
+                            <input type="text" readonly name="passenger-count-input" id="passenger-count-input"
+                              placeholder="0" class="z-2">
+                          </div>
+  
+                          <span class=" passengers-subtraction-btn"><i class="fa-solid fa-minus"></i></span>
+                        </div>
+                      </div>
+  
+  
+                    </a></li>
+  
+                  <li><a class="dropdown-item" href="javascript:void(0);">
+                      <div class="passengers-section d-flex align-items-center justify-content-start column-gap-1">
+                        <p class="adult-text d-inline m-0 fw-bold">کودک</p>
+                        <span>(۲ تا ۱۲ سال)</span>
+                      </div>
+                      <div class="passenger-count-wrapper mt-1 d-flex align-items-center flex-row justify-content-center">
+                        <div class="passenger-count d-flex  p-2 justify-content-between flex-row">
+  
+                          <span class="passengers-plus-btn"><i class="fa-solid fa-plus"></i></span>
+                          <div class="passenger-input-wrapper  d-flex align-items-baseline">
+                            <input type="text" readonly name="passenger-count-input" id="passenger-count-input"
+                              placeholder="0" class="z-2">
+                          </div>
+  
+                          <span class=" passengers-subtraction-btn"><i class="fa-solid fa-minus"></i></span>
+                        </div>
+                      </div>
+                    </a></li>
+  
+                  <li><a class="dropdown-item" href="javascript:void(0);">
+                      <div class="passengers-section d-flex align-items-center justify-content-start column-gap-1">
+                        <p class="adult-text d-inline m-0 fw-bold">نوزاد</p>
+                        <span>(۱ تا ۲ سال)</span>
+                      </div>
+                      <div class="passenger-count-wrapper mt-1 d-flex align-items-center flex-row justify-content-center">
+                        <div class="passenger-count d-flex  p-2 justify-content-between flex-row">
+  
+                          <span class="passengers-plus-btn"><i class="fa-solid fa-plus"></i></span>
+                          <div class="passenger-input-wrapper  d-flex align-items-baseline">
+                            <input type="text" readonly name="passenger-count-input" id="passenger-count-input"
+                              placeholder="0" class="z-2">
+                          </div>
+  
+                          <span class=" passengers-subtraction-btn"><i class="fa-solid fa-minus"></i></span>
+                        </div>
+                      </div>
+                  <li>
+                    <hr class="dropdown-divider m-0 mt-3">
+                  </li>
+                  <p class="text-end p-0 m-0 fw-bold"> کلاس کابین</p>
+                  </a></li>
+  
+                  <li class="p-2">
+                <div class="custom-select" >
+                  <select>
+                    <option value="0">تمامی کابین ها</option>
+                    <option value="1">تمامی کابین ها</option>
+                    <option value="1">اکونومی</option>
+                    <option value="2">فرست</option>
+                    <option value="3">بیزینس</option>
+                    <option value="4">پریمیوم</option>
+                
+                  </select>
+                </div>
+                  </li>
+  
+  
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="input-container">
+            <button class="searchSubmit" type="submit"><i class="fa-solid fa-search"></i> جستجو </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="pop-tours ">
+    <div class="pop-tours__title">
+      <h2>تورهای پرطرفدار</h2>
+      <span>معرفی پرطرفدار ترین تور های ما!</span>
+    </div>
+    <div class="pop-tours-body position-relative ">
+      <span class="nextTour position-absolute">
+        <i class="fa-solid fa-chevron-circle-right"></i>
+      </span>
+      <span class="prevTour position-absolute">
+        <i class="fa-solid fa-chevron-circle-left"></i>
+      </span>
+      <div class="swiperTours container ">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a href="#">
+              <div class="pop-tours__slide">
+                <div class="imgZoom"><img src="../assets/images/عکس‌های تورهای پرطرفدار/Istanbul1.jpg" alt="tour-image">
+                </div>
+                <span class="tour-title">تور استانبول - پرواز ماهان</span>
+                <div class="tour-time">
+                  <i class="fa-solid fa-clock"></i>
+                  <span>از ۳ شب و ۴ روز</span>
+                </div>
+                <div class="tour-price">
+                  <i class="fa-solid fa-dollar-sign"></i>
+                  <span>قیمت از <span id="price">7,000,000</span> تومان</span>
+                </div>
+              </div>
+          </div>
+          </a>
+          <div class="swiper-slide">
+            <a href="#">
+              <div class="pop-tours__slide">
+                <div class="imgZoom"><img src="../assets/images/عکس‌های تورهای پرطرفدار/Van1.jpg" alt="tour-image">
+                </div>
+                <span class="tour-title">تور وان - زمینی VIP</span>
+                <div class="tour-time">
+                  <i class="fa-solid fa-clock"></i>
+                  <span>از ۳ شب و ۴ روز</span>
+                </div>
+                <div class="tour-price">
+                  <i class="fa-solid fa-dollar-sign"></i>
+                  <span>قیمت از <span id="price">7,000,000</span> تومان</span>
+                </div>
+              </div>
+          </div>
+          </a>
+          <div class="swiper-slide">
+            <a href="#">
+              <div class="pop-tours__slide">
+                <div class="imgZoom"><img src="../assets/images/عکس‌های تورهای پرطرفدار/Dubai1.jpg" alt="tour-image">
+                </div>
+                <span class="tour-title">تور دبی - ویژه کریسمس</span>
+                <div class="tour-time">
+                  <i class="fa-solid fa-clock"></i>
+                  <span>از ۳ شب و ۴ روز</span>
+                </div>
+                <div class="tour-price">
+                  <i class="fa-solid fa-dollar-sign"></i>
+                  <span>قیمت از <span id="price">7,000,000</span> تومان</span>
+                </div>
+              </div>
+          </div>
+          </a>
+          <div class="swiper-slide">
+            <a href="#">
+              <div class="pop-tours__slide">
+                <div class="imgZoom"><img src="../assets/images/عکس‌های تورهای پرطرفدار/Antalia1.jpg" alt="tour-image">
+                </div>
+                <span class="tour-title">تور آنتالیا - پرواز قشم ایر</span>
+                <div class="tour-time">
+                  <i class="fa-solid fa-clock"></i>
+                  <span>از ۳ شب و ۴ روز</span>
+                </div>
+                <div class="tour-price">
+                  <i class="fa-solid fa-dollar-sign"></i>
+                  <span>قیمت از <span id="price">7,000,000</span> تومان</span>
+                </div>
+              </div>
+          </div>
+          </a>
+          <div class="swiper-slide">
+            <a href="#">
+              <div class="pop-tours__slide">
+                <div class="imgZoom"><img src="../assets/images/عکس‌های تورهای پرطرفدار/Bali1.jpg" alt="tour-image">
+                </div>
+                <span class="tour-title">تور استانبول - پرواز ماهان</span>
+                <div class="tour-time">
+                  <i class="fa-solid fa-clock"></i>
+                  <span>از ۳ شب و ۴ روز</span>
+                </div>
+                <div class="tour-price">
+                  <i class="fa-solid fa-dollar-sign"></i>
+                  <span>قیمت از <span id="price">7,000,000</span> تومان</span>
+                </div>
+              </div>
+          </div>
+          </a>
+          <div class="swiper-slide">
+            <a href="#">
+              <div class="pop-tours__slide">
+                <div class="imgZoom"><img src="../assets/images/عکس‌های تورهای پرطرفدار/Istanbul1.jpg" alt="tour-image">
+                </div>
+                <span class="tour-title">تور استانبول - پرواز ماهان</span>
+                <div class="tour-time">
+                  <i class="fa-solid fa-clock"></i>
+                  <span>از ۳ شب و ۴ روز</span>
+                </div>
+                <div class="tour-price">
+                  <i class="fa-solid fa-dollar-sign"></i>
+                  <span>قیمت از <span id="price">7,000,000</span> تومان</span>
+                </div>
+              </div>
+          </div>
+          </a>
+          <div class="swiper-slide">
+            <a href="#">
+              <div class="pop-tours__slide">
+                <div class="imgZoom"><img src="../assets/images/عکس‌های تورهای پرطرفدار/Van1.jpg" alt="tour-image">
+                </div>
+                <span class="tour-title">تور وان - زمینی VIP</span>
+                <div class="tour-time">
+                  <i class="fa-solid fa-clock"></i>
+                  <span>از ۳ شب و ۴ روز</span>
+                </div>
+                <div class="tour-price">
+                  <i class="fa-solid fa-dollar-sign"></i>
+                  <span>قیمت از <span id="price">7,000,000</span> تومان</span>
+                </div>
+              </div>
+          </div>
+          </a>
+          <div class="swiper-slide">
+            <a href="#">
+              <div class="pop-tours__slide">
+                <div class="imgZoom"><img src="../assets/images/عکس‌های تورهای پرطرفدار/Dubai1.jpg" alt="tour-image">
+                </div>
+                <span class="tour-title">تور دبی - ویژه کریسمس</span>
+                <div class="tour-time">
+                  <i class="fa-solid fa-clock"></i>
+                  <span>از ۳ شب و ۴ روز</span>
+                </div>
+                <div class="tour-price">
+                  <i class="fa-solid fa-dollar-sign"></i>
+                  <span>قیمت از <span id="price">7,000,000</span> تومان</span>
+                </div>
+              </div>
+          </div>
+          </a>
+          <div class="swiper-slide">
+            <a href="#">
+              <div class="pop-tours__slide">
+                <div class="imgZoom"><img src="../assets/images/عکس‌های تورهای پرطرفدار/Antalia1.jpg" alt="tour-image">
+                </div>
+                <span class="tour-title">تور آنتالیا - پرواز قشم ایر</span>
+                <div class="tour-time">
+                  <i class="fa-solid fa-clock"></i>
+                  <span>از ۳ شب و ۴ روز</span>
+                </div>
+                <div class="tour-price">
+                  <i class="fa-solid fa-dollar-sign"></i>
+                  <span>قیمت از <span id="price">7,000,000</span> تومان</span>
+                </div>
+              </div>
+          </div>
+          </a>
+          <div class="swiper-slide">
+            <a href="#">
+              <div class="pop-tours__slide">
+                <div class="imgZoom"><img src="../assets/images/عکس‌های تورهای پرطرفدار/Bali1.jpg" alt="tour-image">
+                </div>
+                <span class="tour-title">تور استانبول - پرواز ماهان</span>
+                <div class="tour-time">
+                  <i class="fa-solid fa-clock"></i>
+                  <span>از ۳ شب و ۴ روز</span>
+                </div>
+                <div class="tour-price">
+                  <i class="fa-solid fa-dollar-sign"></i>
+                  <span>قیمت از <span id="price">7,000,000</span> تومان</span>
+                </div>
+              </div>
+          </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="justcenter"> <a href="#" class="know-more">بیشتر ببینید</a></div>
+  </section>
+
+  <section class="featurs container mt-5">
+
+    <div>
+      <div class="row featurs-items-container d-flex justify-content-between">
+        <div class="featurs-title position-relative d-flex align-items-center justify-content-center flex-column mb-4">
+          <h3 class="position-relative"> &nbsp; چرا سفرهای مامان و بابا؟ &nbsp;</h3>
+          <span class="sub-tittle"> مزیت سفر با ما !</span>
+        </div>
+
+        <div
+          class="featurs-item col-10 col-md-3 d-flex flex-column  align-items-center justify-content-center py-3 px-0  mt-2">
+          <img class="features-img rounded-3 " src="../assets/images/abous-us-img/road-sign@2x-2.jpg" alt="لوگو پرچم">
+          <h5 class="featurs-tittle mt-4  ">تنوع مقاصد و سفرها</h5><span class="feauturs-desc text-center">بیش
+            از
+            100 مقصد<br> گردشگری برای تو</span>
+        </div>
+        <div
+          class="featurs-item col-10 col-md-3 d-flex flex-column  align-items-center justify-content-center py-3 px-0 mt-2 me-md-auto">
+          <img class="features-img rounded-3 " src="../assets/images/abous-us-img/payment-method@2x-2.jpg"
+            alt="لوگو پول">
+          <h5 class="featurs-tittle mt-4">خرید سریع و آسان</h5><span class="feauturs-desc text-center">با خیال
+            راحت<br>سفرت رو رزرو کن !</span>
+        </div>
+        <div
+          class="featurs-item col-10 col-md-3 d-flex flex-column  align-items-center justify-content-center py-3 px-0 mt-2 me-md-auto">
+          <img class="features-img rounded-3 " src="../assets/images/abous-us-img/support@2x-2.jpg" alt="لوگو پشتیبانی">
+          <h5 class="featurs-tittle mt-4">پشتیبانی 24 ساعته</h5><span class="feauturs-desc text-center"> 7 روز
+            هفته ، 24 ساعته <br>همراه شما هستیم !</span>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <section id="tour-classification" class="mt-4">
+    <div
+      class="tour-classification-title position-relative d-flex align-items-center justify-content-center flex-column">
+      <h3 class="position-relative"> &nbsp; دسته بندی تور ها &nbsp;</h3>
+      <span class="sub-tittle">انتخاب از بین صدها تور !</span>
+    </div>
+    <div class="tour-classification-gallery container">
+      <a class="img img-1" href="#">
+        <img src="../assets/images/downloaded/urn aaid sc US 0feb2424-3f8c-4149-9a61-83b19bcfee81;revision=0.webp"
+          alt="تور خارجی">
+        <div class="text_hover d-flex justify-content-center align-items-center"><span>تور خارجی</span></div>
+      </a>
+      <a class="img img-2" href="#">
+        <img src="../assets/images/downloaded/urn aaid sc US 0feb2424-3f8c-4149-9a61-83b19bcfee81;revision=0.webp"
+          alt="تور زمینی">
+        <div class="text_hover d-flex justify-content-center align-items-center"><span>تور زمینی</span></div>
+      </a>
+      <a class="img img-3" href="#">
+        <img src="../assets/images/downloaded/urn aaid sc US 0feb2424-3f8c-4149-9a61-83b19bcfee81;revision=0.webp"
+          alt="تور طبیعت گردی">
+        <div class="text_hover d-flex justify-content-center align-items-center"><span>تور طبیعت گردی</span></div>
+      </a>
+      <a class="img img-4" href="#">
+        <img src="../assets/images/downloaded/urn aaid sc US 0feb2424-3f8c-4149-9a61-83b19bcfee81;revision=0.webp"
+          alt=تور داخلی"">
+        <div class="text_hover d-flex justify-content-center align-items-center"><span>تور داخلی</span></div>
+      </a>
+    </div>
+  </section>
+
+  <section id="suggested-destinations" class="mt-4">
+
+    <div
+      class="suggested-destinations-title position-relative d-flex align-items-center justify-content-center flex-column">
+      <h3 class="position-relative"> &nbsp; مقاصد پیشنهادی &nbsp;</h3>
+      <span class="sub-tittle"> مقصد سفرت رو انتخاب کن!</span>
+    </div>
+    <div class="suggested-destination__context slider d-flex justify-content-center mt-5">
+      <div class="swiper-suggested overflow-hidden position-relative   pt-5 container">
+        <div class="swiper-wrapper mt-3">
+
+          <div class="swiper-slide myslides">
+            <a href="#">
+              <div class="swiper-slide-img-container">
+                <img src="../assets/images/عکس‌های مقاصد پیشنهادی/Maldive2.png" alt="">
+
+              </div>
+              <div class="myslides-text">
+                <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
+                <p>مالدیو</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="swiper-slide myslides">
+            <a href="#">
+              <div class="swiper-slide-img-container">
+                <img src="../assets/images/عکس‌های مقاصد پیشنهادی/Thailand2.png" alt="">
+
+              </div>
+              <div class="myslides-text">
+                <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
+                <p>تایلند</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="swiper-slide myslides">
+            <a href="#">
+              <div class="swiper-slide-img-container">
+                <img src="../assets/images/عکس‌های مقاصد پیشنهادی/France2.png" alt="">
+
+              </div>
+              <div class="myslides-text">
+                <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
+                <p>فرانسه</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="swiper-slide myslides">
+            <a href="#">
+              <div class="swiper-slide-img-container">
+                <img src="../assets/images/عکس‌های مقاصد پیشنهادی/Kenya2.png" alt="">
+
+              </div>
+              <div class="myslides-text">
+                <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
+                <p>کنیا</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="swiper-slide myslides">
+            <a href="#">
+              <div class="swiper-slide-img-container">
+                <img src="../assets/images/عکس‌های مقاصد پیشنهادی/France2.png" alt="">
+
+              </div>
+              <div class="myslides-text">
+                <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
+                <p>فرانسه</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="swiper-slide myslides">
+            <a href="#">
+              <div class="swiper-slide-img-container">
+                <img src="../assets/images/عکس‌های مقاصد پیشنهادی/Kenya2.png" alt="">
+
+              </div>
+              <div class="myslides-text">
+                <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
+                <p>کنیا</p>
+              </div>
+            </a>
+          </div>
+
+        </div>
+        <div class="swiper-pagination top-0 py-3"></div>
+      </div>
+    </div>
+  </section>
+
+  <div id="newsletter" class="mt-4 container">
+    <div class="newsletter-card">
+      <div class="newsletter-card-text">
+        <h2>عضویت در خبرنامه</h2>
+        <p class="mt-3">
+          با عضویت در خبرنامه ، از آخرین اخبار ، پیشنهاده‌ها و تخفیف‌ها با خبر شوید!
+        </p>
+        <div class="email-bar relative w-100">
+          <form id="emailForm" action="send_email.php" method="POST" class="w-100">
+            <input class="w-100" type="email" name="email" id="emailInput" placeholder="ایمیل خود را وارد کنید...">
+            <button class="position-absolute" type="submit"><i class="fa-solid fa-paper-plane"
+                style="color: #ffffff; margin-top: 8px;"></i></button>
+          </form>
+        </div>
+      </div>
+      <div class="newsletter-card-img">
+        <img src="../assets/images/heidi-fin-mHC0qJ7l-ls-unsplash.jpg" alt="عضویت در خبرنامه">
+
+      </div>
+    </div>
+  </div>
+
+  <section class="tourism-magazine container-fluid mt-7 container">
+    <div class="main-row ">
+      <div class="row justify-content-center">
+        <div
+          class="tourism-magazine-tittle position-relative d-flex align-items-center justify-content-center flex-column p-0">
+          <h3 class="position-relative"> &nbsp; مجله گردشگری &nbsp;</h3>
+
+          <span class="sub-tittle">خودت را به روز نگه دار !</span>
+
+          <!-- tabs buttons -->
+          <ul class="nav nav-pills mb-3 mt-4" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="ms-4 ms-md-5 nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                aria-selected="true">راهنمای سفر</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="ms-4 ms-md-5 nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                aria-selected="false">معرفی جاذبه ها</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="ms-4 ms-md-5 nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                aria-selected="false">ایرانگردی</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="ms-4 ms-md-5 nav-link" id="pills-about-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-about" type="button" role="tab" aria-controls="pills-about"
+                aria-selected="false">شکم گردی</button>
+            </li>
+          </ul>
+          <!-- end of tabs buttons  -->
+
+        </div>
+        <!-- end of tourism-magazine-tittle-->
+
+        <!-- start tab content -->
+        <div class="row tab-content-row mt-3 p-0">
+          <!-- tabs content -->
+          <div class="tab-content p-0" id="pills-tabContent">
+            <!-- first tab content -->
+            <div class="tab-pane fade show active flex flex-row mt-4" id="pills-home" role="tabpanel"
+              aria-labelledby="pills-home-tab" tabindex="0">
+              <div class="row">
+                <!-- first card -->
+                <div
+                  class=" travel-items mb-2 col-sm-12 col-xl-6 d-flex flex-column flex-md-row justify-content-between ">
+                  <div
+                    class=" col-12 col-md-6 img-wrapper position-relative d-flex justify-content-center align-items-center ">
+                    <a href="#">
+                      <img src="../assets/images/عکس‌های وبلاگ/Istanbul-Tram-T1-Visual.jpg" alt="عکس مترو در استانبول "
+                        class="w-100 h-100 travel-img">
+                    </a>
+                  </div>
+                  <div class="col-12 pt-2  col-md-6 pe-2 ps-2">
+                    <a href="#" class="travel-header text-center text-md-end ">حمل و نقل عمومی در استانبول ترکیه</a>
+                    <p class="travel-desciption text-justify ">این متن صرفا برای نمونه بوده تا کاربر
+                      بتواند اندازه آن در محیط واقعی وب را
+                      تصور کند و تصویری ذهنی از آن داشته باشد تا بتواند تصمیم گیری کند ...</p>
+                  </div>
+                </div>
+                <div
+                  class=" travel-items mb-2 col-sm-12 col-xl-6 d-flex flex-column flex-md-row justify-content-between ">
+                  <div
+                    class="col-12 col-md-6 img-wrapper position-relative d-flex justify-content-center align-items-center">
+                    <a href="#">
+                      <img src="../assets/images/عکس‌های وبلاگ/louis-magnotti-YvCg5X3pWzc-unsplash.jpg"
+                        alt="عکس هواپیما" class="w-100 h-100 travel-img">
+                    </a>
+                  </div>
+                  <div class="col-12 pt-2  col-md-6 pe-2 ps-2">
+                    <a href="#" class="travel-header text-center text-md-end"> راهنمای خرید بلیت هواپیما </a>
+                    <p class="travel-desciption text-justify ">این متن صرفا برای نمونه بوده تا کاربر
+                      بتواند اندازه آن در محیط واقعی وب را
+                      تصور کند و تصویری ذهنی از آن داشته باشد تا بتواند تصمیم گیری کند ...</p>
+                  </div>
+                </div>
+                <div
+                  class=" travel-items mb-2 col-sm-12 col-xl-6 d-flex flex-column flex-md-row justify-content-between ">
+                  <div
+                    class="col-12 col-md-6 img-wrapper position-relative d-flex justify-content-center align-items-center">
+                    <a href="#">
+                      <img
+                        src="../assets/images/عکس‌های وبلاگ/56-3710787-colors-streaming-winter-prayer-hall-nasir-ol-molk-mosque-shiraz-14288444120-.jpg"
+                        alt="عکس مسجد نصیرالمک" class="w-100 h-100 travel-img">
+                    </a>
+                  </div>
+                  <div class="col-12 pt-2  col-md-6 pe-2 ps-2">
+                    <a href="#" class="travel-header text-center text-md-end"> مسجد نصیرالملک، شاهکار معماری ایرانی</a>
+                    <p class="travel-desciption text-justify ">این متن صرفا برای نمونه بوده تا کاربر
+                      بتواند اندازه آن در محیط واقعی وب را
+                      تصور کند و تصویری ذهنی از آن داشته باشد تا بتواند تصمیم گیری کند ...</p>
+                  </div>
+                </div>
+                <div
+                  class=" travel-items mb-2 col-sm-12 col-xl-6 d-flex flex-column flex-md-row justify-content-between ">
+                  <div
+                    class="col-12 col-md-6 img-wrapper position-relative d-flex justify-content-center align-items-center">
+                    <a href="#">
+                      <img src="../assets/images/عکس‌های وبلاگ/turkey-istanbul-rooftop.jpg" alt="عکس خانه در استانبول"
+                        class="w-100 h-100 travel-img">
+                    </a>
+                  </div>
+                  <div class="col-12 pt-2  col-md-6 pe-2 ps-2">
+                    <a href="#" class="travel-header text-center text-md-end"> معروفترین غذاهای خیابانی استانبول</a>
+                    <p class="travel-desciption text-justify ">این متن صرفا برای نمونه بوده تا کاربر
+                      بتواند اندازه آن در محیط واقعی وب را
+                      تصور کند و تصویری ذهنی از آن داشته باشد تا بتواند تصمیم گیری کند ...</p>
+                  </div>
+                </div>
+                <div
+                  class=" travel-items mb-2 col-sm-12 col-xl-6 d-flex flex-column flex-md-row justify-content-between ">
+                  <div
+                    class="col-12 col-md-6 img-wrapper position-relative d-flex justify-content-center align-items-center">
+                    <a href="#">
+                      <img src="../assets/images/عکس‌های وبلاگ/water-planet-aquapark-alanya.jpg"
+                        alt="عکس آبشار آبی در استانبول" class="w-100 h-100 travel-img">
+                    </a>
+                  </div>
+                  <div class="col-12 pt-2  col-md-6 pe-2 ps-2">
+                    <a href="#" class="travel-header text-center text-md-end"> بزرگ‌ترین پارک آبی آنتالیا</a>
+                    <p class="travel-desciption text-justify ">این متن صرفا برای نمونه بوده تا کاربر
+                      بتواند اندازه آن در محیط واقعی وب را
+                      تصور کند و تصویری ذهنی از آن داشته باشد تا بتواند تصمیم گیری کند ...</p>
+                  </div>
+                </div>
+                <div
+                  class=" travel-items mb-2 col-sm-12 col-xl-6 d-flex flex-column flex-md-row justify-content-between ">
+                  <div
+                    class="col-12 col-md-6 img-wrapper position-relative d-flex justify-content-center align-items-center">
+                    <a href="#">
+                      <img src="../assets/images/عکس‌های وبلاگ/averie-woodard-5d20kdvFCfA-unsplash.jpg" alt="عکس جاده"
+                        class="w-100 h-100 travel-img">
+                    </a>
+                  </div>
+                  <div class="col-12 pt-2  col-md-6 pe-2 ps-2">
+                    <a href="#" class="travel-header text-center text-md-end"> فواید سفر کردن</a>
+                    <p class="travel-desciption text-justify ">این متن صرفا برای نمونه بوده تا کاربر
+                      بتواند اندازه آن در محیط واقعی وب را
+                      تصور کند و تصویری ذهنی از آن داشته باشد تا بتواند تصمیم گیری کند ...</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="seemore col-12 d-flex justify-content-center align-items-center mt-5 outline-none border-0">
+                <button>بیشتر ببینید</button>
+              </div>
+            </div>
+            <!-- end of first tab -->
+
+            <div class="tab-pane fade  mt-4" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+              tabindex="0">
+
+              <div class="row">
+                <!-- first card -->
+                <div class=" travel-items mb-2 col-sm-12 col-xl-6 d-flex flex-column flex-md-row justify-content-between ">
+                  <div class=" col-12 col-md-6 img-wrapper position-relative d-flex justify-content-center align-items-center ">
+                    <a href="#">
+                      <img src="../assets/images/عکس‌های وبلاگ/Istanbul-Tram-T1-Visual.jpg" alt="عکس مترو در استانبول "
+                        class="w-100 h-100 travel-img">
+                    </a>
+                  </div>
+                  <div class="col-12 pt-2  col-md-6 pe-2 ps-2">
+                    <a href="#" class="travel-header text-center text-md-end ">حمل و نقل عمومی در استانبول ترکیه</a>
+                    <p class="travel-desciption text-justify ">این متن صرفا برای نمونه بوده تا کاربر
+                      بتواند اندازه آن در محیط واقعی وب را
+                      تصور کند و تصویری ذهنی از آن داشته باشد تا بتواند تصمیم گیری کند ...</p>
+                  </div>
+                </div>
+                <div class=" travel-items mb-2 col-sm-12 col-xl-6 d-flex flex-column flex-md-row justify-content-between ">
+                  <div class="col-12 col-md-6 img-wrapper position-relative d-flex justify-content-center align-items-center">
+                    <a href="#">
+                      <img src="../assets/images/عکس‌های وبلاگ/louis-magnotti-YvCg5X3pWzc-unsplash.jpg" alt="عکس هواپیما"
+                        class="w-100 h-100 travel-img">
+                    </a>
+                  </div>
+                  <div class="col-12 pt-2  col-md-6 pe-2 ps-2">
+                    <a href="#" class="travel-header text-center text-md-end"> راهنمای خرید بلیت هواپیما </a>
+                    <p class="travel-desciption text-justify ">این متن صرفا برای نمونه بوده تا کاربر
+                      بتواند اندازه آن در محیط واقعی وب را
+                      تصور کند و تصویری ذهنی از آن داشته باشد تا بتواند تصمیم گیری کند ...</p>
+                  </div>
+                </div>
+                <div class=" travel-items mb-2 col-sm-12 col-xl-6 d-flex flex-column flex-md-row justify-content-between ">
+                  <div class="col-12 col-md-6 img-wrapper position-relative d-flex justify-content-center align-items-center">
+                    <a href="#">
+                      <img
+                        src="../assets/images/عکس‌های وبلاگ/56-3710787-colors-streaming-winter-prayer-hall-nasir-ol-molk-mosque-shiraz-14288444120-.jpg"
+                        alt="عکس مسجد نصیرالمک" class="w-100 h-100 travel-img">
+                    </a>
+                  </div>
+                  <div class="col-12 pt-2  col-md-6 pe-2 ps-2">
+                    <a href="#" class="travel-header text-center text-md-end"> مسجد نصیرالملک، شاهکار معماری ایرانی</a>
+                    <p class="travel-desciption text-justify ">این متن صرفا برای نمونه بوده تا کاربر
+                      بتواند اندازه آن در محیط واقعی وب را
+                      تصور کند و تصویری ذهنی از آن داشته باشد تا بتواند تصمیم گیری کند ...</p>
+                  </div>
+                </div>
+                <div class=" travel-items mb-2 col-sm-12 col-xl-6 d-flex flex-column flex-md-row justify-content-between ">
+                  <div class="col-12 col-md-6 img-wrapper position-relative d-flex justify-content-center align-items-center">
+                    <a href="#">
+                      <img src="../assets/images/عکس‌های وبلاگ/turkey-istanbul-rooftop.jpg" alt="عکس خانه در استانبول"
+                        class="w-100 h-100 travel-img">
+                    </a>
+                  </div>
+                  <div class="col-12 pt-2  col-md-6 pe-2 ps-2">
+                    <a href="#" class="travel-header text-center text-md-end"> معروفترین غذاهای خیابانی استانبول</a>
+                    <p class="travel-desciption text-justify ">این متن صرفا برای نمونه بوده تا کاربر
+                      بتواند اندازه آن در محیط واقعی وب را
+                      تصور کند و تصویری ذهنی از آن داشته باشد تا بتواند تصمیم گیری کند ...</p>
+                  </div>
+                </div>
+                <div class=" travel-items mb-2 col-sm-12 col-xl-6 d-flex flex-column flex-md-row justify-content-between ">
+                  <div class="col-12 col-md-6 img-wrapper position-relative d-flex justify-content-center align-items-center">
+                    <a href="#">
+                      <img src="../assets/images/عکس‌های وبلاگ/water-planet-aquapark-alanya.jpg" alt="عکس آبشار آبی در استانبول"
+                        class="w-100 h-100 travel-img">
+                    </a>
+                  </div>
+                  <div class="col-12 pt-2  col-md-6 pe-2 ps-2">
+                    <a href="#" class="travel-header text-center text-md-end"> بزرگ‌ترین پارک آبی آنتالیا</a>
+                    <p class="travel-desciption text-justify ">این متن صرفا برای نمونه بوده تا کاربر
+                      بتواند اندازه آن در محیط واقعی وب را
+                      تصور کند و تصویری ذهنی از آن داشته باشد تا بتواند تصمیم گیری کند ...</p>
+                  </div>
+                </div>
+                <div class=" travel-items mb-2 col-sm-12 col-xl-6 d-flex flex-column flex-md-row justify-content-between ">
+                  <div class="col-12 col-md-6 img-wrapper position-relative d-flex justify-content-center align-items-center">
+                    <a href="#">
+                      <img src="../assets/images/عکس‌های وبلاگ/averie-woodard-5d20kdvFCfA-unsplash.jpg" alt="عکس جاده"
+                        class="w-100 h-100 travel-img">
+                    </a>
+                  </div>
+                  <div class="col-12 pt-2  col-md-6 pe-2 ps-2">
+                    <a href="#" class="travel-header text-center text-md-end"> فواید سفر کردن</a>
+                    <p class="travel-desciption text-justify ">این متن صرفا برای نمونه بوده تا کاربر
+                      بتواند اندازه آن در محیط واقعی وب را
+                      تصور کند و تصویری ذهنی از آن داشته باشد تا بتواند تصمیم گیری کند ...</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="seemore col-12 d-flex justify-content-center align-items-center mt-5 outline-none border-0">
+                <button>بیشتر ببینید</button>
+              </div>
+            </div>
+            <!-- end of second tab -->
+            <div class="tab-pane fade  mt-4" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
+              tabindex="0">
+
+              <div class="row">
+                <!-- first card -->
+                <div
+                  class=" travel-items mb-2 col-sm-12 col-xl-6 d-flex flex-column flex-md-row justify-content-between ">
+                  <div
+                    class=" col-12 col-md-6 img-wrapper position-relative d-flex justify-content-center align-items-center ">
+                    <a href="#">
+                      <img src="../assets/images/عکس‌های وبلاگ/Istanbul-Tram-T1-Visual.jpg" alt="عکس مترو در استانبول "
+                        class="w-100 h-100 travel-img">
+                    </a>
+                  </div>
+                  <div class="col-12 pt-2  col-md-6 pe-2 ps-2">
+                    <a href="#" class="travel-header text-center text-md-end">حمل و نقل عمومی در استانبول ترکیه</a>
+                    <p class="travel-desciption text-justify ">این متن صرفا برای نمونه بوده تا کاربر
+                      بتواند اندازه آن در محیط واقعی وب را
+                      تصور کند و تصویری ذهنی از آن داشته باشد تا بتواند تصمیم گیری کند ...</p>
+                  </div>
+                </div>
+                <div
+                  class=" travel-items mb-2 col-sm-12 col-xl-6 d-flex flex-column flex-md-row justify-content-between ">
+                  <div
+                    class="col-12 col-md-6 img-wrapper position-relative d-flex justify-content-center align-items-center">
+                    <a href="#">
+                      <img src="../assets/images/عکس‌های وبلاگ/louis-magnotti-YvCg5X3pWzc-unsplash.jpg"
+                        alt="عکس هواپیما" class="w-100 h-100 travel-img">
+                    </a>
+                  </div>
+                  <div class="col-12 pt-2  col-md-6 pe-2 ps-2">
+                    <a href="#" class="travel-header text-center text-md-end"> راهنمای خرید بلیت هواپیما </a>
+                    <p class="travel-desciption text-justify ">این متن صرفا برای نمونه بوده تا کاربر
+                      بتواند اندازه آن در محیط واقعی وب را
+                      تصور کند و تصویری ذهنی از آن داشته باشد تا بتواند تصمیم گیری کند ...</p>
+                  </div>
+                </div>
+                <div
+                  class=" travel-items mb-2 col-sm-12 col-xl-6 d-flex flex-column flex-md-row justify-content-between ">
+                  <div
+                    class="col-12 col-md-6 img-wrapper position-relative d-flex justify-content-center align-items-center">
+                    <a href="#">
+                      <img
+                        src="../assets/images/عکس‌های وبلاگ/56-3710787-colors-streaming-winter-prayer-hall-nasir-ol-molk-mosque-shiraz-14288444120-.jpg"
+                        alt="عکس مسجد نصیرالمک" class="w-100 h-100 travel-img">
+                    </a>
+                  </div>
+                  <div class="col-12 pt-2  col-md-6 pe-2 ps-2">
+                    <a href="#" class="travel-header text-center text-md-end"> مسجد نصیرالملک، شاهکار معماری ایرانی</a>
+                    <p class="travel-desciption text-justify ">این متن صرفا برای نمونه بوده تا کاربر
+                      بتواند اندازه آن در محیط واقعی وب را
+                      تصور کند و تصویری ذهنی از آن داشته باشد تا بتواند تصمیم گیری کند ...</p>
+                  </div>
+                </div>
+                <div
+                  class=" travel-items mb-2 col-sm-12 col-xl-6 d-flex flex-column flex-md-row justify-content-between ">
+                  <div
+                    class="col-12 col-md-6 img-wrapper position-relative d-flex justify-content-center align-items-center">
+                    <a href="#">
+                      <img src="../assets/images/عکس‌های وبلاگ/turkey-istanbul-rooftop.jpg" alt="عکس خانه در استانبول"
+                        class="w-100 h-100 travel-img">
+                    </a>
+                  </div>
+                  <div class="col-12 pt-2  col-md-6 pe-2 ps-2">
+                    <a href="#" class="travel-header text-center text-md-end"> معروفترین غذاهای خیابانی استانبول</a>
+                    <p class="travel-desciption text-justify ">این متن صرفا برای نمونه بوده تا کاربر
+                      بتواند اندازه آن در محیط واقعی وب را
+                      تصور کند و تصویری ذهنی از آن داشته باشد تا بتواند تصمیم گیری کند ...</p>
+                  </div>
+                </div>
+                <div
+                  class=" travel-items mb-2 col-sm-12 col-xl-6 d-flex flex-column flex-md-row justify-content-between ">
+                  <div
+                    class="col-12 col-md-6 img-wrapper position-relative d-flex justify-content-center align-items-center">
+                    <a href="#">
+                      <img src="../assets/images/عکس‌های وبلاگ/water-planet-aquapark-alanya.jpg"
+                        alt="عکس آبشار آبی در استانبول" class="w-100 h-100 travel-img">
+                    </a>
+                  </div>
+                  <div class="col-12 pt-2  col-md-6 pe-2 ps-2">
+                    <a href="#" class="travel-header text-center text-md-end"> بزرگ‌ترین پارک آبی آنتالیا</a>
+                    <p class="travel-desciption text-justify ">این متن صرفا برای نمونه بوده تا کاربر
+                      بتواند اندازه آن در محیط واقعی وب را
+                      تصور کند و تصویری ذهنی از آن داشته باشد تا بتواند تصمیم گیری کند ...</p>
+                  </div>
+                </div>
+                <div
+                  class=" travel-items mb-2 col-sm-12 col-xl-6 d-flex flex-column flex-md-row justify-content-between ">
+                  <div
+                    class="col-12 col-md-6 img-wrapper position-relative d-flex justify-content-center align-items-center">
+                    <a href="#">
+                      <img src="../assets/images/عکس‌های وبلاگ/averie-woodard-5d20kdvFCfA-unsplash.jpg" alt="عکس جاده"
+                        class="w-100 h-100 travel-img">
+                    </a>
+                  </div>
+                  <div class="col-12 pt-2  col-md-6 pe-2 ps-2">
+                    <a href="#" class="travel-header text-center text-md-end"> فواید سفر کردن</a>
+                    <p class="travel-desciption text-justify ">این متن صرفا برای نمونه بوده تا کاربر
+                      بتواند اندازه آن در محیط واقعی وب را
+                      تصور کند و تصویری ذهنی از آن داشته باشد تا بتواند تصمیم گیری کند ...</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="seemore col-12 d-flex justify-content-center align-items-center mt-5 outline-none border-0">
+                <button>بیشتر ببینید</button>
+              </div>
+            </div>
+            <!-- end of third tab -->
+            <div class="tab-pane fade  mt-4" id="pills-about" role="tabpanel" aria-labelledby="pills-about-tab" tabindex="0">
+              <div class="row">
+                <!-- first card -->
+                <div
+                  class=" travel-items mb-2 col-sm-12 col-xl-6 d-flex flex-column flex-md-row justify-content-between ">
+                  <div
+                    class=" col-12 col-md-6 img-wrapper position-relative d-flex justify-content-center align-items-center ">
+                    <a href="#">
+                      <img src="../assets/images/عکس‌های وبلاگ/Istanbul-Tram-T1-Visual.jpg" alt="عکس مترو در استانبول "
+                        class="w-100 h-100 travel-img">
+                    </a>
+                  </div>
+                  <div class="col-12 pt-2  col-md-6 pe-2 ps-2">
+                    <a href="#" class="travel-header text-center text-md-end">حمل و نقل عمومی در استانبول ترکیه</a>
+                    <p class="travel-desciption text-justify ">این متن صرفا برای نمونه بوده تا کاربر
+                      بتواند اندازه آن در محیط واقعی وب را
+                      تصور کند و تصویری ذهنی از آن داشته باشد تا بتواند تصمیم گیری کند ...</p>
+                  </div>
+                </div>
+                <div
+                  class=" travel-items mb-2 col-sm-12 col-xl-6 d-flex flex-column flex-md-row justify-content-between ">
+                  <div
+                    class="col-12 col-md-6 img-wrapper position-relative d-flex justify-content-center align-items-center">
+                    <a href="#">
+                      <img src="../assets/images/عکس‌های وبلاگ/louis-magnotti-YvCg5X3pWzc-unsplash.jpg"
+                        alt="عکس هواپیما" class="w-100 h-100 travel-img">
+                    </a>
+                  </div>
+                  <div class="col-12 pt-2  col-md-6 pe-2 ps-2">
+                    <a href="#" class="travel-header text-center text-md-end"> راهنمای خرید بلیت هواپیما </a>
+                    <p class="travel-desciption text-justify ">این متن صرفا برای نمونه بوده تا کاربر
+                      بتواند اندازه آن در محیط واقعی وب را
+                      تصور کند و تصویری ذهنی از آن داشته باشد تا بتواند تصمیم گیری کند ...</p>
+                  </div>
+                </div>
+                <div
+                  class=" travel-items mb-2 col-sm-12 col-xl-6 d-flex flex-column flex-md-row justify-content-between ">
+                  <div
+                    class="col-12 col-md-6 img-wrapper position-relative d-flex justify-content-center align-items-center">
+                    <a href="#">
+                      <img
+                        src="../assets/images/عکس‌های وبلاگ/56-3710787-colors-streaming-winter-prayer-hall-nasir-ol-molk-mosque-shiraz-14288444120-.jpg"
+                        alt="عکس مسجد نصیرالمک" class="w-100 h-100 travel-img">
+                    </a>
+                  </div>
+                  <div class="col-12 pt-2  col-md-6 pe-2 ps-2">
+                    <a href="#" class="travel-header text-center text-md-end"> مسجد نصیرالملک، شاهکار معماری ایرانی</a>
+                    <p class="travel-desciption text-justify ">این متن صرفا برای نمونه بوده تا کاربر
+                      بتواند اندازه آن در محیط واقعی وب را
+                      تصور کند و تصویری ذهنی از آن داشته باشد تا بتواند تصمیم گیری کند ...</p>
+                  </div>
+                </div>
+                <div
+                  class=" travel-items mb-2 col-sm-12 col-xl-6 d-flex flex-column flex-md-row justify-content-between ">
+                  <div
+                    class="col-12 col-md-6 img-wrapper position-relative d-flex justify-content-center align-items-center">
+                    <a href="#">
+                      <img src="../assets/images/عکس‌های وبلاگ/turkey-istanbul-rooftop.jpg" alt="عکس خانه در استانبول"
+                        class="w-100 h-100 travel-img">
+                    </a>
+                  </div>
+                  <div class="col-12 pt-2  col-md-6 pe-2 ps-2">
+                    <a href="#" class="travel-header text-center text-md-end"> معروفترین غذاهای خیابانی استانبول</a>
+                    <p class="travel-desciption text-justify ">این متن صرفا برای نمونه بوده تا کاربر
+                      بتواند اندازه آن در محیط واقعی وب را
+                      تصور کند و تصویری ذهنی از آن داشته باشد تا بتواند تصمیم گیری کند ...</p>
+                  </div>
+                </div>
+                <div
+                  class=" travel-items mb-2 col-sm-12 col-xl-6 d-flex flex-column flex-md-row justify-content-between ">
+                  <div
+                    class="col-12 col-md-6 img-wrapper position-relative d-flex justify-content-center align-items-center">
+                    <a href="#">
+                      <img src="../assets/images/عکس‌های وبلاگ/water-planet-aquapark-alanya.jpg"
+                        alt="عکس آبشار آبی در استانبول" class="w-100 h-100 travel-img">
+                    </a>
+                  </div>
+                  <div class="col-12 pt-2  col-md-6 pe-2 ps-2">
+                    <a href="#" class="travel-header text-center text-md-end"> بزرگ‌ترین پارک آبی آنتالیا</a>
+                    <p class="travel-desciption text-justify ">این متن صرفا برای نمونه بوده تا کاربر
+                      بتواند اندازه آن در محیط واقعی وب را
+                      تصور کند و تصویری ذهنی از آن داشته باشد تا بتواند تصمیم گیری کند ...</p>
+                  </div>
+                </div>
+                <div
+                  class=" travel-items mb-2 col-sm-12 col-xl-6 d-flex flex-column flex-md-row justify-content-between ">
+                  <div
+                    class="col-12 col-md-6 img-wrapper position-relative d-flex justify-content-center align-items-center">
+                    <a href="#">
+                      <img src="../assets/images/عکس‌های وبلاگ/averie-woodard-5d20kdvFCfA-unsplash.jpg" alt="عکس جاده"
+                        class="w-100 h-100 travel-img">
+                    </a>
+                  </div>
+                  <div class="col-12 pt-2  col-md-6 pe-2 ps-2">
+                    <a href="#" class="travel-header text-center text-md-end"> فواید سفر کردن</a>
+                    <p class="travel-desciption text-justify ">این متن صرفا برای نمونه بوده تا کاربر
+                      بتواند اندازه آن در محیط واقعی وب را
+                      تصور کند و تصویری ذهنی از آن داشته باشد تا بتواند تصمیم گیری کند ...</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="seemore col-12 d-flex justify-content-center align-items-center mt-5 outline-none border-0">
+                <button>بیشتر ببینید</button>
+              </div>
+            </div>
+            <!-- end of forth tab -->
+          </div>
+          <!-- end of tabs content -->
+        </div>
+        <!-- end of tab content -->
+      </div>
+      <!-- end of row -->
+    </div>
+    <!-- end of container -->
+  </section>
+
+  <section class="faq container mt-5">
+    <div class="row faq-row">
+      <div class="faq-tittle p-0 position-relative d-flex align-items-center justify-content-center flex-column">
+        <h3 class="position-relative"> &nbsp; پرسش و پاسخ &nbsp;</h3>
+        <span class="sub-tittle"> شاید برای تو هم سؤال باشه!</span>
+      </div>
+      <!-- end of faq tittle -->
+
+      <div class="container mt-6 p-0">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class=" accordion-button  collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                چطور بلیط هواپیما ارزان بخرم؟
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <p>با استفاده از تقویم قیمتی و سیستم اطلاع از تغییر قیمت در سفر آسون، می‌توانید به موقع از قیمت
+                  ارزانترین بلیط هواپیما خارجی و داخلی مقصد مورد نظرتان مطلع شده و خرید نمایید</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mt-2">
+            <h2 class="accordion-header">
+              <button class=" accordion-button  collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                چطور بلیط هواپیما ارزان بخرم؟
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <p>با استفاده از تقویم قیمتی و سیستم اطلاع از تغییر قیمت در سفر آسون، می‌توانید به موقع از قیمت
+                  ارزانترین بلیط هواپیما خارجی و داخلی مقصد مورد نظرتان مطلع شده و خرید نمایید</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mt-2">
+            <h2 class="accordion-header">
+              <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                چطور بلیط هواپیما ارزان بخرم؟
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <p>با استفاده از تقویم قیمتی و سیستم اطلاع از تغییر قیمت در سفر آسون، می‌توانید به موقع از قیمت
+                  ارزانترین بلیط هواپیما خارجی و داخلی مقصد مورد نظرتان مطلع شده و خرید نمایید</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mt-2">
+            <h2 class="accordion-header">
+              <button class=" accordion-button  collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                چطور بلیط هواپیما ارزان بخرم؟
+              </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <p>با استفاده از تقویم قیمتی و سیستم اطلاع از تغییر قیمت در سفر آسون، می‌توانید به موقع از قیمت
+                  ارزانترین
+                  بلیط هواپیما خارجی و داخلی مقصد مورد نظرتان مطلع شده و خرید نمایید</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mt-2">
+            <h2 class="accordion-header">
+              <button class=" accordion-button  collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                چطور بلیط هواپیما ارزان بخرم؟
+              </button>
+            </h2>
+            <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <p>با استفاده از تقویم قیمتی و سیستم اطلاع از تغییر قیمت در سفر آسون، می‌توانید به موقع از قیمت
+                  ارزانترین
+                  بلیط هواپیما خارجی و داخلی مقصد مورد نظرتان مطلع شده و خرید نمایید</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mt-2">
+            <h2 class="accordion-header">
+              <button class=" accordion-button  collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                چطور بلیط هواپیما ارزان بخرم؟
+              </button>
+            </h2>
+            <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <p>با استفاده از تقویم قیمتی و سیستم اطلاع از تغییر قیمت در سفر آسون، می‌توانید به موقع از قیمت
+                  ارزانترین
+                  بلیط هواپیما خارجی و داخلی مقصد مورد نظرتان مطلع شده و خرید نمایید</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mt-2">
+            <h2 class="accordion-header">
+              <button class=" accordion-button  collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                چطور بلیط هواپیما ارزان بخرم؟
+              </button>
+            </h2>
+            <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <p>با استفاده از تقویم قیمتی و سیستم اطلاع از تغییر قیمت در سفر آسون، می‌توانید به موقع از قیمت
+                  ارزانترین
+                  بلیط هواپیما خارجی و داخلی مقصد مورد نظرتان مطلع شده و خرید نمایید</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+    <!-- start footer -->
+    <footer class="mt-7 pt-5 pb-4">
+      <div class="container">
+        <div class="row d-flex footer-row">
+          <div class="col-6 col-xl-2 ">
+            <ul class="p-0 text-center text-xl-end">
+              <h5 class="mb-4">سفرهای مامان و بابا </h5>
+              <li class="list-items"><a href="#">درباره ما</a></li>
+              <li class="list-items"><a href="#">تماس با ما</a></li>
+              <li class="list-items"><a href="#">قوانین و مقررات</a></li>
+              <li class="list-items"><a href="#">مجله گردشگری</a></li>
+              <li class="list-items"><a href="#"> پیگیری خرید</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-xl-2 ">
+            <ul class="p-0 text-center text-xl-end">
+              <h5 class="mb-4">تور خارجی </h5>
+              <li class="list-items"><a href="#"> تور ترکیه</a></li>
+              <li class="list-items"><a href="#">تور گرجستان </a></li>
+              <li class="list-items"><a href="#"> تور وان</a></li>
+              <li class="list-items"><a href="#"> تور روسیه</a></li>
+              <li class="list-items"><a href="#">تور دبی </a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-xl-2 mt-4 mt-xl-0">
+            <ul class="p-0 text-center text-xl-end">
+              <h5 class="mb-4"> تور داخلی </h5>
+              <li class="list-items"><a href="#"> تور کیش</a></li>
+              <li class="list-items"><a href="#"> تور مشهد</a></li>
+              <li class="list-items"><a href="#">تور شیراز </a></li>
+              <li class="list-items"><a href="#">تور قشم </a></li>
+              <li class="list-items"><a href="#">تور هرمز </a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-xl-2 mt-4 mt-xl-0 ">
+            <ul class="p-0 text-center text-xl-end">
+              <h5 class="mb-4">لینک های مفید</h5>
+              <li class="list-items"><a href="#">لینک های مفید </a></li>
+              <li class="list-items"><a href="#">لینک های مفید </a></li>
+              <li class="list-items"><a href="#">لینک های مفید </a></li>
+              <li class="list-items"><a href="#">لینک های مفید </a></li>
+              <li class="list-items"><a href="#">لینک های مفید </a></li>
+            </ul>
+          </div>
+          <div class="company-info col-xl-4 mt-4 mt-xl-0 bg-white d-flex flex-column rounded-4 align-items-center">
+            <img src="../assets/images/Logo Footer1.jpg" alt="لوگوی سفر های مامان و بابا"
+              class="img-fluid align-self-center mb-2 mt-2" width="170px">
+            <ul class="p-0">
+              <li class="mt-2 list-items"><span>تلفن :</span>123456789-021</li>
+              <li class="mt-2 list-items"><span>ایمیل :</span>info@safarhaye.com</li>
+              <li class="mt-2 list-items"><span>نشانی :</span>تهران ، متن نمونه برای وارد کردن آدرس</li>
+              <ul class="mt-2 sochial-media  d-flex flex-row align-items-center justify-content-center p-2">
+                <li class="d-flex align-items-center justify-content-center">
+                  <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="18.284" height="26.294"
+                    viewBox="0 0 26.284 26.294">
+                    <g id="brand" transform="translate(0 0)">
+                      <g id="icon--black">
+                        <path id="Path_44" data-name="Path 44"
+                          d="M16.685.771,14.266.141A4.07,4.07,0,0,0,9.284,3.029l-.6,2.281A12.464,12.464,0,0,1,16.685.771Z"
+                          transform="translate(-5.342 -0.003)" fill="##484848" />
+                        <path id="Path_45" data-name="Path 45"
+                          d="M.733,39.33.14,41.565a4.07,4.07,0,0,0,2.889,4.978l2.308.615a12.468,12.468,0,0,1-4.6-7.828Z"
+                          transform="translate(-0.003 -24.202)" fill="##484848" />
+                        <path id="Path_46" data-name="Path 46"
+                          d="M56.319,9.149,53.73,8.46a12.464,12.464,0,0,1,4.77,8.348l.712-2.693a4.07,4.07,0,0,0-2.893-4.966Z"
+                          transform="translate(-33.062 -5.207)" fill="##484848" />
+                        <path id="Path_47" data-name="Path 47"
+                          d="M38.69,58.5l2.481.669a4.07,4.07,0,0,0,4.978-2.889l.7-2.631A12.471,12.471,0,0,1,38.69,58.5Z"
+                          transform="translate(-23.808 -33.013)" fill="##484848" />
+                        <path id="Path_48" data-name="Path 48"
+                          d="M15.932,4.54a11.4,11.4,0,1,0,11.394,11.4A11.4,11.4,0,0,0,15.932,4.54ZM9.477,10.226a3.254,3.254,0,1,1,2.581,3.812,3.254,3.254,0,0,1-2.581-3.812Zm4.735,9.848a3.254,3.254,0,1,1-.5-2.442A3.254,3.254,0,0,1,14.212,20.073Zm1.381-2.635a1.446,1.446,0,1,1,1.088-.224,1.446,1.446,0,0,1-1.088.224Zm6.79,4.2A3.254,3.254,0,1,1,19.8,17.831,3.254,3.254,0,0,1,22.383,21.643Zm-2.154-6.032a3.248,3.248,0,1,1,2.442-.5,3.254,3.254,0,0,1-2.442.5Z"
+                          transform="translate(-2.789 -2.795)" />
+                      </g>
+                    </g>
+                  </svg>
+                </li>
+                <li class="d-flex align-items-center justify-content-center"><a href="#" class=""><i
+                      class="fa-brands fa-twitter  fa-xl"></i></a></li>
+                <li class="d-flex align-items-center justify-content-center"><a href="#" class=""><i
+                      class="fa-brands fa-telegram fa-xl"></i></a></li>
+                <li class="d-flex align-items-center justify-content-center"><a href="#" class=""><i
+                      class="fa-brands fa-linkedin-in fa-xl"></i></a></li>
+                <li class="d-flex align-items-center justify-content-center"><a href="#" class=""><i
+                      class="fa-brands fa-instagram fa-xl"></i></a></li>
+              </ul>
+              <li class="text-center mt-4 mb-2 designer-info fs-14"><span>Code By : </span> Code-n</li>
+            </ul>
+          </div>
+          <div class="brands-logo col-xl-7">
+            <ul class="d-flex p-0 justify-content-center flex-wrap gap-2">
+              <li class="d-flex justify-content-center align-items-center"><a href="#"><img class="img-fluid"
+                    src="../assets/images/aira-682b7c43.jpg" alt="لوگو دامنه نرخ بلیت"> </a> </li>
+              <li class="d-flex justify-content-center align-items-center"><a href="#"><img class="img-fluid"
+                    src="../assets/images/enamad.jpg" alt="لوگوی سازمان اعتماد"> </a></li>
+              <li class="d-flex justify-content-center align-items-center"><a href="#"><img class="img-fluid"
+                    src="../assets/images/ecunion-8b792f56.jpg" alt="لوگوی اتحادیه کسب و کار"> </a>
+              </li>
+              <li class="d-flex justify-content-center align-items-center"><a href="#"><img class="img-fluid"
+                    src="../assets/images/hoghoogh_1__e49e2b4dbcc13506ffa008be7271ce92.jpg" alt="لوگوی حقوق مسافر"> </a>
+              </li>
+              <li class="d-flex justify-content-center align-items-center"><a href="#"><img class="img-fluid"
+                    src="../assets/images/samandehi.jpg" alt="لوگوی اعتماد"> </a> </li>
+              <li class="d-flex justify-content-center align-items-center"><a href="#"><img class="img-fluid"
+                    src="../assets/images/alibaba-footer.jpg" alt="لوگوی هواپیما"> </a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end of footer -->
+    
+
+  <!--Swipper Slider  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.0.4/swiper-bundle.min.js"
+    integrity="sha512-0N/5ZOjfsh3niel+5dRD40HQkFOWaxoVzqMVAHnmAO2DC3nY/TFB7OYTaPRAFJ571IRS/XRsXGb2XyiFLFeu1g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!--bootstrap  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+
+
+  <!-- jquery searchbox -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script type="text/javascript">
+      $(document).ready(function(){
+        $("#jq-toggle-btn").click(function(){
+          $(".jq-class").toggleClass('d-none');
+      });
+      $("#jq-to-toggle-1").click(function(){
+        $(".jq-class").toggleClass('d-none');
+        // $("#jq-to-toggle-1").toggleClass('d-none');
+      });
+    });
+  </script>
+  <!-- Custom js -->
+  <script>
+    var x, i, j, l, ll, selElmnt, a, b, c;
+      /*look for any elements with the class "custom-select":*/
+      x = document.getElementsByClassName("custom-select");
+      l = x.length;
+      for (i = 0; i < l; i++) {
+        selElmnt = x[i].getElementsByTagName("select")[0];
+        ll = selElmnt.length;
+        /*for each element, create a new DIV that will act as the selected item:*/
+        a = document.createElement("DIV");
+        a.setAttribute("class", "select-selected");
+        a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+        x[i].appendChild(a);
+        /*for each element, create a new DIV that will contain the option list:*/
+        b = document.createElement("DIV");
+        b.setAttribute("class", "select-items select-hide");
+        for (j = 1; j < ll; j++) {
+          /*for each option in the original select element,
+          create a new DIV that will act as an option item:*/
+          c = document.createElement("DIV");
+          c.innerHTML = selElmnt.options[j].innerHTML;
+          c.addEventListener("click", function (e) {
+            /*when an item is clicked, update the original select box,
+            and the selected item:*/
+            var y, i, k, s, h, sl, yl;
+            s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+            sl = s.length;
+            h = this.parentNode.previousSibling;
+            for (i = 0; i < sl; i++) {
+              if (s.options[i].innerHTML == this.innerHTML) {
+                s.selectedIndex = i;
+                h.innerHTML = this.innerHTML;
+                y = this.parentNode.getElementsByClassName("same-as-selected");
+                yl = y.length;
+                for (k = 0; k < yl; k++) {
+                  y[k].removeAttribute("class");
+                }
+                this.setAttribute("class", "same-as-selected");
+                break;
+              }
+            }
+            h.click();
+          });
+          b.appendChild(c);
+        }
+        x[i].appendChild(b);
+        a.addEventListener("click", function (e) {
+          /*when the select box is clicked, close any other select boxes,
+          and open/close the current select box:*/
+          e.stopPropagation();
+          closeAllSelect(this);
+          this.nextSibling.classList.toggle("select-hide");
+          this.classList.toggle("select-arrow-active");
+        });
+      }
+      function closeAllSelect(elmnt) {
+        /*a function that will close all select boxes in the document,
+        except the current select box:*/
+        var x, y, i, xl, yl, arrNo = [];
+        x = document.getElementsByClassName("select-items");
+        y = document.getElementsByClassName("select-selected");
+        xl = x.length;
+        yl = y.length;
+        for (i = 0; i < yl; i++) {
+          if (elmnt == y[i]) {
+            arrNo.push(i)
+          } else {
+            y[i].classList.remove("select-arrow-active");
+          }
+        }
+        for (i = 0; i < xl; i++) {
+          if (arrNo.indexOf(i)) {
+            x[i].classList.add("select-hide");
+          }
+        }
+      }
+      /*if the user clicks anywhere outside the select box,
+      then close all select boxes:*/
+      document.addEventListener("click", closeAllSelect);
+    const addSwipers = () => {
+      const swiper = new Swiper('.swiperTours', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
+        autoplay: {
+          delay: 2000,
+        },
+        navigation: {
+          nextEl: '.nextTour',
+          prevEl: '.prevTour',
+        },
+        breakpoints: {
+          1300: {
+            slidesPerView: 4,
+            spaceBetween: 5
+          },
+          1140: {
+            slidesPerView: 3.5,
+            spaceBetween: 0
+          },
+          1006: {
+            slidesPerView: 3,
+            spaceBetween: 0
+          },
+          920: {
+            slidesPerView: 2.5,
+            spaceBetween: 20
+          },
+          630: {
+            slidesPerView: 2,
+            spaceBetween: 20
+          },
+          430: {
+            slidesPerView: 1,
+            spaceBetween: 20
+          },
+          50: {
+            slidesPerView: 1,
+            spaceBetween: 0
+          },
+        }
+      });
+
+      const swiper_suggested = new Swiper('.swiper-suggested', {
+        // Optional parameters
+        direction: 'horizontal',
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true
+        },
+        autoplay: {
+          delay: 2000,
+        },
+        breakpoints: {
+          1000: {
+            slidesPerView: 4,
+            spaceBetween: 15
+          },
+          700: {
+            slidesPerView: 3,
+            spaceBetween: 15
+          },
+          400: {
+            slidesPerView: 2,
+            spaceBetween: 15
+          },
+          50: {
+            slidesPerView: 1,
+            spaceBetween: 15
+          },
+        }
+      });
+
+      const backgroundSwiper = new Swiper('.backgroundSwiper', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
+        autoplay: {
+          delay: 3000,
+        },
+        navigation: {
+          nextEl: '.nextBg',
+          prevEl: '.prevBg',
+        }
+      });
+    }
+
+    const events = () => {
+      const searchBox_headers = document.querySelectorAll('.search-box__top .travelType');
+      searchBox_headers.forEach(header => {
+        header.addEventListener('click', (e) => {
+          const headerOn = document.querySelector('.head_clicked');
+          headerOn.classList.remove('head_clicked');
+          header.classList.add('head_clicked')
+        })
+      })
+      const accordionButtons = document.querySelectorAll('.accordion-button');
+      const accordionHeaders = document.querySelectorAll('.accordion-header');
+      accordionButtons.forEach((button, index) => {
+        button.addEventListener('click', function () {
+          accordionHeaders[index].classList.toggle('active');
+        });
+      });
+
+      const plus_btns = document.querySelectorAll('.passengers-plus-btn');
+      plus_btns.forEach(plus => {
+        plus.addEventListener('click', () => {
+          const its_input = plus.parentElement.children[1].children[0];
+          its_input.value = Number(its_input.value) + 1;
+        })
+      })
+      const minus_btns = document.querySelectorAll('.passengers-subtraction-btn');
+      minus_btns.forEach(minus => {
+        minus.addEventListener('click', () => {
+          const its_input = minus.parentElement.children[1].children[0];
+          its_input.value = Number(its_input.value) ? Number(its_input.value) - 1 : '0';
+        })
+      })
+    }
+    addSwipers()
+    events()
+  </script>
+
+  <script>
+    // HEADER events
+    const Header_events = () => {
+      const icontainers = document.querySelectorAll('.icontainer');
+      icontainers.forEach(container => {
+          container.addEventListener('click' , (e)=>{
+              const activeShowHidden = document.querySelector('.showHidden-a');
+              if (activeShowHidden) activeShowHidden.classList.remove('showHidden-a')
+              container.classList.add('showHidden-a');
+              e.stopPropagation();
+          });
+      });
+    
+      document.addEventListener('click',(e)=>{
+          const ihides = document.querySelectorAll('.showHidden-a');
+          ihides.forEach(container => {
+              container.classList.remove('showHidden-a');
+          });
+      });
+    };
+    
+    Header_events()
+  </script>
+  <!--faq schema  -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "چطور بلیط هواپیما ارزان بخرم ؟",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "با استفاده از تقویم قیمتی و سیستم اطلاع از تغییر قیمت در سفر آسون، می‌توانید به موقع از قیمت ارزانترین بلیط هواپیما خارجی و داخلی مقصد مورد نظرتان مطلع شده و خرید نمایید"
+        }
+      },{
+        "@type": "Question",
+        "name": "چطور بلیط هواپیما ارزان بخرم ؟",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "با استفاده از تقویم قیمتی و سیستم اطلاع از تغییر قیمت در سفر آسون، می‌توانید به موقع از قیمت ارزانترین بلیط هواپیما خارجی و داخلی مقصد مورد نظرتان مطلع شده و خرید نمایید"
+        }
+      },{
+        "@type": "Question",
+        "name": "چطور بلیط هواپیما ارزان بخرم ؟",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "با استفاده از تقویم قیمتی و سیستم اطلاع از تغییر قیمت در سفر آسون، می‌توانید به موقع از قیمت ارزانترین بلیط هواپیما خارجی و داخلی مقصد مورد نظرتان مطلع شده و خرید نمایید"
+        }
+      },{
+        "@type": "Question",
+        "name": "چطور بلیط هواپیما ارزان بخرم ؟",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "با استفاده از تقویم قیمتی و سیستم اطلاع از تغییر قیمت در سفر آسون، می‌توانید به موقع از قیمت ارزانترین بلیط هواپیما خارجی و داخلی مقصد مورد نظرتان مطلع شده و خرید نمایید"
+        }
+      }]
+    }
+    </script>
+</body>
+
+</html>

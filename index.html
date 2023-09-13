@@ -3,84 +3,52 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travelling Website</title>        
-
-    
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Links to Pages</title>
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
-    <!-- swiper.js -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-
-    <link rel="stylesheet" href="./assets/style.css">
-    <link rel="stylesheet" href="./assets/stylesheet.css">
 </head>
 
-<body>
-  
-    <main>
+<body class="bg-body-secondary">
 
-    </main>
+    <section class="container bg-dark-subtle py-3 pb-0 rounded-3">
+        <a class="text-decoration-none text-white d-inline-block w-100 shadow-sm text-center p-2 bg-secondary rounded-2 mb-3"
+            target="_blank" href="./homePage/HomePage.html">Home page</a>
+        <a class="text-decoration-none text-white d-inline-block w-100 shadow-sm text-center p-2 bg-secondary rounded-2 mb-3"
+            target="_blank" href="./tourHome/tourHome.html">Tour Home</a>
+        <a class="text-decoration-none text-white d-inline-block w-100 shadow-sm text-center p-2 bg-secondary rounded-2 mb-3"
+            target="_blank" href="./tourCategory/tourCategory.html">Tour Category</a>
+        <a class="text-decoration-none text-white d-inline-block w-100 shadow-sm text-center p-2 bg-secondary rounded-2 mb-3"
+            target="_blank" href="./TourDetails/tourDetails.html">Tour details</a>
+        <a class="text-decoration-none text-white d-inline-block w-100 shadow-sm text-center p-2 bg-secondary rounded-2 mb-3"
+            target="_blank" href="./visaHome/visaHome.html">Visa Home</a>
+        <a class="text-decoration-none text-white d-inline-block w-100 shadow-sm text-center p-2 bg-secondary rounded-2 mb-3"
+            target="_blank" href="./visaPost/visaPost.html">Visa Post</a>
+        <a class="text-decoration-none text-white d-inline-block w-100 shadow-sm text-center p-2 bg-secondary rounded-2 mb-3"
+            target="_blank" href="./visaDetails/visaDetails.html">Visa Details</a>
+        <a class="text-decoration-none text-white d-inline-block w-100 shadow-sm text-center p-2 bg-secondary rounded-2 mb-3"
+            target="_blank" href="./HotelHome/Hotel-Home.html">Hotel Home</a>
+        <a class="text-decoration-none text-white d-inline-block w-100 shadow-sm text-center p-2 bg-secondary rounded-2 mb-3"
+            target="_blank" href="./hotelList/Hotel-List.html">Hotel List</a>
+        <a class="text-decoration-none text-white d-inline-block w-100 shadow-sm text-center p-2 bg-secondary rounded-2 mb-3"
+            target="_blank" href="./HotelDetails/Hotel-Details.html">Hotel Details</a>
+        <a class="text-decoration-none text-white d-inline-block w-100 shadow-sm text-center p-2 bg-secondary rounded-2 mb-3"
+            target="_blank" href="./aboutUs/aboutUs.html">About Us</a>
+        <a class="text-decoration-none text-white d-inline-block w-100 shadow-sm text-center p-2 bg-secondary rounded-2 mb-3"
+            target="_blank" href="./ContactUs/ContactUs.html">Contect Us</a>
+        <a class="text-decoration-none text-white d-inline-block w-100 shadow-sm text-center p-2 bg-secondary rounded-2 mb-3"
+            target="_blank" href="./blogPost/blogPost.html">Blog Post</a>
+        <a class="text-decoration-none text-white d-inline-block w-100 shadow-sm text-center p-2 bg-secondary rounded-2 mb-3"
+            target="_blank" href="./HomeBlog/BlogHome.html">Blog Home</a>
+    </section>
 
 
-
-
-    <!--Swipper Slider  -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.0.4/swiper-bundle.min.js"
-        integrity="sha512-0N/5ZOjfsh3niel+5dRD40HQkFOWaxoVzqMVAHnmAO2DC3nY/TFB7OYTaPRAFJ571IRS/XRsXGb2XyiFLFeu1g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-    <!--bootstrap  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
 
-    <!-- Custom js -->
-    <script src="./assets/js/main.js" type="module"></script>
-
-    <!--faq schema  -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [{
-        "@type": "Question",
-        "name": "چطور بلیط هواپیما ارزان بخرم ؟",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "با استفاده از تقویم قیمتی و سیستم اطلاع از تغییر قیمت در سفر آسون، می‌توانید به موقع از قیمت ارزانترین بلیط هواپیما خارجی و داخلی مقصد مورد نظرتان مطلع شده و خرید نمایید"
-        }
-      },{
-        "@type": "Question",
-        "name": "چطور بلیط هواپیما ارزان بخرم ؟",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "با استفاده از تقویم قیمتی و سیستم اطلاع از تغییر قیمت در سفر آسون، می‌توانید به موقع از قیمت ارزانترین بلیط هواپیما خارجی و داخلی مقصد مورد نظرتان مطلع شده و خرید نمایید"
-        }
-      },{
-        "@type": "Question",
-        "name": "چطور بلیط هواپیما ارزان بخرم ؟",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "با استفاده از تقویم قیمتی و سیستم اطلاع از تغییر قیمت در سفر آسون، می‌توانید به موقع از قیمت ارزانترین بلیط هواپیما خارجی و داخلی مقصد مورد نظرتان مطلع شده و خرید نمایید"
-        }
-      },{
-        "@type": "Question",
-        "name": "چطور بلیط هواپیما ارزان بخرم ؟",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "با استفاده از تقویم قیمتی و سیستم اطلاع از تغییر قیمت در سفر آسون، می‌توانید به موقع از قیمت ارزانترین بلیط هواپیما خارجی و داخلی مقصد مورد نظرتان مطلع شده و خرید نمایید"
-        }
-      }]
-    }
-    </script>
 </body>
 
 </html>

@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Category</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.rtl.min.css"
+        integrity="sha384-PRrgQVJ8NNHGieOA1grGdCTIt4h21CzJs6SnWH4YMQ6G5F5+IEzOHz67L4SQaF0o" crossorigin="anonymous">
+
+    <!-- main css -->
+    <link rel="stylesheet" href="../assets/stylesheet.css">
+    <link rel="stylesheet" href="../assets/main.css">
+</head>
+
+<body id="tourCategoryPage">
+
+    <!-- header  -->
+    <nav class="navbar navbar-expand-lg bg-white position-fixed top-0 start-0 end-0 shadow-sm" style="z-index: 999;">
+        <div class="main-nav container">
+            <div class="hamburger-container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="../assets/images/Logo Header1.jpg" alt="LOGO" height="45px">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul
+                    class="navbar-nav p-0 me-auto  mb-2 mb-lg-0 position-relative align-items-center d-flex justify-content-center align-items-center">
+                    <li class="header-li nav-item ">
+                        <a class="nav-link active" aria-current="page" href="#">خانه</a>
+                    </li>
+                    <li class="dropdown header-li nav-item ms-lg-4  p-0">
+                        <a href="#"></a>
+                        <button class="btn btn-secondary dropdown-toggle border-0 " type="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            تور
+                        </button>
+                        <ul class="dropdown-menu container mt-4  border-0 rounded-4 p-lg-2">
+                            <li class="row">
+                                <ul class="col-6  col-lg-2">
+                                    <h6 class="dropdown-ul-tittle">تور خارجی</h6>
+                                    <li><a class="dropdown-item" href="#">تور ترکیه</a></li>
+                                    <li><a class="dropdown-item" href="#">تور امارات</a></li>
+                                    <li><a class="dropdown-item" href="#">تور گرجستان</a></li>
+                                    <li><a class="dropdown-item" href="#">تور مالدیو</a></li>
+                                    <li><a class="dropdown-item" href="#">تور روسیه</a></li>
+                                    <li><a class="dropdown-item" href="#">تور تایلند</a></li>
+                                </ul>
+                                <ul class="col-6  col-lg-2">
+                                    <h6 class="dropdown-ul-tittle">تور داخلی</h6>
+                                    <li><a class="dropdown-item" href="#">تور کیش</a></li>
+                                    <li><a class="dropdown-item" href="#">تور مشهد</a></li>
+                                    <li><a class="dropdown-item" href="#">تور قشم</a></li>
+                                    <li><a class="dropdown-item" href="#">تور شیراز</a></li>
+                                    <li><a class="dropdown-item" href="#">تور یزد</a></li>
+                                    <li><a class="dropdown-item" href="#">تور اصفهان</a></li>
+                                </ul>
+                                <ul class="col-6  col-lg-3 mt-4 mt-lg-0 ">
+                                    <h6 class="dropdown-ul-tittle">تور زمینی</h6>
+                                    <li><a class="dropdown-item" href="#">تور ترکیه زمینی</a></li>
+                                    <li><a class="dropdown-item" href="#">تور وان</a></li>
+                                    <li><a class="dropdown-item" href="#">تور آنکارا</a></li>
+                                    <li><a class="dropdown-item" href="#">تور ارمنستان</a></li>
+                                    <li><a class="dropdown-item" href="#">تور دور ترکیه</a></li>
+                                    <li><a class="dropdown-item" href="#">تور آذربایجان</a></li>
+                                </ul>
+                                <ul
+                                    class="col-6  col-lg-5 d-flex flex-column justify-content-between align-items-center mt-4 mt-lg-0 ">
+                                    <li><a class="dropdown-item position-relative" href="#">
+                                            <div
+                                                class="custom-overly d-flex justify-content-center justify-content-center align-items-center">
+                                                تور خارجی</div>
+                                            <img src="../assets/images/عکس‌های گروه تورها/1.webp" alt="تور خارجی"
+                                                class="img-fluid dropdown-item-img ">
+                                        </a></li>
+                                    <li><a class="dropdown-item position-relative" href="#">
+                                            <div
+                                                class="custom-overly d-flex justify-content-center justify-content-center align-items-center">
+                                                تور داخلی</div>
+                                            <img src="../assets/images/عکس‌های گروه تورها/2.webp" alt="تور داخلی"
+                                                class="img-fluid dropdown-item-img ">
+                                        </a></li>
+                                    <li><a class="dropdown-item position-relative" href="#">
+                                            <div
+                                                class="custom-overly d-flex justify-content-center justify-content-center align-items-center">
+                                                تور زمینی</div>
+                                            <img src="../assets/images/عکس‌های گروه تورها/dino-reichmuth-A5rCN8626Ck-unsplash.png"
+                                                alt="تور زمینی" class="img-fluid dropdown-item-img ">
+                                        </a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li class="header-li nav-item ms-lg-4 ">
+                        <a href="#" class="nav-link">
+                            ویزا
+                        </a>
+                    </li>
+                    <li class="header-li nav-item ms-lg-4 ">
+                        <a href="#" class="nav-link">
+                            مجله گردشگری
+                        </a>
+                    </li>
+                    <li class="header-li nav-item ms-lg-4">
+                        <a href="#" class="nav-link">
+                            درباره ما
+                        </a>
+                    </li>
+                    <li class="header-li nav-item ms-lg-4">
+                        <a href="#" class="nav-link">
+                            تماس با ما
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="nav-icons d-flex">
+                <span class="icontainer">
+                    <i class="fa-solid fa-user-circle"></i>
+                    <span class="iconHide"><a id="sign-in" href="#">ورود</a> / <a id="sign-up" href="#">ثبت
+                            نام</a></span>
+                </span>
+                <span class="icontainer">
+                    <i class="fa-solid fa-headset"></i>
+                    <span class="iconHide"><a href="tel:02112345678">021-12345678</a></span>
+                </span>
+            </div>
+        </div>
+    </nav>
+    <!-- end of header  -->
+
+    <section class="page-about container-lg  w-100 d-flex flex-column align-items-center py-2 mb-3">
+        <div class="image-container-lg w-90 ">
+            <img class="worldmap-img w-100" src="../assets/images/downloaded/worldmap.png" alt="worldmap">
+        </div>
+        <div class=" w-100">
+            <div class="breadcrumbs w-100 d-flex flex-column align-items-center justify-content-center py-2 rounded-3">
+                <div style="--bs-breadcrumb-divider: '>>';" aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a class="text-white" href="#">سفرهای مامان و بابا</a></li>
+                        <li class="breadcrumb-item active text-white" aria-current="page">استانبول</li>
+                    </ol>
+                </div>
+                <h1 class="page-name h5 text-white">استانبول</h1>
+            </div>
+        </div>
+    </section>
+
+    <section
+        class="tours container-lg  d-flex flex-sm-row-reverse justify-content-sm-around p-0  align-items-sm-start flex-column-reverse align-items-center">
+        <div class="tours__main w-75 p-2 d-flex flex-column align-items-center flex-shrink-1">
+            <a href="#" class="tour-element d-flex w-100 flex-column flex-md-row  mb-4 shadow-sm rounded-4 bg-white">
+                <div class="tour__image-container  p-2 d-flex justify-content-center">
+                    <img class="tour-image rounded-3 h-100 "
+                        src="../assets/images/عکس‌های تورهای پرطرفدار/Istanbul1.jpg" alt="Tour-image">
+                </div>
+                <div class="tour__info d-flex flex-column justify-content-around align-items-start  w-75 flex-shrink-1 text-end p-2">
+                    <h5 class="tour__name">تور استانبول - پرواز ماهان</h5>
+                    <span>مدت تور :‌ <span class="tour__long">از ۳ شب و ۴ روز</span></span>
+                    <span>تاریخ اعتبار :‌ <span class="tour__time">۱ اردیبشهت الی ۳۰ خرداد</span></span>
+                    <span>نوع اقامتگاه :‌ <span class="tour__rest">هتل</span></span>
+                    <span>قیمت تور :‌ <span class="tour__price">از 7.000.000 تومان</span></span>
+                </div>
+                <div class="d-flex flex-row flex-md-column-reverse justify-content-between p-2 btn-container">
+                    <button type="button" class="btn rounded-3 btn-primary">مشاهده تور</button>
+                    <span class="tour__type-badge badge bg-secondary px-4">هوایی</span>
+                </div>
+            </a>
+            <a href="#" class="tour-element d-flex w-100 flex-column flex-md-row mb-4 shadow-sm rounded-4 bg-white">
+                <div class="tour__image-container  p-2 d-flex justify-content-center">
+                    <img class="tour-image rounded-3 h-100 " src="../assets/images/عکس‌های تورهای پرطرفدار/Van1.jpg"
+                        alt="Tour-image">
+                </div>
+                <div class="tour__info d-flex flex-column justify-content-around align-items-start  w-75 flex-shrink-1 text-end p-2">
+                    <h5 class="tour__name">تور استانبول - پرواز قشم ایر</h5>
+                    <span>مدت تور :‌ <span class="tour__long">از ۳ شب و ۴ روز</span></span>
+                    <span>تاریخ اعتبار :‌ <span class="tour__time">۱ اردیبشهت الی ۳۰ خرداد</span></span>
+                    <span>نوع اقامتگاه :‌ <span class="tour__rest">هتل</span></span>
+                    <span>قیمت تور :‌ <span class="tour__price">از 7.000.000 تومان</span></span>
+                </div>
+                <div class="d-flex flex-row flex-md-column-reverse justify-content-between p-2 btn-container">
+                    <button type="button" class="btn rounded-3 btn-primary">مشاهده تور</button>
+                    <span class="tour__type-badge badge bg-secondary px-4">زمینی</span>
+                </div>
+            </a>
+            <a href="#" class="tour-element d-flex w-100 flex-column flex-md-row mb-4 shadow-sm rounded-4 bg-white">
+                <div class="tour__image-container  p-2 d-flex justify-content-center">
+                    <img class="tour-image rounded-3 h-100 "
+                        src="../assets/images/downloaded/urn aaid sc US 8d7c6fbf-a17b-47ff-a2df-239b39b6bb33;revision=2.webp"
+                        alt="Tour-image">
+                </div>
+                <div class="tour__info d-flex flex-column justify-content-around align-items-start  w-75 flex-shrink-1 text-end p-2">
+                    <h5 class="tour__name">تور استانبول - ویژه عید فطر</h5>
+                    <span>مدت تور :‌ <span class="tour__long">از ۳ شب و ۴ روز</span></span>
+                    <span>تاریخ اعتبار :‌ <span class="tour__time">۱ اردیبشهت الی ۳۰ خرداد</span></span>
+                    <span>نوع اقامتگاه :‌ <span class="tour__rest">هتل</span></span>
+                    <span>قیمت تور :‌ <span class="tour__price">از 7.000.000 تومان</span></span>
+                </div>
+                <div class="d-flex flex-row flex-md-column-reverse justify-content-between p-2 btn-container">
+                    <button type="button" class="btn rounded-3 btn-primary">مشاهده تور</button>
+                    <span class="tour__type-badge badge bg-secondary px-4">هوایی</span>
+                </div>
+            </a>
+            <a href="#" class="tour-element d-flex w-100 flex-column flex-md-row mb-4 shadow-sm rounded-4 bg-white">
+                <div class="tour__image-container  p-2 d-flex justify-content-center">
+                    <img class="tour-image rounded-3 h-100 "
+                        src="../assets/images/downloaded/urn aaid sc US 8d7c6fbf-a17b-47ff-a2df-239b39b6bb33;revision=1.webp"
+                        alt="Tour-image">
+                </div>
+                <div class="tour__info d-flex flex-column justify-content-around align-items-start  w-75 flex-shrink-1 text-end p-2">
+                    <h5 class="tour__name">تور استانبول - پرواز معراج</h5>
+                    <span>مدت تور :‌ <span class="tour__long">از ۳ شب و ۴ روز</span></span>
+                    <span>تاریخ اعتبار :‌ <span class="tour__time">۱ اردیبشهت الی ۳۰ خرداد</span></span>
+                    <span>نوع اقامتگاه :‌ <span class="tour__rest">هتل</span></span>
+                    <span>قیمت تور :‌ <span class="tour__price">از 7.000.000 تومان</span></span>
+                </div>
+                <div class="d-flex flex-row flex-md-column-reverse justify-content-between p-2 btn-container">
+                    <button type="button" class="btn rounded-3 btn-primary">مشاهده تور</button>
+                    <span class="tour__type-badge badge bg-secondary px-4">هوایی</span>
+                </div>
+            </a>
+            <a href="#" class="tour-element d-flex w-100 flex-column flex-md-row mb-4 shadow-sm rounded-4 bg-white">
+                <div class="tour__image-container  p-2 d-flex justify-content-center">
+                    <img class="tour-image rounded-3 h-100 "
+                        src="../assets/images/downloaded/urn aaid sc US 8d7c6fbf-a17b-47ff-a2df-239b39b6bb33;revision=1.webp"
+                        alt="Tour-image">
+                </div>
+                <div class="tour__info d-flex flex-column justify-content-around align-items-start  w-75 flex-shrink-1 text-end p-2">
+                    <h5 class="tour__name">تور استانبول ترکیبی (آنتالیا)</h5>
+                    <span>مدت تور :‌ <span class="tour__long">از ۳ شب و ۴ روز</span></span>
+                    <span>تاریخ اعتبار :‌ <span class="tour__time">۱ اردیبشهت الی ۳۰ خرداد</span></span>
+                    <span>نوع اقامتگاه :‌ <span class="tour__rest">هتل</span></span>
+                    <span>قیمت تور :‌ <span class="tour__price">از 7.000.000 تومان</span></span>
+                </div>
+                <div class="d-flex flex-row flex-md-column-reverse justify-content-between p-2 btn-container">
+                    <button type="button" class="btn rounded-3 btn-primary">مشاهده تور</button>
+                    <span class="tour__type-badge badge bg-secondary px-4">هوایی</span>
+                </div>
+            </a>
+            <a class="btn btn-primary mt-5" href="#" role="button">بیشتر</a>
+        </div>
+        <aside class="tours__sidebar p-2 w-25 flex-shrink-0">
+            <div class="sidebar__search w-100 shadow-sm position-relative rounded-4 mb-3">
+                <input type="text" class="w-100 outline-none border-0 py-3 px-3 rounded-4" id="search-input"
+                    placeholder="جست و جوی نام تور">
+                <i class="fa-solid fa-magnifying-glass position-absolute top-50 left-50 translate-middle-y rounded-3 text-white"
+                    id="search-btn"></i>
+            </div>
+            <div class="sidebar__sort w-100 shadow-sm px-3 bg-white rounded-4 overflow-hidden">
+                <div class="sort-part py-3 d-flex flex-column border-bottom">
+                    <span class="h5"><i class="fa-solid fa-arrow-down-short-wide"></i> مرتب سازی بر اساس</span>
+                    <div>
+                        <input type="checkbox" name="sortby" id="alphabet" value="alphabet">
+                        <label class="h6 ms-1" for="alphabet">حروف الفباء</label>
+                    </div>
+                </div>
+                <div class="sort-part py-3 d-flex flex-column border-bottom">
+                    <span class="h5"><i class="fa-solid fa-earth-europe"></i> نوع تور</span>
+                    <div>
+                        <input type="checkbox" name="tour-type" id="dakheli" value="dakheli">
+                        <label class="h6 ms-1" for="dakheli">داخلی</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="tour-type" id="khareji" value="khareji">
+                        <label class="h6 ms-1" for="khareji">خارجی</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="tour-type" id="tabiat-gardi" value="tabiat-gardi">
+                        <label class="h6 ms-1" for="tabiat-gardi">طبیعت گردی</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="tour-type" id="hame-rooze" value="hame-rooze">
+                        <label class="h6 ms-1" for="hame-rooze">همه روزه</label>
+                    </div>
+                </div>
+                <div class="sort-part py-3 d-flex flex-column border-bottom">
+                    <span class="h5"><i class="fa-solid fa-location-dot"></i> مبدا</span>
+                    <div>
+                        <input type="checkbox" name="tour-origin" id="istanbul-org" value="istanbul">
+                        <label class="h6 ms-1" for="istanbul-org">استانبول</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="tour-origin" id="antalya-org" value="antalya">
+                        <label class="h6 ms-1" for="antalya-org">آنتالیا</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="tour-origin" id="teblisi-org" value="teblisi">
+                        <label class="h6 ms-1" for="teblisi-org">تفلیس</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="tour-origin" id="dubai-org" value="dubai">
+                        <label class="h6 ms-1" for="dubai-org">دبی</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="tour-origin" id="bodrum-org" value="bodrum">
+                        <label class="h6 ms-1" for="bodrum-org">بدروم</label>
+                    </div>
+
+                    <a href="#" class="origin-more text-danger text-decoration-underline text-center mt-2">بیشتر</a>
+                </div>
+                <div class="sort-part py-3 d-flex flex-column border-bottom">
+                    <span class="h5"><i class="fa-solid fa-location-dot mt-2 mb-1"></i> مقصد</span>
+                    <div>
+                        <input type="checkbox" name="tour-destination" id="istanbul-des" value="istanbul">
+                        <label class="h6 ms-1" for="istanbul-des">استانبول</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="tour-destination" id="antalya-des" value="antalya">
+                        <label class="h6 ms-1" for="antalya-des">آنتالیا</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="tour-destination" id="teblisi-des" value="teblisi">
+                        <label class="h6 ms-1" for="teblisi-des">تفلیس</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="tour-destination" id="dubai-des" value="dubai">
+                        <label class="h6 ms-1" for="dubai-des">دبی</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="tour-destination" id="bodrum-des" value="bodrum">
+                        <label class="h6 ms-1" for="bodrum-des">بدروم</label>
+                    </div>
+
+                    <a href="#"
+                        class="destination-more text-danger text-decoration-underline text-center mt-2">بیشتر</a>
+                </div>
+            </div>
+            <div
+                class="sidebar__rel-locations d-flex flex-column position-relative h-25 rounded-4 overflow-hidden my-3 bg-white shadow-sm p-3">
+                <span class="position-relative text-start ms-4">شهر های مرتبط : </span>
+                <div class="d-flex flex-row flex-wrap gap-2 mt-4 mb-4 justify-content-around location-options">
+                    <a href="#" class="px-2 py-2 rounded-3 ms-1" href="#" id="antalya-opt">آنتالیا</a>
+                    <a href="#" class="px-2 py-2 rounded-3 ms-1" href="#" id="kusAdasi-opt">کوش آداسی</a>
+                    <a href="#" class="px-2 py-2 rounded-3 ms-1" href="#" id="marmaris-opt">مارماریس</a>
+                    <a href="#" class="px-2 py-2 rounded-3 ms-1" href="#" id="van-opt">وان</a>
+                    <a href="#" class="px-2 py-2 rounded-3 ms-1" href="#" id="bodrum-opt">بدروم</a>
+                    <a href="#" class="px-2 py-2 rounded-3 ms-1" href="#" id="alanya-opt">آلانیا</a>
+                    <a href="#" class="px-2 py-2 rounded-3 ms-1" href="#" id="ankara-opt">آنکارا</a>
+                    <a href="#" class="px-2 py-2 rounded-3 ms-1" href="#" id="trabzon-opt">ترابزون</a>
+
+                </div>
+            </div>
+            <div class="sidebar__social bg-white d-flex flex-column w-100 rounded-4 text-center py-5 shadow-sm">
+                <span class="text-secondary">سفرهای مامان و بابا</span>
+                <span class="h6">در شبکه های اجتماعی</span>
+                <div class="social-icons d-flex flex-row-reverse justify-content-center gap-2 mt-2">
+                    <a href="#"
+                        class="instagram d-flex justify-content-center align-items-center text-white rounded-3"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a href="#"
+                        class="telegram d-flex justify-content-center align-items-center text-white rounded-3"><i
+                            class="fa-brands fa-telegram"></i></a>
+                    <a href="#" class="aparat d-flex justify-content-center align-items-center text-white rounded-3">
+                        <img src="../assets/images/downloaded/aparat.png" alt="aparat" width="16px">
+                    </a>
+                </div>
+            </div>
+        </aside>
+    </section>
+
+    <!-- Description -->
+    <section class="description container-lg w-100  mt-4 d-flex flex-column align-items-center">
+        <div class="main-tittle  position-relative d-flex align-items-center justify-content-center flex-column">
+            <h3 class="position-relative"> &nbsp; توضیحات &nbsp;</h3>
+        </div>
+        <div class="description-row ">
+            <p class="description__context w-100 bg-white rounded-3 p-4 text-justify shadow-2">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و
+                متون بلکه
+                روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با
+                هدف
+                بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و
+                متخصصان
+                را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو
+                در زبان
+                فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ
+                به
+                پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و .جوابگوی سوالات پیوسته اهل دنیای موجود طراحی
+                اساسا
+                مورد استفاده قرار گیرد لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                گرافیک
+                است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد
+                نیاز و
+                کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده
+                شناخت
+                فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص
+                طراحان
+                خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در
+                ارائه
+                راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و .جوابگوی سوالات
+                پیوسته
+                اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                چاپ و
+                با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و
+                برای شرایط
+                فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و
+                سه درصد
+                گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان
+                رایانه
+                ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام
+                و دشواری
+                موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و
+                .جوابگوی
+                سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد لورم ایپسوم متن ساختگی با تولید سادگی
+                نامفهوم
+                از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که
+                لازم
+                است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                کتابهای زیادی
+                در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت
+                بیشتری را
+                برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان
+                امید
+                داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل
+                حروفچینی
+                دستاوردهای اصلی و .جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد
+            </p>
+        </div>
+
+    </section>
+    <!-- end of Description -->
+
+    <!-- start question and answer -->
+    <section class="question-answer container-lg mt-5">
+        <div class="row faq-row">
+            <div class="main-tittle  position-relative d-flex align-items-center justify-content-center flex-column">
+                <h3 class="position-relative"> &nbsp; پرسش و پاسخ &nbsp;</h3>
+            </div>
+            <!-- end of question and answer tittle -->
+
+            <div class="col-12 mt-4 p-0 ">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item accordion-1">
+                        <h2 class="accordion-header">
+                            <button class=" accordion-button  collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                شرایط کنسلی تورچیست ؟
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <span class="w-100"></span>
+                                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                    گرافیک است چاپگرها و متون بلکه روزنامه
+                                    و مجله در ستون و سطرآنچنان که لازم است</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item accordion-2 mt-2">
+                        <h2 class="accordion-header">
+                            <button class=" accordion-button  collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                شرایط کنسلی تورچیست ؟
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p>با استفاده از تقویم قیمتی و سیستم اطلاع از تغییر قیمت در سفر آسون، می‌توانید به موقع
+                                    از
+                                    قیمت ارزانترین بلیط هواپیما خارجی و داخلی مقصد مورد نظرتان مطلع شده و خرید نمایید
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item accordion-3 mt-2">
+                        <h2 class="accordion-header">
+                            <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                شرایط کنسلی تورچیست ؟
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p>با استفاده از تقویم قیمتی و سیستم اطلاع از تغییر قیمت در سفر آسون، می‌توانید به موقع
+                                    از
+                                    قیمت ارزانترین بلیط هواپیما خارجی و داخلی مقصد مورد نظرتان مطلع شده و خرید نمایید
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item accordion-4 mt-2">
+                        <h2 class="accordion-header">
+                            <button class=" accordion-button  collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                aria-controls="flush-collapseFour">
+                                شرایط کنسلی تورچیست ؟
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p>با استفاده از تقویم قیمتی و سیستم اطلاع از تغییر قیمت در سفر آسون، می‌توانید به موقع
+                                    از
+                                    قیمت ارزانترین
+                                    بلیط هواپیما خارجی و داخلی مقصد مورد نظرتان مطلع شده و خرید نمایید</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item accordion-5 mt-2">
+                        <h2 class="accordion-header">
+                            <button class=" accordion-button  collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseFive" aria-expanded="false"
+                                aria-controls="flush-collapseFive">
+                                شرایط کنسلی تورچیست ؟
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFive" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p>با استفاده از تقویم قیمتی و سیستم اطلاع از تغییر قیمت در سفر آسون، می‌توانید به موقع
+                                    از
+                                    قیمت ارزانترین
+                                    بلیط هواپیما خارجی و داخلی مقصد مورد نظرتان مطلع شده و خرید نمایید</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of question and answer -->
+
+    <!-- start comments -->
+    <section class="comments container-lg mt-5">
+        <div class="row comments-row">
+            <div class="main-tittle  position-relative d-flex align-items-center justify-content-center flex-column">
+                <h3 class="position-relative"> &nbsp; نظرات &nbsp;</h3>
+            </div>
+            <!-- end of comments tittle -->
+
+            <div class="comment-item bg-white d-flex flex-column rounded-4 py-2">
+                <div class="user-comment d-flex flex-column">
+                    <div class="comment-tittle">
+                        <i class="fa-solid fa-user user-icon "></i>
+                        <span class="user-name">علی</span>
+                        <span class="comment-date">1401/12/01</span>
+                    </div>
+                    <!-- end comment tittle -->
+                    <div class="comment-dis">
+                        <span class="comment-text">سلام، من تور استانبول برای نوروز میخوام که اقساطی باشه.</span>
+                    </div>
+
+
+                    <div class="admin-response pt-2">
+                        <div class="admin-response-tittle">
+                            <i class="fa-solid fa-share fa-rotate-180"></i>
+                            <i class="fa-solid fa-user admin-icon"></i>
+                            <span class="admin-name">مدیر سایت</span>
+                            <span class="admin-response-date">1401/12/01</span>
+                        </div>
+                        <div class="admin-comment">
+                            <span class="admin-comment-text">سلام، من تور استانبول برای نوروز میخوام که اقساطی
+                                باشه.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end first comment item -->
+
+            <div class="comment-item bg-white d-flex flex-column rounded-4 py-2 mt-4">
+                <div class="user-comment d-flex flex-column">
+                    <div class="comment-tittle">
+                        <i class="fa-solid fa-user user-icon "></i>
+                        <span class="user-name">علی</span>
+                        <span class="comment-date">1401/12/01</span>
+                    </div>
+                    <!-- end comment tittle -->
+                    <div class="comment-dis">
+                        <span class="comment-text">سلام، من تور استانبول برای نوروز میخوام که اقساطی باشه.</span>
+                    </div>
+
+
+                    <div class="admin-response pt-2">
+                        <div class="admin-response-tittle">
+                            <i class="fa-solid fa-share fa-rotate-180"></i>
+                            <i class="fa-solid fa-user admin-icon"></i>
+                            <span class="admin-name">مدیر سایت</span>
+                            <span class="admin-response-date">1401/12/01</span>
+                        </div>
+                        <div class="admin-comment">
+                            <span class="admin-comment-text">سلام، من تور استانبول برای نوروز میخوام که اقساطی
+                                باشه.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end of second comments -->
+
+            <section class="send-comment  mt-4 mb-5 rounded-4">
+                <div class="row ">
+
+                    <div class="col-12 col-lg-6 py-2 ">
+                        <p class="send-message-tittle">نظر، تجربه و سؤال خود را با ما در میان بگذارید.</p>
+                        <form action="test.php" method="post" id="user-send-comment" class="d-flex flex-column">
+                            <label for="name-input">نام و نام خانوادگی</label>
+                            <input id="name-input" name="name-input" type="text" class="rounded-1 border-0 p-1 px-2">
+
+                            <label for="email-input" class="mt-2">ایمیل</label>
+                            <input id="email-input" name="email-input" type="email"
+                                class="rounded-1 border-0  p-1 px-2">
+
+                            <div class="position-relative w-100">
+                                <label for="comment-input" class="mt-2">متن پیام </label>
+                                <textarea id="comment-input" name="comment-input" type="text"
+                                    class="rounded-1 border-0  w-100 p-1"></textarea>
+
+                                <button type="submit"
+                                    class="send-input position-absolute border-0  rounded-1 position-relative d-flex flex-column align-items-center justify-content-center"
+                                    id="send-input">
+                                    <i class="fa-solid fa-paper-plane send-message-icon z-1"></i>
+                                    ارسال
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="col-12 col-lg-6  py-2">
+                        <img src="../assets/images/downloaded/urn aaid sc US 8d7c6fbf-a17b-47ff-a2df-239b39b6bb33;revision=4.webp"
+                            class="img-fluid rounded-3" alt="عکس مسافر هواپیما">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+    <!-- end of comments -->
+
+    <!-- start footer -->
+    <footer class="mt-7 pt-5 pb-4">
+        <div class="container">
+            <div class="row d-flex footer-row">
+                <div class="col-6 col-xl-2 ">
+                    <ul class="p-0 text-center text-xl-end">
+                        <h5 class="mb-4">سفرهای مامان و بابا </h5>
+                        <li class="list-items"><a href="#">درباره ما</a></li>
+                        <li class="list-items"><a href="#">تماس با ما</a></li>
+                        <li class="list-items"><a href="#">قوانین و مقررات</a></li>
+                        <li class="list-items"><a href="#">مجله گردشگری</a></li>
+                        <li class="list-items"><a href="#"> پیگیری خرید</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-xl-2 ">
+                    <ul class="p-0 text-center text-xl-end">
+                        <h5 class="mb-4">تور خارجی </h5>
+                        <li class="list-items"><a href="#"> تور ترکیه</a></li>
+                        <li class="list-items"><a href="#">تور گرجستان </a></li>
+                        <li class="list-items"><a href="#"> تور وان</a></li>
+                        <li class="list-items"><a href="#"> تور روسیه</a></li>
+                        <li class="list-items"><a href="#">تور دبی </a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-xl-2 mt-4 mt-xl-0">
+                    <ul class="p-0 text-center text-xl-end">
+                        <h5 class="mb-4"> تور داخلی </h5>
+                        <li class="list-items"><a href="#"> تور کیش</a></li>
+                        <li class="list-items"><a href="#"> تور مشهد</a></li>
+                        <li class="list-items"><a href="#">تور شیراز </a></li>
+                        <li class="list-items"><a href="#">تور قشم </a></li>
+                        <li class="list-items"><a href="#">تور هرمز </a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-xl-2 mt-4 mt-xl-0 ">
+                    <ul class="p-0 text-center text-xl-end">
+                        <h5 class="mb-4">لینک های مفید</h5>
+                        <li class="list-items"><a href="#">لینک های مفید </a></li>
+                        <li class="list-items"><a href="#">لینک های مفید </a></li>
+                        <li class="list-items"><a href="#">لینک های مفید </a></li>
+                        <li class="list-items"><a href="#">لینک های مفید </a></li>
+                        <li class="list-items"><a href="#">لینک های مفید </a></li>
+                    </ul>
+                </div>
+                <div
+                    class="company-info col-xl-4 mt-4 mt-xl-0 bg-white d-flex flex-column rounded-4 align-items-center">
+                    <img src="../assets/images/Logo Footer1.jpg" alt="لوگوی سفر های مامان و بابا"
+                        class="img-fluid align-self-center mb-2 mt-2" width="170px">
+                    <ul class="p-0">
+                        <li class="mt-2 list-items"><span>تلفن :</span>123456789-021</li>
+                        <li class="mt-2 list-items"><span>ایمیل :</span>info@safarhaye.com</li>
+                        <li class="mt-2 list-items"><span>نشانی :</span>تهران ، متن نمونه برای وارد کردن آدرس</li>
+                        <ul class="mt-2 sochial-media  d-flex flex-row align-items-center justify-content-center p-2">
+                            <li class="d-flex align-items-center justify-content-center">
+                                <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="18.284"
+                                    height="26.294" viewBox="0 0 26.284 26.294">
+                                    <g id="brand" transform="translate(0 0)">
+                                        <g id="icon--black">
+                                            <path id="Path_44" data-name="Path 44"
+                                                d="M16.685.771,14.266.141A4.07,4.07,0,0,0,9.284,3.029l-.6,2.281A12.464,12.464,0,0,1,16.685.771Z"
+                                                transform="translate(-5.342 -0.003)" fill="##484848" />
+                                            <path id="Path_45" data-name="Path 45"
+                                                d="M.733,39.33.14,41.565a4.07,4.07,0,0,0,2.889,4.978l2.308.615a12.468,12.468,0,0,1-4.6-7.828Z"
+                                                transform="translate(-0.003 -24.202)" fill="##484848" />
+                                            <path id="Path_46" data-name="Path 46"
+                                                d="M56.319,9.149,53.73,8.46a12.464,12.464,0,0,1,4.77,8.348l.712-2.693a4.07,4.07,0,0,0-2.893-4.966Z"
+                                                transform="translate(-33.062 -5.207)" fill="##484848" />
+                                            <path id="Path_47" data-name="Path 47"
+                                                d="M38.69,58.5l2.481.669a4.07,4.07,0,0,0,4.978-2.889l.7-2.631A12.471,12.471,0,0,1,38.69,58.5Z"
+                                                transform="translate(-23.808 -33.013)" fill="##484848" />
+                                            <path id="Path_48" data-name="Path 48"
+                                                d="M15.932,4.54a11.4,11.4,0,1,0,11.394,11.4A11.4,11.4,0,0,0,15.932,4.54ZM9.477,10.226a3.254,3.254,0,1,1,2.581,3.812,3.254,3.254,0,0,1-2.581-3.812Zm4.735,9.848a3.254,3.254,0,1,1-.5-2.442A3.254,3.254,0,0,1,14.212,20.073Zm1.381-2.635a1.446,1.446,0,1,1,1.088-.224,1.446,1.446,0,0,1-1.088.224Zm6.79,4.2A3.254,3.254,0,1,1,19.8,17.831,3.254,3.254,0,0,1,22.383,21.643Zm-2.154-6.032a3.248,3.248,0,1,1,2.442-.5,3.254,3.254,0,0,1-2.442.5Z"
+                                                transform="translate(-2.789 -2.795)" />
+                                        </g>
+                                    </g>
+                                </svg>
+                            </li>
+                            <li class="d-flex align-items-center justify-content-center"><a href="#" class=""><i
+                                        class="fa-brands fa-twitter  fa-xl"></i></a></li>
+                            <li class="d-flex align-items-center justify-content-center"><a href="#" class=""><i
+                                        class="fa-brands fa-telegram fa-xl"></i></a></li>
+                            <li class="d-flex align-items-center justify-content-center"><a href="#" class=""><i
+                                        class="fa-brands fa-linkedin-in fa-xl"></i></a></li>
+                            <li class="d-flex align-items-center justify-content-center"><a href="#" class=""><i
+                                        class="fa-brands fa-instagram fa-xl"></i></a></li>
+                        </ul>
+                        <li class="text-center mt-4 mb-2 designer-info fs-14"><span>Code By : </span> Code-n</li>
+                    </ul>
+                </div>
+                <div class="brands-logo col-xl-7">
+                    <ul class="d-flex p-0 justify-content-center flex-wrap gap-2">
+                        <li class="d-flex justify-content-center align-items-center"><a href="#"><img class="img-fluid"
+                                    src="../assets/images/aira-682b7c43.jpg" alt="لوگو دامنه نرخ بلیت"> </a> </li>
+                        <li class="d-flex justify-content-center align-items-center"><a href="#"><img class="img-fluid"
+                                    src="../assets/images/enamad.jpg" alt="لوگوی سازمان اعتماد"> </a></li>
+                        <li class="d-flex justify-content-center align-items-center"><a href="#"><img class="img-fluid"
+                                    src="../assets/images/ecunion-8b792f56.jpg" alt="لوگوی اتحادیه کسب و کار"> </a>
+                        </li>
+                        <li class="d-flex justify-content-center align-items-center"><a href="#"><img class="img-fluid"
+                                    src="../assets/images/hoghoogh_1__e49e2b4dbcc13506ffa008be7271ce92.jpg"
+                                    alt="لوگوی حقوق مسافر"> </a> </li>
+                        <li class="d-flex justify-content-center align-items-center"><a href="#"><img class="img-fluid"
+                                    src="../assets/images/samandehi.jpg" alt="لوگوی اعتماد"> </a> </li>
+                        <li class="d-flex justify-content-center align-items-center"><a href="#"><img class="img-fluid"
+                                    src="../assets/images/alibaba-footer.jpg" alt="لوگوی هواپیما"> </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer -->
+
+    <!--bootstrap  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+    <script>
+        const QA_events = () => {
+            const accordionButtons = document.querySelectorAll('.accordion-button');
+            const accordionHeaders = document.querySelectorAll('.accordion-header');
+
+            accordionButtons.forEach((button, index) => {
+                button.addEventListener('click', function () {
+                    const accordionHeadersActive = document.querySelector('.accordion-header.active');
+                    if (accordionHeadersActive && index != [...accordionHeaders].indexOf(accordionHeadersActive)) {
+                        accordionHeadersActive.classList.remove('active');
+                    }
+                    accordionHeaders[index].classList.toggle('active');
+                });
+            });
+        }
+        QA_events()
+    </script>
+</body>
+
+</html>

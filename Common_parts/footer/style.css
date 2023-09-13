@@ -1,0 +1,148 @@
+body {
+    background-color: var(--white-800);
+}
+
+footer {
+    background-color: var(--gray-300);
+}
+
+footer .company-info li:nth-child(1) {
+    text-align: right !important;
+}
+
+footer .footer-row {
+    padding: 0px 9.75%;
+}
+
+footer ul h5 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #484848;
+}
+
+footer .sochial-media li {
+    width: 42px;
+    height: 41px;
+}
+
+footer .sochial-media li svg * {
+    fill: #484848;
+}
+
+footer .sochial-media li svg {
+    transform: scale(1.1);
+
+}
+
+footer .sochial-media li:hover svg * {
+    fill: var(--blue-900);
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul li.list-items {
+    margin-bottom: 20px;
+}
+
+footer ul li.list-items a {
+    color: var(--gray-900);
+    transition: all 0.3s ease-out;
+}
+
+footer ul li.list-items:hover a {
+    color: var(--blue-900);
+    margin-right: 10px;
+}
+
+footer ul li.list-items:nth-child(1)>a:nth-child(1) {
+    color: var(--black-800);
+    font-weight: 800;
+    font-size: 15px;
+}
+
+footer .company-info {
+    padding: 10px 20px;
+}
+
+footer .company-info .list-items {
+    color: var(--black-800);
+}
+
+footer .company-info .list-items span {
+    color: var(--blue-900);
+}
+
+footer .company-info .sochial-media li {
+    background-color: var(--gray-300);
+    border-radius: 10px;
+    padding: 7px 7px;
+    width: 42px;
+    margin-right: 7px;
+    padding-bottom: 4px;
+}
+
+footer .company-info .sochial-media li:first-child {
+    padding-top: 4px;
+}
+
+footer .company-info .sochial-media li a {
+    color: var(--black-800);
+    transition: all 0.2s ease-in-out;
+}
+
+footer .company-info .sochial-media li a:hover {
+    color: var(--blue-900);
+}
+
+footer .designer-info span {
+    color: var(--gray-900);
+}
+
+footer .designer-info {
+    color: var(--blue-900);
+    
+}
+
+footer .brands-logo {
+    margin-top: -6%;
+}
+
+footer .brands-logo li {
+    background-color: var(--white-900);
+    width: 70px;
+    padding: 5px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+
+@media screen and (max-width:1200px) {
+    footer .brands-logo {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    footer .brands-logo li {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    footer h5 {
+        font-size: 15px;
+    }
+
+    .company-info ul {
+        width: 100%;
+    }
+
+    footer .footer-row {
+        padding: 0px 5%;
+    }
+}
+footer .company-info li:nth-child(1) {
+    text-align: right !important;
+}

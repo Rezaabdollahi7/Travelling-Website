@@ -1,0 +1,82 @@
+:root {
+    --white-900:#fff;
+    --white-800:#fbfbfb;
+    --black-900:#000;
+    --black-800:#484848;
+    --gray-900:#878787;
+    --gray-800:#A8A8A8;
+    --gray-700:#B8B8B8;
+    --gray-300:#eeeeee;
+    --dark-blue:#233F9F;
+    --blue-900:#0089D1;
+    --blue-800:#00BDEF;
+    --blue-300:#E5FAFF;
+    --purple-800:#7D5AB7;
+    --btn-yellow:#FCC72C;
+    --social-red:#FF0000;
+}
+
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    direction: rtl;
+}
+body{
+    background-color: var(--white-800);
+}
+.main-tittle h3 {
+    padding: 20px;
+    font-size: 19px;
+    font-weight: 750;
+    color: var(--black-800);
+}
+
+.main-tittle h3::after {
+    content: "";
+    width: 90px;
+    height: 1px;
+    background-color: var(--purple-800);
+    position: absolute;
+    top: 32px;
+    opacity: 0.5;
+    left: -64px;
+}
+
+.main-tittle h3::before {
+    content: "";
+    opacity: 0.5;
+    height: 1px;
+    background-color: var(--purple-800);
+    position: absolute;
+    width: 90px;
+    top: 32px;
+    right: -64px;
+}
+
+.sub-tittle {
+    margin-top: -10px;
+    color: var(--gray-800);
+}
+
+@media screen and (max-width: 450px){
+    .main-tittle h3::before{
+        content: "";
+        height: 1px;
+        background-color: var(--purple-800);
+        position: absolute;
+        width: 60px;
+        top: 32px;
+        right: -34px;
+    }
+    .main-tittle h3::after{
+        content: "";
+        height: 1px;
+        background-color: var(--purple-800);
+        position: absolute;
+        width: 60px;
+        top: 32px;
+        left: -34px;
+    }
+}

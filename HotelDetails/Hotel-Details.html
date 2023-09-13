@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Details</title>
+
+    <!-- style and icon links  -->
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.rtl.min.css"
+        integrity="sha384-PRrgQVJ8NNHGieOA1grGdCTIt4h21CzJs6SnWH4YMQ6G5F5+IEzOHz67L4SQaF0o" crossorigin="anonymous">
+
+
+    <!-- swiper.js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+
+    <link rel="stylesheet" href="../assets/stylesheet.css">
+    <link rel="stylesheet" href="../assets/main.css">
+</head>
+
+<body id="hotelDetailsPage">
+    <!-- header  -->
+    <nav class="navbar navbar-expand-lg bg-white position-fixed top-0 start-0 end-0 shadow-sm" style="z-index: 999;">
+        <div class="main-nav container">
+            <div class="hamburger-container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="../assets/images/Logo Header1.jpg" alt="LOGO" height="45px">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul
+                    class="navbar-nav p-0 me-auto  mb-2 mb-lg-0 position-relative align-items-center d-flex justify-content-center align-items-center">
+                    <li class="header-li nav-item ">
+                        <a class="nav-link active" aria-current="page" href="#">خانه</a>
+                    </li>
+                    <li class="dropdown header-li nav-item ms-lg-4  p-0">
+                        <a href="#"></a>
+                        <button class="btn btn-secondary dropdown-toggle border-0 " type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            تور
+                        </button>
+                        <ul class="dropdown-menu container mt-4  border-0 rounded-4 p-lg-2">
+                            <li class="row">
+                                <ul class="col-6  col-lg-2">
+                                    <h6 class="dropdown-ul-tittle">تور خارجی</h6>
+                                    <li><a class="dropdown-item" href="#">تور ترکیه</a></li>
+                                    <li><a class="dropdown-item" href="#">تور امارات</a></li>
+                                    <li><a class="dropdown-item" href="#">تور گرجستان</a></li>
+                                    <li><a class="dropdown-item" href="#">تور مالدیو</a></li>
+                                    <li><a class="dropdown-item" href="#">تور روسیه</a></li>
+                                    <li><a class="dropdown-item" href="#">تور تایلند</a></li>
+                                </ul>
+                                <ul class="col-6  col-lg-2">
+                                    <h6 class="dropdown-ul-tittle">تور داخلی</h6>
+                                    <li><a class="dropdown-item" href="#">تور کیش</a></li>
+                                    <li><a class="dropdown-item" href="#">تور مشهد</a></li>
+                                    <li><a class="dropdown-item" href="#">تور قشم</a></li>
+                                    <li><a class="dropdown-item" href="#">تور شیراز</a></li>
+                                    <li><a class="dropdown-item" href="#">تور یزد</a></li>
+                                    <li><a class="dropdown-item" href="#">تور اصفهان</a></li>
+                                </ul>
+                                <ul class="col-6  col-lg-3 mt-4 mt-lg-0 ">
+                                    <h6 class="dropdown-ul-tittle">تور زمینی</h6>
+                                    <li><a class="dropdown-item" href="#">تور ترکیه زمینی</a></li>
+                                    <li><a class="dropdown-item" href="#">تور وان</a></li>
+                                    <li><a class="dropdown-item" href="#">تور آنکارا</a></li>
+                                    <li><a class="dropdown-item" href="#">تور ارمنستان</a></li>
+                                    <li><a class="dropdown-item" href="#">تور دور ترکیه</a></li>
+                                    <li><a class="dropdown-item" href="#">تور آذربایجان</a></li>
+                                </ul>
+                                <ul
+                                    class="col-6  col-lg-5 d-flex flex-column justify-content-between align-items-center mt-4 mt-lg-0 ">
+                                    <li><a class="dropdown-item position-relative" href="#">
+                                            <div
+                                                class="custom-overly d-flex justify-content-center justify-content-center align-items-center">
+                                                تور خارجی</div>
+                                            <img src="../assets/images/عکس‌های گروه تورها/1.webp" alt="تور خارجی"
+                                                class="img-fluid dropdown-item-img ">
+                                        </a></li>
+                                    <li><a class="dropdown-item position-relative" href="#">
+                                            <div
+                                                class="custom-overly d-flex justify-content-center justify-content-center align-items-center">
+                                                تور داخلی</div>
+                                            <img src="../assets/images/عکس‌های گروه تورها/2.webp" alt="تور داخلی"
+                                                class="img-fluid dropdown-item-img ">
+                                        </a></li>
+                                    <li><a class="dropdown-item position-relative" href="#">
+                                            <div
+                                                class="custom-overly d-flex justify-content-center justify-content-center align-items-center">
+                                                تور زمینی</div>
+                                            <img src="../assets/images/عکس‌های گروه تورها/dino-reichmuth-A5rCN8626Ck-unsplash.png"
+                                                alt="تور زمینی" class="img-fluid dropdown-item-img ">
+                                        </a></li>
+                                </ul>
+                            </li>
+    
+                        </ul>
+                    </li>
+                    <li class="header-li nav-item ms-lg-4 ">
+                        <a href="#" class="nav-link">
+                            ویزا
+                        </a>
+                    </li>
+                    <li class="header-li nav-item ms-lg-4 ">
+                        <a href="#" class="nav-link">
+                            مجله گردشگری
+                        </a>
+                    </li>
+                    <li class="header-li nav-item ms-lg-4">
+                        <a href="#" class="nav-link">
+                            درباره ما
+                        </a>
+                    </li>
+                    <li class="header-li nav-item ms-lg-4">
+                        <a href="#" class="nav-link">
+                            تماس با ما
+                        </a>
+                    </li>
+    
+                </ul>
+            </div>
+            <div class="nav-icons d-flex">
+                <span class="icontainer">
+                    <i class="fa-solid fa-user-circle"></i>
+                    <span class="iconHide"><a id="sign-in" href="#">ورود</a> / <a id="sign-up" href="#">ثبت
+                            نام</a></span>
+                </span>
+                <span class="icontainer">
+                    <i class="fa-solid fa-headset"></i>
+                    <span class="iconHide"><a href="tel:02112345678">021-12345678</a></span>
+                </span>
+            </div>
+        </div>
+    </nav>
+    <!-- end of header  -->
+
+    <!-- header-bg -->
+    <section class="header-album-pic container-lg p-0 " x-data="{ open: false }">
+        <div x-show="open" :class="open ? 'opacity-100' : '' "
+            class="clicked-gallery opacity-0 justify-content-center align-items-center position-fixed w-100 h-100 top-0 end-0">
+            <div class="gallery-swiper rounded-4">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide rounded-4 overflow-hidden">
+                        <img src="../assets/images/nader-img/7.webp" alt="عکس تور" class="w-100 h-100 object-fit-cover">
+                    </div>
+                    <div class="swiper-slide rounded-4 overflow-hidden">
+                        <img src="../assets/images/nader-img/1.webp" alt="عکس تور" class="w-100 h-100 object-fit-cover">
+                    </div>
+                    <div class="swiper-slide rounded-4 overflow-hidden">
+                        <img src="../assets/images/nader-img/9.webp" alt="عکس تور" class="w-100 h-100 object-fit-cover">
+                    </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <div class="exit-gallery-btn position-fixed" @click="open = false">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+        </div>
+        <div class="header-hotels-gallery w-100">
+            <div class="img hotel-img-1">
+                <img src="../assets/images/nader-img/1.webp" alt="عکس تور">
+                <div class="img-text">
+                    <p @click="open = true">مشاهده</p>
+                </div>
+                <button class="btn-see-more" @click="open = true"><i class="bi bi-eye-fill"></i>مشاهده همه</button>
+            </div>
+            <div class="img hotel-img-2">
+                <img src="../assets/images/nader-img/7.webp" alt="عکس تور">
+                <div class="img-text">
+                    <p @click="open = true">مشاهده</p>
+                </div>
+            </div>
+            <div class="img hotel-img-3">
+                <img src="../assets/images/nader-img/9.webp" alt="عکس تور">
+                <div class="img-text">
+                    <p @click="open = true">مشاهده</p>
+                </div>
+            </div>
+            <div class="img hotel-img-4">
+                <img src="../assets/images/nader-img/5.webp" alt="عکس تور">
+                <div class="img-text">
+                    <p @click="open = true">مشاهده</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of header bg  -->
+
+    <section class="page-about p-0 container-lg d-flex flex-column align-items-center mb-2 ">
+        <div class="breadcrumbs w-100 d-flex flex-column align-items-center justify-content-center py-2 rounded-3">
+            <div style="--bs-breadcrumb-divider: '>>';" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a class="text-white" href="#">سفرهای مامان و بابا</a></li>
+                    <li class="breadcrumb-item p-0"><a class="text-white" href="#">هتل</a></li>
+                    <li class="breadcrumb-item p-0"><a class="text-white" href="#">هتل های استانبول</a></li>
+                    <li class="breadcrumb-item active text-white" aria-current="page">هتل گلدن ایج</li>
+                </ol>
+            </div>
+            <h1 class="page-name h5 text-white">هتل گلدن ایج استانبول</h1>
+        </div>
+        <div class="header-star-text w-100">
+            <div class="header-star-text-stars">
+                <i class="fa-solid fa-star active"></i>
+                <i class="fa-solid fa-star active"></i>
+                <i class="fa-solid fa-star active"></i>
+                <i class="fa-solid fa-star active"></i>
+                <i class="fa-solid fa-star active"></i>
+            </div>
+            <div class="header-star-text-part">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>ترکیه, استانبول, میدان تکسیم</p>
+            </div>
+        </div>
+    </section>
+    <!-- main content info  -->
+    <main>
+        <section class="hotel-info container-lg p-0">
+            <section class="hotel-information-part">
+                <div class="hotel-istanbul-info">
+                    <h3><i class="fa fa-hotel"></i>درباره هتل بومونتی استانبول</h3>
+                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                        چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی
+                        مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه
+                        درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری
+                        را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این
+                        صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد
+                        وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی
+                        اساسا مورد استفاده قرار گیرد.</p>
+                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                        چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی
+                        مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه
+                        درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری
+                        را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این
+                        صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد
+                        وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی
+                        اساسا مورد استفاده قرار گیرد.</p>
+                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                        چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی
+                        مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه
+                        درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری
+                        را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این
+                        صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد
+                        وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی
+                        اساسا مورد استفاده قرار گیرد.</p>
+                </div>
+                <div class="hotel-istanbul-law">
+                    <h3><i class="fa fa-gavel "></i>قوانین و مقررات</h3>
+                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                        چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی
+                        مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه
+                        درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری
+                        را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این
+                        صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد
+                        وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی
+                        اساسا مورد استفاده قرار گیرد.</p>
+                </div>
+            </section>
+            <section class="hotel-loc-info-part">
+                <div class="hotel-loc-pic-part">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d414688.45390648773!2d51.01799435186911!3d35.707681966625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8e00491ff3dcd9%3A0xf0b3697c567024bc!2sTehran%2C%20Tehran%20Province%2C%20Iran!5e0!3m2!1sen!2snl!4v1691759197965!5m2!1sen!2snl"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="hotel-important-place-part">
+                    <h3><i class="fas fa-street-view"></i>فاصله تا مکان های مهم</h3>
+                    <li>2 کیلو متر فاصله تا میدان تاکسیم</li>
+                    <div class="line"></div>
+                    <li>2 کیلو متر فاصله تا میدان تاکسیم</li>
+                    <div class="line"></div>
+                    <li>2 کیلو متر فاصله تا میدان تاکسیم</li>
+                    <div class="line"></div>
+                    <li>2 کیلو متر فاصله تا میدان تاکسیم</li>
+                    <div class="line"></div>
+                    <li>2 کیلو متر فاصله تا میدان تاکسیم</li>
+                </div>
+
+                <div class="hotel-service-part">
+                    <h3><i class="fa fa-wifi"></i>امکانات و خدمات هتل</h3>
+                    <div class="hotel-service-list">
+                        <div class="hotel-service-list-1">
+                            <li>استخر پوشیده</li>
+                            <li>سونا</li>
+                            <li>رستوران</li>
+                            <li>سالن ورزشی</li>
+                            <li>آسانسور</li>
+                            <li>امکانات برای معلولان</li>
+                        </div>
+                        <div class="hotel-service-list-2">
+                            <li>استخر روباز</li>
+                            <li>انترنت بیسیم رایگان</li>
+                            <li> اتاق خانواده</li>
+                            <li>کتابخانه</li>
+                            <li>کافی شاپ</li>
+                            <li>تهویه مطبوع</li>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <!-- hotes-connected to each other part  -->
+    <section class="related-hotels">
+        <div class="related-hotels-title">
+            <h3>هتل های مرتبط</h3>
+        </div>
+        <div class="related-hotels-body container">
+            <span class="nextHotel">
+                <i class="fa-solid fa-chevron-circle-right"></i>
+            </span>
+            <span class="prevHotel">
+                <i class="fa-solid fa-chevron-circle-left"></i>
+            </span>
+            <div class="swiperHotels">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+
+                        <div class="gallery-pic-parts">
+                            <div class="gallery-pic-img">
+                                <a href="#">
+
+                                    <img src="../assets/images/nader-img/26.webp" alt="عکس هتل">
+                                </a>
+                                <div class="pic-overlay">
+                                    <a href="index.html">مشاهده</a>
+                                </div>
+                            </div>
+                            <div class="gallery-pic-text">
+                                <div class="gallery-pic-text-1">
+                                    <a href="#">هتل ویندسور استانبول</a>
+                                    <p>ترکیه, استانبول, تکسیم</p>
+                                </div>
+                                <div class="gallery-pic-text-stars">
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-solid fa-star active"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="gallery-pic-parts">
+                            <div class="gallery-pic-img">
+                                <a href="#">
+
+                                    <img src="../assets/images/nader-img/26.webp" alt="عکس هتل">
+                                </a>
+                                <div class="pic-overlay">
+                                    <a href="index.html">مشاهده</a>
+                                </div>
+                            </div>
+                            <div class="gallery-pic-text">
+                                <div class="gallery-pic-text-1">
+                                    <a href="#">هتل ویندسور استانبول</a>
+                                    <p>ترکیه, استانبول, تکسیم</p>
+                                </div>
+                                <div class="gallery-pic-text-stars">
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-solid fa-star active"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="gallery-pic-parts">
+                            <div class="gallery-pic-img">
+                                <a href="#">
+
+                                    <img src="../assets/images/nader-img/26.webp" alt="عکس هتل">
+                                </a>
+                                <div class="pic-overlay">
+                                    <a href="index.html">مشاهده</a>
+                                </div>
+                            </div>
+                            <div class="gallery-pic-text">
+                                <div class="gallery-pic-text-1">
+                                    <a href="#">هتل ویندسور استانبول</a>
+                                    <p>ترکیه, استانبول, تکسیم</p>
+                                </div>
+                                <div class="gallery-pic-text-stars">
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-solid fa-star active"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="gallery-pic-parts">
+                            <div class="gallery-pic-img">
+                                <a href="#">
+
+                                    <img src="../assets/images/nader-img/26.webp" alt="عکس هتل">
+                                </a>
+                                <div class="pic-overlay">
+                                    <a href="index.html">مشاهده</a>
+                                </div>
+                            </div>
+                            <div class="gallery-pic-text">
+                                <div class="gallery-pic-text-1">
+                                    <a href="#">هتل ویندسور استانبول</a>
+                                    <p>ترکیه, استانبول, تکسیم</p>
+                                </div>
+                                <div class="gallery-pic-text-stars">
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-solid fa-star active"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="gallery-pic-parts">
+                            <div class="gallery-pic-img">
+                                <a href="#">
+
+                                    <img src="../assets/images/nader-img/26.webp" alt="عکس هتل">
+                                </a>
+                                <div class="pic-overlay">
+                                    <a href="index.html">مشاهده</a>
+                                </div>
+                            </div>
+                            <div class="gallery-pic-text">
+                                <div class="gallery-pic-text-1">
+                                    <a href="#">هتل ویندسور استانبول</a>
+                                    <p>ترکیه, استانبول, تکسیم</p>
+                                </div>
+                                <div class="gallery-pic-text-stars">
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-solid fa-star active"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="gallery-pic-parts">
+                            <div class="gallery-pic-img">
+                                <a href="#">
+
+                                    <img src="../assets/images/nader-img/26.webp" alt="عکس هتل">
+                                </a>
+                                <div class="pic-overlay">
+                                    <a href="index.html">مشاهده</a>
+                                </div>
+                            </div>
+                            <div class="gallery-pic-text">
+                                <div class="gallery-pic-text-1">
+                                    <a href="#">هتل ویندسور استانبول</a>
+                                    <p>ترکیه, استانبول, تکسیم</p>
+                                </div>
+                                <div class="gallery-pic-text-stars">
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-solid fa-star active"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="gallery-pic-parts">
+                            <div class="gallery-pic-img">
+                                <a href="#">
+
+                                    <img src="../assets/images/nader-img/26.webp" alt="عکس هتل">
+                                </a>
+                                <div class="pic-overlay">
+                                    <a href="index.html">مشاهده</a>
+                                </div>
+                            </div>
+                            <div class="gallery-pic-text">
+                                <div class="gallery-pic-text-1">
+                                    <a href="#">هتل ویندسور استانبول</a>
+                                    <p>ترکیه, استانبول, تکسیم</p>
+                                </div>
+                                <div class="gallery-pic-text-stars">
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-solid fa-star active"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="gallery-pic-parts">
+                            <div class="gallery-pic-img">
+                                <a href="#">
+
+                                    <img src="../assets/images/nader-img/26.webp" alt="عکس هتل">
+                                </a>
+                                <div class="pic-overlay">
+                                    <a href="index.html">مشاهده</a>
+                                </div>
+                            </div>
+                            <div class="gallery-pic-text">
+                                <div class="gallery-pic-text-1">
+                                    <a href="#">هتل ویندسور استانبول</a>
+                                    <p>ترکیه, استانبول, تکسیم</p>
+                                </div>
+                                <div class="gallery-pic-text-stars">
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-solid fa-star active"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="gallery-pic-parts">
+                            <div class="gallery-pic-img">
+                                <a href="#">
+
+                                    <img src="../assets/images/nader-img/26.webp" alt="عکس هتل">
+                                </a>
+                                <div class="pic-overlay">
+                                    <a href="index.html">مشاهده</a>
+                                </div>
+                            </div>
+                            <div class="gallery-pic-text">
+                                <div class="gallery-pic-text-1">
+                                    <a href="#">هتل ویندسور استانبول</a>
+                                    <p>ترکیه, استانبول, تکسیم</p>
+                                </div>
+                                <div class="gallery-pic-text-stars">
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-solid fa-star active"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- start question and answer -->
+    <section class="question-answer container-lg mt-5">
+        <div class="row faq-row">
+            <div class="main-tittle  position-relative d-flex align-items-center justify-content-center flex-column">
+                <h3 class="position-relative"> &nbsp; پرسش و پاسخ &nbsp;</h3>
+            </div>
+            <!-- end of question and answer tittle -->
+
+            <div class="col-12 mt-4 p-0 ">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item accordion-1">
+                        <h2 class="accordion-header">
+                            <button class=" accordion-button  collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                شرایط کنسلی تورچیست ؟
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <span class="w-100"></span>
+                                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                    گرافیک است چاپگرها و متون بلکه روزنامه
+                                    و مجله در ستون و سطرآنچنان که لازم است</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item accordion-2 mt-2">
+                        <h2 class="accordion-header">
+                            <button class=" accordion-button  collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                شرایط کنسلی تورچیست ؟
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p>با استفاده از تقویم قیمتی و سیستم اطلاع از تغییر قیمت در سفر آسون، می‌توانید به موقع
+                                    از
+                                    قیمت ارزانترین بلیط هواپیما خارجی و داخلی مقصد مورد نظرتان مطلع شده و خرید نمایید
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item accordion-3 mt-2">
+                        <h2 class="accordion-header">
+                            <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                شرایط کنسلی تورچیست ؟
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p>با استفاده از تقویم قیمتی و سیستم اطلاع از تغییر قیمت در سفر آسون، می‌توانید به موقع
+                                    از
+                                    قیمت ارزانترین بلیط هواپیما خارجی و داخلی مقصد مورد نظرتان مطلع شده و خرید نمایید
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item accordion-4 mt-2">
+                        <h2 class="accordion-header">
+                            <button class=" accordion-button  collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                aria-controls="flush-collapseFour">
+                                شرایط کنسلی تورچیست ؟
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p>با استفاده از تقویم قیمتی و سیستم اطلاع از تغییر قیمت در سفر آسون، می‌توانید به موقع
+                                    از
+                                    قیمت ارزانترین
+                                    بلیط هواپیما خارجی و داخلی مقصد مورد نظرتان مطلع شده و خرید نمایید</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item accordion-5 mt-2">
+                        <h2 class="accordion-header">
+                            <button class=" accordion-button  collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseFive" aria-expanded="false"
+                                aria-controls="flush-collapseFive">
+                                شرایط کنسلی تورچیست ؟
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFive" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p>با استفاده از تقویم قیمتی و سیستم اطلاع از تغییر قیمت در سفر آسون، می‌توانید به موقع
+                                    از
+                                    قیمت ارزانترین
+                                    بلیط هواپیما خارجی و داخلی مقصد مورد نظرتان مطلع شده و خرید نمایید</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of question and answer -->
+
+    <!-- start comments -->
+    <section class="comments container-lg mt-5">
+        <div class="row comments-row">
+            <div class="main-tittle  position-relative d-flex align-items-center justify-content-center flex-column">
+                <h3 class="position-relative"> &nbsp; نظرات &nbsp;</h3>
+            </div>
+            <!-- end of comments tittle -->
+
+            <div class="comment-item bg-white d-flex flex-column rounded-4 py-2">
+                <div class="user-comment d-flex flex-column">
+                    <div class="comment-tittle">
+                        <i class="fa-solid fa-user user-icon "></i>
+                        <span class="user-name">علی</span>
+                        <span class="comment-date">1401/12/01</span>
+                    </div>
+                    <!-- end comment tittle -->
+                    <div class="comment-dis">
+                        <span class="comment-text">سلام، من تور استانبول برای نوروز میخوام که اقساطی باشه.</span>
+                    </div>
+
+
+                    <div class="admin-response pt-2">
+                        <div class="admin-response-tittle">
+                            <i class="fa-solid fa-share fa-rotate-180"></i>
+                            <i class="fa-solid fa-user admin-icon"></i>
+                            <span class="admin-name">مدیر سایت</span>
+                            <span class="admin-response-date">1401/12/01</span>
+                        </div>
+                        <div class="admin-comment">
+                            <span class="admin-comment-text">سلام، من تور استانبول برای نوروز میخوام که اقساطی
+                                باشه.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end first comment item -->
+
+            <div class="comment-item bg-white d-flex flex-column rounded-4 py-2 mt-4">
+                <div class="user-comment d-flex flex-column">
+                    <div class="comment-tittle">
+                        <i class="fa-solid fa-user user-icon "></i>
+                        <span class="user-name">علی</span>
+                        <span class="comment-date">1401/12/01</span>
+                    </div>
+                    <!-- end comment tittle -->
+                    <div class="comment-dis">
+                        <span class="comment-text">سلام، من تور استانبول برای نوروز میخوام که اقساطی باشه.</span>
+                    </div>
+
+
+                    <div class="admin-response pt-2">
+                        <div class="admin-response-tittle">
+                            <i class="fa-solid fa-share fa-rotate-180"></i>
+                            <i class="fa-solid fa-user admin-icon"></i>
+                            <span class="admin-name">مدیر سایت</span>
+                            <span class="admin-response-date">1401/12/01</span>
+                        </div>
+                        <div class="admin-comment">
+                            <span class="admin-comment-text">سلام، من تور استانبول برای نوروز میخوام که اقساطی
+                                باشه.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end of second comments -->
+
+            <section class="send-comment  mt-4 mb-5 rounded-4">
+                <div class="row ">
+
+                    <div class="col-12 col-lg-6 py-2 ">
+                        <p class="send-message-tittle">نظر، تجربه و سؤال خود را با ما در میان بگذارید.</p>
+                        <form action="test.php" method="post" id="user-send-comment" class="d-flex flex-column">
+                            <label for="name-input">نام و نام خانوادگی</label>
+                            <input id="name-input" name="name-input" type="text" class="rounded-1 border-0 p-1 px-2">
+
+                            <label for="email-input" class="mt-2">ایمیل</label>
+                            <input id="email-input" name="email-input" type="email"
+                                class="rounded-1 border-0  p-1 px-2">
+
+                            <div class="position-relative w-100">
+                                <label for="comment-input" class="mt-2">متن پیام </label>
+                                <textarea id="comment-input" name="comment-input" type="text"
+                                    class="rounded-1 border-0  w-100 p-1"></textarea>
+
+                                <button type="submit"
+                                    class="send-input position-absolute border-0  rounded-1 position-relative d-flex flex-column align-items-center justify-content-center"
+                                    id="send-input">
+                                    <i class="fa-solid fa-paper-plane send-message-icon z-1"></i>
+                                    ارسال
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="col-12 col-lg-6  py-2">
+                        <img src="../assets/images/downloaded/urn aaid sc US 8d7c6fbf-a17b-47ff-a2df-239b39b6bb33;revision=4.webp"
+                            class="img-fluid rounded-3" alt="عکس مسافر هواپیما">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+    <!-- end of comments -->
+
+    <!-- start footer -->
+    <footer class="mt-7 pt-5 pb-4">
+        <div class="container">
+            <div class="row d-flex footer-row">
+                <div class="col-6 col-xl-2 ">
+                    <ul class="p-0 text-center text-xl-end">
+                        <h5 class="mb-4">سفرهای مامان و بابا </h5>
+                        <li class="list-items"><a href="#">درباره ما</a></li>
+                        <li class="list-items"><a href="#">تماس با ما</a></li>
+                        <li class="list-items"><a href="#">قوانین و مقررات</a></li>
+                        <li class="list-items"><a href="#">مجله گردشگری</a></li>
+                        <li class="list-items"><a href="#"> پیگیری خرید</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-xl-2 ">
+                    <ul class="p-0 text-center text-xl-end">
+                        <h5 class="mb-4">تور خارجی </h5>
+                        <li class="list-items"><a href="#"> تور ترکیه</a></li>
+                        <li class="list-items"><a href="#">تور گرجستان </a></li>
+                        <li class="list-items"><a href="#"> تور وان</a></li>
+                        <li class="list-items"><a href="#"> تور روسیه</a></li>
+                        <li class="list-items"><a href="#">تور دبی </a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-xl-2 mt-4 mt-xl-0">
+                    <ul class="p-0 text-center text-xl-end">
+                        <h5 class="mb-4"> تور داخلی </h5>
+                        <li class="list-items"><a href="#"> تور کیش</a></li>
+                        <li class="list-items"><a href="#"> تور مشهد</a></li>
+                        <li class="list-items"><a href="#">تور شیراز </a></li>
+                        <li class="list-items"><a href="#">تور قشم </a></li>
+                        <li class="list-items"><a href="#">تور هرمز </a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-xl-2 mt-4 mt-xl-0 ">
+                    <ul class="p-0 text-center text-xl-end">
+                        <h5 class="mb-4">لینک های مفید</h5>
+                        <li class="list-items"><a href="#">لینک های مفید </a></li>
+                        <li class="list-items"><a href="#">لینک های مفید </a></li>
+                        <li class="list-items"><a href="#">لینک های مفید </a></li>
+                        <li class="list-items"><a href="#">لینک های مفید </a></li>
+                        <li class="list-items"><a href="#">لینک های مفید </a></li>
+                    </ul>
+                </div>
+                <div
+                    class="company-info col-xl-4 mt-4 mt-xl-0 bg-white d-flex flex-column rounded-4 align-items-center">
+                    <img src="../assets/images/Logo Footer1.jpg" alt="لوگوی سفر های مامان و بابا"
+                        class="img-fluid align-self-center mb-2 mt-2" width="170px">
+                    <ul class="p-0">
+                        <li class="mt-2 list-items"><span>تلفن :</span>123456789-021</li>
+                        <li class="mt-2 list-items"><span>ایمیل :</span>info@safarhaye.com</li>
+                        <li class="mt-2 list-items"><span>نشانی :</span>تهران ، متن نمونه برای وارد کردن آدرس</li>
+                        <ul class="mt-2 sochial-media  d-flex flex-row align-items-center justify-content-center p-2">
+                            <li class="d-flex align-items-center justify-content-center">
+                                <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="18.284"
+                                    height="26.294" viewBox="0 0 26.284 26.294">
+                                    <g id="brand" transform="translate(0 0)">
+                                        <g id="icon--black">
+                                            <path id="Path_44" data-name="Path 44"
+                                                d="M16.685.771,14.266.141A4.07,4.07,0,0,0,9.284,3.029l-.6,2.281A12.464,12.464,0,0,1,16.685.771Z"
+                                                transform="translate(-5.342 -0.003)" fill="##484848" />
+                                            <path id="Path_45" data-name="Path 45"
+                                                d="M.733,39.33.14,41.565a4.07,4.07,0,0,0,2.889,4.978l2.308.615a12.468,12.468,0,0,1-4.6-7.828Z"
+                                                transform="translate(-0.003 -24.202)" fill="##484848" />
+                                            <path id="Path_46" data-name="Path 46"
+                                                d="M56.319,9.149,53.73,8.46a12.464,12.464,0,0,1,4.77,8.348l.712-2.693a4.07,4.07,0,0,0-2.893-4.966Z"
+                                                transform="translate(-33.062 -5.207)" fill="##484848" />
+                                            <path id="Path_47" data-name="Path 47"
+                                                d="M38.69,58.5l2.481.669a4.07,4.07,0,0,0,4.978-2.889l.7-2.631A12.471,12.471,0,0,1,38.69,58.5Z"
+                                                transform="translate(-23.808 -33.013)" fill="##484848" />
+                                            <path id="Path_48" data-name="Path 48"
+                                                d="M15.932,4.54a11.4,11.4,0,1,0,11.394,11.4A11.4,11.4,0,0,0,15.932,4.54ZM9.477,10.226a3.254,3.254,0,1,1,2.581,3.812,3.254,3.254,0,0,1-2.581-3.812Zm4.735,9.848a3.254,3.254,0,1,1-.5-2.442A3.254,3.254,0,0,1,14.212,20.073Zm1.381-2.635a1.446,1.446,0,1,1,1.088-.224,1.446,1.446,0,0,1-1.088.224Zm6.79,4.2A3.254,3.254,0,1,1,19.8,17.831,3.254,3.254,0,0,1,22.383,21.643Zm-2.154-6.032a3.248,3.248,0,1,1,2.442-.5,3.254,3.254,0,0,1-2.442.5Z"
+                                                transform="translate(-2.789 -2.795)" />
+                                        </g>
+                                    </g>
+                                </svg>
+                            </li>
+                            <li class="d-flex align-items-center justify-content-center"><a href="#" class=""><i
+                                        class="fa-brands fa-twitter  fa-xl"></i></a></li>
+                            <li class="d-flex align-items-center justify-content-center"><a href="#" class=""><i
+                                        class="fa-brands fa-telegram fa-xl"></i></a></li>
+                            <li class="d-flex align-items-center justify-content-center"><a href="#" class=""><i
+                                        class="fa-brands fa-linkedin-in fa-xl"></i></a></li>
+                            <li class="d-flex align-items-center justify-content-center"><a href="#" class=""><i
+                                        class="fa-brands fa-instagram fa-xl"></i></a></li>
+                        </ul>
+                        <li class="text-center mt-4 mb-2 designer-info fs-14"><span>Code By : </span> Code-n</li>
+                    </ul>
+                </div>
+                <div class="brands-logo col-xl-7">
+                    <ul class="d-flex p-0 justify-content-center flex-wrap gap-2">
+                        <li class="d-flex justify-content-center align-items-center"><a href="#"><img class="img-fluid"
+                                    src="../assets/images/aira-682b7c43.jpg" alt="لوگو دامنه نرخ بلیت"> </a> </li>
+                        <li class="d-flex justify-content-center align-items-center"><a href="#"><img class="img-fluid"
+                                    src="../assets/images/enamad.jpg" alt="لوگوی سازمان اعتماد"> </a></li>
+                        <li class="d-flex justify-content-center align-items-center"><a href="#"><img class="img-fluid"
+                                    src="../assets/images/ecunion-8b792f56.jpg" alt="لوگوی اتحادیه کسب و کار"> </a>
+                        </li>
+                        <li class="d-flex justify-content-center align-items-center"><a href="#"><img class="img-fluid"
+                                    src="../assets/images/hoghoogh_1__e49e2b4dbcc13506ffa008be7271ce92.jpg"
+                                    alt="لوگوی حقوق مسافر"> </a> </li>
+                        <li class="d-flex justify-content-center align-items-center"><a href="#"><img class="img-fluid"
+                                    src="../assets/images/samandehi.jpg" alt="لوگوی اعتماد"> </a> </li>
+                        <li class="d-flex justify-content-center align-items-center"><a href="#"><img class="img-fluid"
+                                    src="../assets/images/alibaba-footer.jpg" alt="لوگوی هواپیما"> </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer -->
+
+    <script src="//unpkg.com/alpinejs" defer></script>
+    <!--Swipper Slider  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.0.4/swiper-bundle.min.js"
+        integrity="sha512-0N/5ZOjfsh3niel+5dRD40HQkFOWaxoVzqMVAHnmAO2DC3nY/TFB7OYTaPRAFJ571IRS/XRsXGb2XyiFLFeu1g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        const QA_events = () => {
+            const accordionButtons = document.querySelectorAll('.accordion-button');
+            const accordionHeaders = document.querySelectorAll('.accordion-header');
+
+            accordionButtons.forEach((button, index) => {
+                button.addEventListener('click', function () {
+                    const accordionHeadersActive = document.querySelector('.accordion-header.active');
+                    if (accordionHeadersActive && index != [...accordionHeaders].indexOf(accordionHeadersActive)) {
+                        accordionHeadersActive.classList.remove('active');
+                    }
+                    accordionHeaders[index].classList.toggle('active');
+                });
+            });
+        }
+
+        QA_events()
+
+        const swiper = new Swiper('.swiperHotels', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+            autoplay: {
+                delay: 2000,
+            },
+            navigation: {
+                nextEl: '.nextHotel',
+                prevEl: '.prevHotel',
+            },
+            breakpoints: {
+                1300: {
+                    slidesPerView: 4,
+                    spaceBetween: 30
+                },
+                1140: {
+                    slidesPerView: 4,
+                    spaceBetween: 15
+                },
+                1006: {
+                    slidesPerView: 3,
+                    spaceBetween: 15
+                },
+                920: {
+                    slidesPerView: 2.5,
+                    spaceBetween: 20
+                },
+                630: {
+                    slidesPerView: 2,
+                    spaceBetween: 20
+                },
+                430: {
+                    slidesPerView: 1,
+                    spaceBetween: 20
+                },
+                50: {
+                    slidesPerView: 1,
+                    spaceBetween: 0
+                },
+            }
+        });
+        const gallery_swiper = new Swiper('.gallery-swiper', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            breakpoints: {
+                300: {
+                    slidesPerView: 1,
+                    spaceBetween: 20
+                }
+            }
+        });
+
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

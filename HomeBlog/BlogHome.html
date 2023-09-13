@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Home</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.rtl.min.css"
+        integrity="sha384-PRrgQVJ8NNHGieOA1grGdCTIt4h21CzJs6SnWH4YMQ6G5F5+IEzOHz67L4SQaF0o" crossorigin="anonymous">
+
+    <!-- main css -->
+    <link rel="stylesheet" href="../assets/stylesheet.css">
+    <link rel="stylesheet" href="../assets/main.css">
+</head>
+
+<body id="homeBlogPage">
+
+    <!-- header  -->
+    <nav class="navbar navbar-expand-lg bg-white position-fixed top-0 start-0 end-0 shadow-sm" style="z-index: 999;">
+        <div class="main-nav container">
+            <div class="hamburger-container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="../assets/images/Logo Header1.jpg" alt="LOGO" height="45px">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul
+                    class="navbar-nav p-0 me-auto  mb-2 mb-lg-0 position-relative align-items-center d-flex justify-content-center align-items-center">
+                    <li class="header-li nav-item ">
+                        <a class="nav-link active" aria-current="page" href="#">خانه</a>
+                    </li>
+                    <li class="dropdown header-li nav-item ms-lg-4  p-0">
+                        <a href="#"></a>
+                        <button class="btn btn-secondary dropdown-toggle border-0 " type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            تور
+                        </button>
+                        <ul class="dropdown-menu container mt-4  border-0 rounded-4 p-lg-2">
+                            <li class="row">
+                                <ul class="col-6  col-lg-2">
+                                    <h6 class="dropdown-ul-tittle">تور خارجی</h6>
+                                    <li><a class="dropdown-item" href="#">تور ترکیه</a></li>
+                                    <li><a class="dropdown-item" href="#">تور امارات</a></li>
+                                    <li><a class="dropdown-item" href="#">تور گرجستان</a></li>
+                                    <li><a class="dropdown-item" href="#">تور مالدیو</a></li>
+                                    <li><a class="dropdown-item" href="#">تور روسیه</a></li>
+                                    <li><a class="dropdown-item" href="#">تور تایلند</a></li>
+                                </ul>
+                                <ul class="col-6  col-lg-2">
+                                    <h6 class="dropdown-ul-tittle">تور داخلی</h6>
+                                    <li><a class="dropdown-item" href="#">تور کیش</a></li>
+                                    <li><a class="dropdown-item" href="#">تور مشهد</a></li>
+                                    <li><a class="dropdown-item" href="#">تور قشم</a></li>
+                                    <li><a class="dropdown-item" href="#">تور شیراز</a></li>
+                                    <li><a class="dropdown-item" href="#">تور یزد</a></li>
+                                    <li><a class="dropdown-item" href="#">تور اصفهان</a></li>
+                                </ul>
+                                <ul class="col-6  col-lg-3 mt-4 mt-lg-0 ">
+                                    <h6 class="dropdown-ul-tittle">تور زمینی</h6>
+                                    <li><a class="dropdown-item" href="#">تور ترکیه زمینی</a></li>
+                                    <li><a class="dropdown-item" href="#">تور وان</a></li>
+                                    <li><a class="dropdown-item" href="#">تور آنکارا</a></li>
+                                    <li><a class="dropdown-item" href="#">تور ارمنستان</a></li>
+                                    <li><a class="dropdown-item" href="#">تور دور ترکیه</a></li>
+                                    <li><a class="dropdown-item" href="#">تور آذربایجان</a></li>
+                                </ul>
+                                <ul
+                                    class="col-6  col-lg-5 d-flex flex-column justify-content-between align-items-center mt-4 mt-lg-0 ">
+                                    <li><a class="dropdown-item position-relative" href="#">
+                                            <div
+                                                class="custom-overly d-flex justify-content-center justify-content-center align-items-center">
+                                                تور خارجی</div>
+                                            <img src="../assets/images/عکس‌های گروه تورها/1.webp" alt="تور خارجی"
+                                                class="img-fluid dropdown-item-img ">
+                                        </a></li>
+                                    <li><a class="dropdown-item position-relative" href="#">
+                                            <div
+                                                class="custom-overly d-flex justify-content-center justify-content-center align-items-center">
+                                                تور داخلی</div>
+                                            <img src="../assets/images/عکس‌های گروه تورها/2.webp" alt="تور داخلی"
+                                                class="img-fluid dropdown-item-img ">
+                                        </a></li>
+                                    <li><a class="dropdown-item position-relative" href="#">
+                                            <div
+                                                class="custom-overly d-flex justify-content-center justify-content-center align-items-center">
+                                                تور زمینی</div>
+                                            <img src="../assets/images/عکس‌های گروه تورها/dino-reichmuth-A5rCN8626Ck-unsplash.png"
+                                                alt="تور زمینی" class="img-fluid dropdown-item-img ">
+                                        </a></li>
+                                </ul>
+                            </li>
+    
+                        </ul>
+                    </li>
+                    <li class="header-li nav-item ms-lg-4 ">
+                        <a href="#" class="nav-link">
+                            ویزا
+                        </a>
+                    </li>
+                    <li class="header-li nav-item ms-lg-4 ">
+                        <a href="#" class="nav-link">
+                            مجله گردشگری
+                        </a>
+                    </li>
+                    <li class="header-li nav-item ms-lg-4">
+                        <a href="#" class="nav-link">
+                            درباره ما
+                        </a>
+                    </li>
+                    <li class="header-li nav-item ms-lg-4">
+                        <a href="#" class="nav-link">
+                            تماس با ما
+                        </a>
+                    </li>
+    
+                </ul>
+            </div>
+            <div class="nav-icons d-flex">
+                <span class="icontainer">
+                    <i class="fa-solid fa-user-circle"></i>
+                    <span class="iconHide"><a id="sign-in" href="#">ورود</a> / <a id="sign-up" href="#">ثبت
+                            نام</a></span>
+                </span>
+                <span class="icontainer">
+                    <i class="fa-solid fa-headset"></i>
+                    <span class="iconHide"><a href="tel:02112345678">021-12345678</a></span>
+                </span>
+            </div>
+        </div>
+    </nav>
+    <!-- end of header  -->
+
+    <section class="page-about balance-padding container-lg w-100 d-flex flex-column align-items-center py-2 mb-3">
+        <div class="breadcrumbs w-100 d-flex flex-column align-items-center justify-content-center py-2 ">
+            <div style="--bs-breadcrumb-divider: '>>';" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a class="text-white" href="#">سفرهای مامان و بابا</a></li>
+                    <li class="breadcrumb-item active text-white" aria-current="page">مجله گردشگری</li>
+                </ol>
+            </div>
+            <h1 class="page-name h5 text-white">مجله گردشگری</h1>
+        </div>
+    </section>
+
+    <section class="container custom-container mt-2 p-xl-0">
+        <div class="row blog-main-row pe-0">
+            <div class="row col-12 col-xl-9 pe-0 pe-lg-2 ps-2 m-0">
+                <div class="border-container row w-100 p-0 m-0 pe-3">
+                    <div class="col-12 col-xl-6 mb-2 ps-0">
+                        <figure class="d-flex flex-column ">
+                            <a href="#">
+                                <img src="../assets/images/downloaded/urn aaid sc US 0feb2424-3f8c-4149-9a61-83b19bcfee81;revision=1.webp"
+                                    alt="عکس یزد" class="blog-main-img img-fluid p-0">
+                            </a>
+                            <figcaption class="figure-tittle">
+                                <a href="#" class="travel-help">راهنمای سفر</a>
+                                <span class="travel-date">1402/02/30</span>
+                            </figcaption>
+                            <h5 class="mt-1 mb-3"><a href="#">جاذبه های دبی, مدرن شهر خاورمیانه</a></h5>
+                            <p>
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
+                                است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط
+                                فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود...
+                            </p>
+                        </figure>
+                    </div>
+                    <div class="col-12 col-xl-6 mb-2 rightpadding ">
+                        <figure class="d-flex flex-column ">
+                            <a href="#">
+                                <img src="../assets/images/downloaded/urn aaid sc US 0feb2424-3f8c-4149-9a61-83b19bcfee81;revision=1.webp"
+                                    alt="عکس یزد" class="blog-main-img img-fluid p-0">
+                            </a>
+                            <figcaption class="figure-tittle">
+                                <a href="#" class="travel-help">راهنمای سفر</a>
+                                <span class="travel-date">1402/02/30</span>
+                            </figcaption>
+                            <h5 class="mt-1 mb-3"><a href="#">جاذبه های دبی, مدرن شهر خاورمیانه</a></h5>
+                            <p>
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
+                                است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط
+                                فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود...
+                            </p>
+                        </figure>
+                    </div>
+                    <div class="col-12 col-xl-6 mb-2 ps-0 ">
+                        <figure class="d-flex flex-column ">
+                            <a href="#">
+                                <img src="../assets/images/downloaded/urn aaid sc US 0feb2424-3f8c-4149-9a61-83b19bcfee81;revision=1.webp"
+                                    alt="عکس یزد" class="blog-main-img img-fluid p-0">
+                            </a>
+                            <figcaption class="figure-tittle">
+                                <a href="#" class="travel-help">راهنمای سفر</a>
+                                <span class="travel-date">1402/02/30</span>
+                            </figcaption>
+                            <h5 class="mt-1 mb-3"><a href="#">جاذبه های دبی, مدرن شهر خاورمیانه</a></h5>
+                            <p>
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
+                                است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط
+                                فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود...
+                            </p>
+                        </figure>
+                    </div>
+                    <div class="col-12 col-xl-6 mb-2 rightpadding ">
+                        <figure class="d-flex flex-column ">
+                            <a href="#">
+                                <img src="../assets/images/downloaded/urn aaid sc US 0feb2424-3f8c-4149-9a61-83b19bcfee81;revision=1.webp"
+                                    alt="عکس یزد" class="blog-main-img img-fluid p-0">
+                            </a>
+                            <figcaption class="figure-tittle">
+                                <a href="#" class="travel-help">راهنمای سفر</a>
+                                <span class="travel-date">1402/02/30</span>
+                            </figcaption>
+                            <h5 class="mt-1 mb-3"><a href="#">جاذبه های دبی, مدرن شهر خاورمیانه</a></h5>
+                            <p>
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
+                                است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط
+                                فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود...
+                            </p>
+                        </figure>
+                    </div>
+                    <div class="col-12 col-xl-6 mb-2 ps-0">
+                        <figure class="d-flex flex-column ">
+                            <a href="#">
+                                <img src="../assets/images/downloaded/urn aaid sc US 0feb2424-3f8c-4149-9a61-83b19bcfee81;revision=1.webp"
+                                    alt="عکس یزد" class="blog-main-img img-fluid p-0">
+                            </a>
+                            <figcaption class="figure-tittle">
+                                <a href="#" class="travel-help">راهنمای سفر</a>
+                                <span class="travel-date">1402/02/30</span>
+                            </figcaption>
+                            <h5 class="mt-1 mb-3"><a href="#">جاذبه های دبی, مدرن شهر خاورمیانه</a></h5>
+                            <p>
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
+                                است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط
+                                فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود...
+                            </p>
+                        </figure>
+                    </div>
+                    <div class="col-12 col-xl-6 mb-2 rightpadding ">
+                        <figure class="d-flex flex-column ">
+                            <a href="#">
+                                <img src="../assets/images/downloaded/urn aaid sc US 0feb2424-3f8c-4149-9a61-83b19bcfee81;revision=1.webp"
+                                    alt="عکس یزد" class="blog-main-img img-fluid p-0">
+                            </a>
+                            <figcaption class="figure-tittle">
+                                <a href="#" class="travel-help">راهنمای سفر</a>
+                                <span class="travel-date">1402/02/30</span>
+                            </figcaption>
+                            <h5 class="mt-1 mb-3"><a href="#">جاذبه های دبی, مدرن شهر خاورمیانه</a></h5>
+                            <p>
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
+                                است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط
+                                فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود...
+                            </p>
+                        </figure>
+                    </div>
+                </div>
+                <div class="showMore-container text-center mt-5">
+                    <a href="#" class="py-2 rounded-3 px-3 text-white">بیشتر</a>
+                </div>
+            </div>
+            <aside class="col-12 col-xl-3 d-flex flex-column mt-5 mt-xl-0 pe-0">
+                <div class="aside-main w-100 ps-0 pe-4  pe-lg-3">
+                    <section class="sort-part pb-2 mb-3 d-flex flex-column border-bottom">
+                        <span class="h6 mb-3"><i class="fa-solid fa-arrow-down-short-wide me-1"></i>دسته بندی
+                            مطالب</span>
+                        <div>
+                            <div class="checkbox-container pb-1 position-relative"><input type="checkbox" name="sortby"
+                                    id="jazebe" value="jazebe">
+                                <label class="h6 ms-1" for="jazebe">معرفی جاذبه های توریستی</label>
+                                <span class="checkbox-number px-1 rounded-3 position-absolute h-80 end-0">400</span>
+                            </div>
+                            <div class="checkbox-container pb-1 position-relative"><input type="checkbox" name="sortby"
+                                    id="rahnoma" value="rahnoma">
+                                <label class="h6 ms-1" for="rahnoma">راهنمای سفر</label>
+                                <span class="checkbox-number px-1 rounded-3 position-absolute h-80 end-0">400</span>
+                            </div>
+                            <div class="checkbox-container pb-1 position-relative"><input type="checkbox" name="sortby"
+                                    id="khabarha" value="khabarha">
+                                <label class="h6 ms-1" for="khabarha">خبرهای گردشگری</label>
+                                <span class="checkbox-number px-1 rounded-3 position-absolute h-80 end-0">400</span>
+                            </div>
+                            <div class="checkbox-container pb-1 position-relative"><input type="checkbox" name="sortby"
+                                    id="pishnahad" value="pishnahad">
+                                <label class="h6 ms-1" for="pishnahad">پیشنهاد ایرانگردی</label>
+                                <span class="checkbox-number px-1 rounded-3 position-absolute h-80 end-0">400</span>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="aside-tittle w-100 d-flex ">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <p>جدیدترین ها</p>
+                    </div>
+                    <figure class="other-content d-flex flex-column mt-0">
+                        <a href="#">
+                            <img src="../assets/images/downloaded/urn aaid sc US 0feb2424-3f8c-4149-9a61-83b19bcfee81;revision=00.webp"
+                                class=" other-content-img rounded-3" alt="جدید ترین ها">
+                        </a>
+                        <figcaption>
+                            <div class="figure-tittle">
+                                <a href="#" class="travel-help">راهنمای سفر</a>
+                                <span class="travel-date">1402/02/30</span>
+                            </div>
+                            <a href="#" class="other-content-tittle">جاذبه های دبی, مدرن شهر خاورمیانه</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="other-content d-flex flex-column mt-3">
+                        <a href="#">
+                            <img src="../assets/images/downloaded/urn aaid sc US 0feb2424-3f8c-4149-9a61-83b19bcfee81;revision=00.webp"
+                                class=" other-content-img rounded-3" alt="جدید ترین ها">
+                        </a>
+                        <figcaption>
+                            <div class="figure-tittle">
+                                <a href="#" class="travel-help">راهنمای سفر</a>
+                                <span class="travel-date">1402/02/30</span>
+                            </div>
+                            <a href="#" class="other-content-tittle">جاذبه های دبی, مدرن شهر خاورمیانه</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="other-content d-flex flex-column mt-3">
+                        <a href="#">
+                            <img src="../assets/images/downloaded/urn aaid sc US 0feb2424-3f8c-4149-9a61-83b19bcfee81;revision=00.webp"
+                                class=" other-content-img rounded-3" alt="جدید ترین ها">
+                        </a>
+                        <figcaption>
+                            <div class="figure-tittle">
+                                <a href="#" class="travel-help">راهنمای سفر</a>
+                                <span class="travel-date">1402/02/30</span>
+                            </div>
+                            <a href="#" class="other-content-tittle">جاذبه های دبی, مدرن شهر خاورمیانه</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="other-content d-flex flex-column mt-3">
+                        <a href="#">
+                            <img src="../assets/images/downloaded/urn aaid sc US 0feb2424-3f8c-4149-9a61-83b19bcfee81;revision=00.webp"
+                                class=" other-content-img rounded-3" alt="جدید ترین ها">
+                        </a>
+                        <figcaption>
+                            <div class="figure-tittle">
+                                <a href="#" class="travel-help">راهنمای سفر</a>
+                                <span class="travel-date">1402/02/30</span>
+                            </div>
+                            <a href="#" class="other-content-tittle">جاذبه های دبی, مدرن شهر خاورمیانه</a>
+                        </figcaption>
+                    </figure>
+                </div>
+
+            </aside>
+        </div>
+    </section>
+
+    <!-- start footer -->
+    <footer class="mt-7 pt-5 pb-4">
+        <div class="container">
+            <div class="row d-flex footer-row">
+                <div class="col-6 col-xl-2 ">
+                    <ul class="p-0 text-center text-xl-end">
+                        <h5 class="mb-4">سفرهای مامان و بابا </h5>
+                        <li class="list-items"><a href="#">درباره ما</a></li>
+                        <li class="list-items"><a href="#">تماس با ما</a></li>
+                        <li class="list-items"><a href="#">قوانین و مقررات</a></li>
+                        <li class="list-items"><a href="#">مجله گردشگری</a></li>
+                        <li class="list-items"><a href="#"> پیگیری خرید</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-xl-2 ">
+                    <ul class="p-0 text-center text-xl-end">
+                        <h5 class="mb-4">تور خارجی </h5>
+                        <li class="list-items"><a href="#"> تور ترکیه</a></li>
+                        <li class="list-items"><a href="#">تور گرجستان </a></li>
+                        <li class="list-items"><a href="#"> تور وان</a></li>
+                        <li class="list-items"><a href="#"> تور روسیه</a></li>
+                        <li class="list-items"><a href="#">تور دبی </a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-xl-2 mt-4 mt-xl-0">
+                    <ul class="p-0 text-center text-xl-end">
+                        <h5 class="mb-4"> تور داخلی </h5>
+                        <li class="list-items"><a href="#"> تور کیش</a></li>
+                        <li class="list-items"><a href="#"> تور مشهد</a></li>
+                        <li class="list-items"><a href="#">تور شیراز </a></li>
+                        <li class="list-items"><a href="#">تور قشم </a></li>
+                        <li class="list-items"><a href="#">تور هرمز </a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-xl-2 mt-4 mt-xl-0 ">
+                    <ul class="p-0 text-center text-xl-end">
+                        <h5 class="mb-4">لینک های مفید</h5>
+                        <li class="list-items"><a href="#">لینک های مفید </a></li>
+                        <li class="list-items"><a href="#">لینک های مفید </a></li>
+                        <li class="list-items"><a href="#">لینک های مفید </a></li>
+                        <li class="list-items"><a href="#">لینک های مفید </a></li>
+                        <li class="list-items"><a href="#">لینک های مفید </a></li>
+                    </ul>
+                </div>
+                <div
+                    class="company-info col-xl-4 mt-4 mt-xl-0 bg-white d-flex flex-column rounded-4 align-items-center">
+                    <img src="../assets/images/Logo Footer1.jpg" alt="لوگوی سفر های مامان و بابا"
+                        class="img-fluid align-self-center mb-2 mt-2" width="170px">
+                    <ul class="p-0">
+                        <li class="mt-2 list-items"><span>تلفن :</span>123456789-021</li>
+                        <li class="mt-2 list-items"><span>ایمیل :</span>info@safarhaye.com</li>
+                        <li class="mt-2 list-items"><span>نشانی :</span>تهران ، متن نمونه برای وارد کردن آدرس</li>
+                        <ul class="mt-2 sochial-media  d-flex flex-row align-items-center justify-content-center p-2">
+                            <li class="d-flex align-items-center justify-content-center">
+                                <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="18.284"
+                                    height="26.294" viewBox="0 0 26.284 26.294">
+                                    <g id="brand" transform="translate(0 0)">
+                                        <g id="icon--black">
+                                            <path id="Path_44" data-name="Path 44"
+                                                d="M16.685.771,14.266.141A4.07,4.07,0,0,0,9.284,3.029l-.6,2.281A12.464,12.464,0,0,1,16.685.771Z"
+                                                transform="translate(-5.342 -0.003)" fill="##484848" />
+                                            <path id="Path_45" data-name="Path 45"
+                                                d="M.733,39.33.14,41.565a4.07,4.07,0,0,0,2.889,4.978l2.308.615a12.468,12.468,0,0,1-4.6-7.828Z"
+                                                transform="translate(-0.003 -24.202)" fill="##484848" />
+                                            <path id="Path_46" data-name="Path 46"
+                                                d="M56.319,9.149,53.73,8.46a12.464,12.464,0,0,1,4.77,8.348l.712-2.693a4.07,4.07,0,0,0-2.893-4.966Z"
+                                                transform="translate(-33.062 -5.207)" fill="##484848" />
+                                            <path id="Path_47" data-name="Path 47"
+                                                d="M38.69,58.5l2.481.669a4.07,4.07,0,0,0,4.978-2.889l.7-2.631A12.471,12.471,0,0,1,38.69,58.5Z"
+                                                transform="translate(-23.808 -33.013)" fill="##484848" />
+                                            <path id="Path_48" data-name="Path 48"
+                                                d="M15.932,4.54a11.4,11.4,0,1,0,11.394,11.4A11.4,11.4,0,0,0,15.932,4.54ZM9.477,10.226a3.254,3.254,0,1,1,2.581,3.812,3.254,3.254,0,0,1-2.581-3.812Zm4.735,9.848a3.254,3.254,0,1,1-.5-2.442A3.254,3.254,0,0,1,14.212,20.073Zm1.381-2.635a1.446,1.446,0,1,1,1.088-.224,1.446,1.446,0,0,1-1.088.224Zm6.79,4.2A3.254,3.254,0,1,1,19.8,17.831,3.254,3.254,0,0,1,22.383,21.643Zm-2.154-6.032a3.248,3.248,0,1,1,2.442-.5,3.254,3.254,0,0,1-2.442.5Z"
+                                                transform="translate(-2.789 -2.795)" />
+                                        </g>
+                                    </g>
+                                </svg>
+                            </li>
+                            <li class="d-flex align-items-center justify-content-center"><a href="#" class=""><i
+                                        class="fa-brands fa-twitter  fa-xl"></i></a></li>
+                            <li class="d-flex align-items-center justify-content-center"><a href="#" class=""><i
+                                        class="fa-brands fa-telegram fa-xl"></i></a></li>
+                            <li class="d-flex align-items-center justify-content-center"><a href="#" class=""><i
+                                        class="fa-brands fa-linkedin-in fa-xl"></i></a></li>
+                            <li class="d-flex align-items-center justify-content-center"><a href="#" class=""><i
+                                        class="fa-brands fa-instagram fa-xl"></i></a></li>
+                        </ul>
+                        <li class="text-center mt-4 mb-2 designer-info fs-14"><span>Code By : </span> Code-n</li>
+                    </ul>
+                </div>
+                <div class="brands-logo col-xl-7">
+                    <ul class="d-flex p-0 justify-content-center flex-wrap gap-2">
+                        <li class="d-flex justify-content-center align-items-center"><a href="#"><img class="img-fluid"
+                                    src="../assets/images/aira-682b7c43.jpg" alt="لوگو دامنه نرخ بلیت"> </a> </li>
+                        <li class="d-flex justify-content-center align-items-center"><a href="#"><img class="img-fluid"
+                                    src="../assets/images/enamad.jpg" alt="لوگوی سازمان اعتماد"> </a></li>
+                        <li class="d-flex justify-content-center align-items-center"><a href="#"><img class="img-fluid"
+                                    src="../assets/images/ecunion-8b792f56.jpg" alt="لوگوی اتحادیه کسب و کار"> </a>
+                        </li>
+                        <li class="d-flex justify-content-center align-items-center"><a href="#"><img class="img-fluid"
+                                    src="../assets/images/hoghoogh_1__e49e2b4dbcc13506ffa008be7271ce92.jpg"
+                                    alt="لوگوی حقوق مسافر"> </a> </li>
+                        <li class="d-flex justify-content-center align-items-center"><a href="#"><img class="img-fluid"
+                                    src="../assets/images/samandehi.jpg" alt="لوگوی اعتماد"> </a> </li>
+                        <li class="d-flex justify-content-center align-items-center"><a href="#"><img class="img-fluid"
+                                    src="../assets/images/alibaba-footer.jpg" alt="لوگوی هواپیما"> </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer -->
+
+    <!--bootstrap  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

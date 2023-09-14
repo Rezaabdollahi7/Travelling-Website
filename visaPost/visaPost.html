@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa">
 
 <head>
     <meta charset="UTF-8">
@@ -32,9 +32,10 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <a class="navbar-brand" href="#">
-                    <img src="../assets/images/Logo Header1.jpg" alt="LOGO" height="45px">
+                    <img src="../assets/images/Logo Header1.jpg" alt="LOGO" height="45">
                 </a>
             </div>
+            <!-- end hamburger container -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul
                     class="navbar-nav p-0 me-auto  mb-2 mb-lg-0 position-relative align-items-center d-flex justify-content-center align-items-center">
@@ -50,7 +51,7 @@
                         <ul class="dropdown-menu container mt-4  border-0 rounded-4 p-lg-2">
                             <li class="row">
                                 <ul class="col-6  col-lg-2">
-                                    <h6 class="dropdown-ul-tittle">تور خارجی</h6>
+                                    <li><a class="dropdown-ul-tittle h6" href="#"> تور خارجی </a></li>
                                     <li><a class="dropdown-item" href="#">تور ترکیه</a></li>
                                     <li><a class="dropdown-item" href="#">تور امارات</a></li>
                                     <li><a class="dropdown-item" href="#">تور گرجستان</a></li>
@@ -59,7 +60,7 @@
                                     <li><a class="dropdown-item" href="#">تور تایلند</a></li>
                                 </ul>
                                 <ul class="col-6  col-lg-2">
-                                    <h6 class="dropdown-ul-tittle">تور داخلی</h6>
+                                    <li><a class="dropdown-ul-tittle h6" href="#"> تور داخلی </a></li>
                                     <li><a class="dropdown-item" href="#">تور کیش</a></li>
                                     <li><a class="dropdown-item" href="#">تور مشهد</a></li>
                                     <li><a class="dropdown-item" href="#">تور قشم</a></li>
@@ -68,7 +69,7 @@
                                     <li><a class="dropdown-item" href="#">تور اصفهان</a></li>
                                 </ul>
                                 <ul class="col-6  col-lg-3 mt-4 mt-lg-0 ">
-                                    <h6 class="dropdown-ul-tittle">تور زمینی</h6>
+                                    <li><a class="dropdown-ul-tittle h6" href="#"> تور زمینی </a></li>
                                     <li><a class="dropdown-item" href="#">تور ترکیه زمینی</a></li>
                                     <li><a class="dropdown-item" href="#">تور وان</a></li>
                                     <li><a class="dropdown-item" href="#">تور آنکارا</a></li>
@@ -127,6 +128,7 @@
 
                 </ul>
             </div>
+            <!-- end  navbar-collapse  -->
             <div class="nav-icons d-flex">
                 <span class="icontainer">
                     <i class="fa-solid fa-user-circle"></i>
@@ -138,6 +140,7 @@
                     <span class="iconHide"><a href="tel:02112345678">021-12345678</a></span>
                 </span>
             </div>
+            <!-- end nav-icons  -->
         </div>
     </nav>
     <!-- end of header  -->
@@ -146,7 +149,7 @@
     <section class="page-about container-lg w-100  py-2  mb-3">
         <div class="row visa-post-row">
             <div class="breadcrumbs w-100 d-flex flex-column align-items-center justify-content-center py-2 ">
-                <div  aria-label="breadcrumb">
+                <div aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a class="text-white" href="#">سفرهای مامان و بابا</a></li>
                         <li class="breadcrumb-item active text-white" aria-current="page"> <a class="text-white"
@@ -532,7 +535,7 @@
             <section class="send-comment  mt-4 mb-5 rounded-4">
                 <div class="row ">
 
-                    <div class="col-12 col-lg-6 py-2 pl-5px ">
+                    <div class="col-12 col-lg-6 py-2 ">
                         <p class="send-message-tittle">نظر، تجربه و سؤال خود را با ما در میان بگذارید.</p>
                         <form action="test.php" method="post" id="user-send-comment" class="d-flex flex-column">
                             <label for="name-input">نام و نام خانوادگی</label>
@@ -544,7 +547,7 @@
 
                             <div class="position-relative w-100">
                                 <label for="comment-input" class="mt-2">متن پیام </label>
-                                <textarea id="comment-input" name="comment-input" type="text"
+                                <textarea id="comment-input" name="comment-input"
                                     class="rounded-1 border-0  w-100 p-1"></textarea>
 
                                 <button type="submit"
@@ -557,7 +560,7 @@
                         </form>
                     </div>
 
-                    <div class="col-12 col-lg-6  py- pl-5px2">
+                    <div class="col-12 col-lg-6  py-2">
                         <img src="../assets/images/downloaded/urn aaid sc US 8d7c6fbf-a17b-47ff-a2df-239b39b6bb33;revision=4.webp"
                             class="img-fluid rounded-3" alt="عکس مسافر هواپیما">
                     </div>
@@ -573,7 +576,7 @@
             <div class="row d-flex footer-row">
                 <div class="col-6 col-xl-2 ">
                     <ul class="p-0 text-center text-xl-start">
-                        <h5 class="mb-4">سفرهای مامان و بابا </h5>
+                        <li class="list-items mb-4 h5"><a href="#">سفر های مامان و بابا</a></li>
                         <li class="list-items"><a href="#">درباره ما</a></li>
                         <li class="list-items"><a href="#">تماس با ما</a></li>
                         <li class="list-items"><a href="#">قوانین و مقررات</a></li>
@@ -583,7 +586,7 @@
                 </div>
                 <div class="col-6 col-xl-2 ">
                     <ul class="p-0 text-center text-xl-start">
-                        <h5 class="mb-4">تور خارجی </h5>
+                        <li class="list-items mb-4 h5"><a href="#">تور خارجی </a></li>
                         <li class="list-items"><a href="#"> تور ترکیه</a></li>
                         <li class="list-items"><a href="#">تور گرجستان </a></li>
                         <li class="list-items"><a href="#"> تور وان</a></li>
@@ -593,7 +596,7 @@
                 </div>
                 <div class="col-6 col-xl-2 mt-4 mt-xl-0">
                     <ul class="p-0 text-center text-xl-start">
-                        <h5 class="mb-4"> تور داخلی </h5>
+                        <li class="list-items mb-4 h5"><a href="#">تور داخلی</a></li>
                         <li class="list-items"><a href="#"> تور کیش</a></li>
                         <li class="list-items"><a href="#"> تور مشهد</a></li>
                         <li class="list-items"><a href="#">تور شیراز </a></li>
@@ -603,7 +606,7 @@
                 </div>
                 <div class="col-6 col-xl-2 mt-4 mt-xl-0 ">
                     <ul class="p-0 text-center text-xl-start">
-                        <h5 class="mb-4">لینک های مفید</h5>
+                        <li class="list-items mb-4 h5"><a href="#">لینک های مفید</a></li>
                         <li class="list-items"><a href="#">لینک های مفید </a></li>
                         <li class="list-items"><a href="#">لینک های مفید </a></li>
                         <li class="list-items"><a href="#">لینک های مفید </a></li>
@@ -614,45 +617,48 @@
                 <div
                     class="company-info col-xl-4 mt-4 mt-xl-0 bg-white d-flex flex-column rounded-4 align-items-center">
                     <img src="../assets/images/Logo Footer1.jpg" alt="لوگوی سفر های مامان و بابا"
-                        class="img-fluid align-self-center mb-2 mt-2" width="170px">
+                        class="img-fluid align-self-center mb-2 mt-2" width="170">
                     <ul class="p-0">
                         <li class="mt-2 list-items"><span>تلفن :</span>123456789-021</li>
                         <li class="mt-2 list-items"><span>ایمیل :</span>info@safarhaye.com</li>
                         <li class="mt-2 list-items"><span>نشانی :</span>تهران ، متن نمونه برای وارد کردن آدرس</li>
-                        <ul class="mt-2 sochial-media  d-flex flex-row align-items-center justify-content-center p-2">
-                            <li class="d-flex align-items-center justify-content-center">
-                                <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="18.284"
-                                    height="26.294" viewBox="0 0 26.284 26.294">
-                                    <g id="brand" transform="translate(0 0)">
-                                        <g id="icon--black">
-                                            <path id="Path_44" data-name="Path 44"
-                                                d="M16.685.771,14.266.141A4.07,4.07,0,0,0,9.284,3.029l-.6,2.281A12.464,12.464,0,0,1,16.685.771Z"
-                                                transform="translate(-5.342 -0.003)" fill="##484848" />
-                                            <path id="Path_45" data-name="Path 45"
-                                                d="M.733,39.33.14,41.565a4.07,4.07,0,0,0,2.889,4.978l2.308.615a12.468,12.468,0,0,1-4.6-7.828Z"
-                                                transform="translate(-0.003 -24.202)" fill="##484848" />
-                                            <path id="Path_46" data-name="Path 46"
-                                                d="M56.319,9.149,53.73,8.46a12.464,12.464,0,0,1,4.77,8.348l.712-2.693a4.07,4.07,0,0,0-2.893-4.966Z"
-                                                transform="translate(-33.062 -5.207)" fill="##484848" />
-                                            <path id="Path_47" data-name="Path 47"
-                                                d="M38.69,58.5l2.481.669a4.07,4.07,0,0,0,4.978-2.889l.7-2.631A12.471,12.471,0,0,1,38.69,58.5Z"
-                                                transform="translate(-23.808 -33.013)" fill="##484848" />
-                                            <path id="Path_48" data-name="Path 48"
-                                                d="M15.932,4.54a11.4,11.4,0,1,0,11.394,11.4A11.4,11.4,0,0,0,15.932,4.54ZM9.477,10.226a3.254,3.254,0,1,1,2.581,3.812,3.254,3.254,0,0,1-2.581-3.812Zm4.735,9.848a3.254,3.254,0,1,1-.5-2.442A3.254,3.254,0,0,1,14.212,20.073Zm1.381-2.635a1.446,1.446,0,1,1,1.088-.224,1.446,1.446,0,0,1-1.088.224Zm6.79,4.2A3.254,3.254,0,1,1,19.8,17.831,3.254,3.254,0,0,1,22.383,21.643Zm-2.154-6.032a3.248,3.248,0,1,1,2.442-.5,3.254,3.254,0,0,1-2.442.5Z"
-                                                transform="translate(-2.789 -2.795)" />
+                        <li class="">
+                            <ul
+                                class="mt-2 sochial-media  d-flex flex-row align-items-center justify-content-center p-2">
+                                <li class="d-flex align-items-center justify-content-center">
+                                    <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg"
+                                        width="18.284" height="26.294" viewBox="0 0 26.284 26.294">
+                                        <g id="brand" transform="translate(0 0)">
+                                            <g id="icon--black">
+                                                <path id="Path_44" data-name="Path 44"
+                                                    d="M16.685.771,14.266.141A4.07,4.07,0,0,0,9.284,3.029l-.6,2.281A12.464,12.464,0,0,1,16.685.771Z"
+                                                    transform="translate(-5.342 -0.003)" fill="##484848" />
+                                                <path id="Path_45" data-name="Path 45"
+                                                    d="M.733,39.33.14,41.565a4.07,4.07,0,0,0,2.889,4.978l2.308.615a12.468,12.468,0,0,1-4.6-7.828Z"
+                                                    transform="translate(-0.003 -24.202)" fill="##484848" />
+                                                <path id="Path_46" data-name="Path 46"
+                                                    d="M56.319,9.149,53.73,8.46a12.464,12.464,0,0,1,4.77,8.348l.712-2.693a4.07,4.07,0,0,0-2.893-4.966Z"
+                                                    transform="translate(-33.062 -5.207)" fill="##484848" />
+                                                <path id="Path_47" data-name="Path 47"
+                                                    d="M38.69,58.5l2.481.669a4.07,4.07,0,0,0,4.978-2.889l.7-2.631A12.471,12.471,0,0,1,38.69,58.5Z"
+                                                    transform="translate(-23.808 -33.013)" fill="##484848" />
+                                                <path id="Path_48" data-name="Path 48"
+                                                    d="M15.932,4.54a11.4,11.4,0,1,0,11.394,11.4A11.4,11.4,0,0,0,15.932,4.54ZM9.477,10.226a3.254,3.254,0,1,1,2.581,3.812,3.254,3.254,0,0,1-2.581-3.812Zm4.735,9.848a3.254,3.254,0,1,1-.5-2.442A3.254,3.254,0,0,1,14.212,20.073Zm1.381-2.635a1.446,1.446,0,1,1,1.088-.224,1.446,1.446,0,0,1-1.088.224Zm6.79,4.2A3.254,3.254,0,1,1,19.8,17.831,3.254,3.254,0,0,1,22.383,21.643Zm-2.154-6.032a3.248,3.248,0,1,1,2.442-.5,3.254,3.254,0,0,1-2.442.5Z"
+                                                    transform="translate(-2.789 -2.795)" />
+                                            </g>
                                         </g>
-                                    </g>
-                                </svg>
-                            </li>
-                            <li class="d-flex align-items-center justify-content-center"><a href="#" class=""><i
-                                        class="fa-brands fa-twitter  fa-xl"></i></a></li>
-                            <li class="d-flex align-items-center justify-content-center"><a href="#" class=""><i
-                                        class="fa-brands fa-telegram fa-xl"></i></a></li>
-                            <li class="d-flex align-items-center justify-content-center"><a href="#" class=""><i
-                                        class="fa-brands fa-linkedin-in fa-xl"></i></a></li>
-                            <li class="d-flex align-items-center justify-content-center"><a href="#" class=""><i
-                                        class="fa-brands fa-instagram fa-xl"></i></a></li>
-                        </ul>
+                                    </svg>
+                                </li>
+                                <li class="d-flex align-items-center justify-content-center"><a href="#" class=""><i
+                                            class="fa-brands fa-twitter  fa-xl"></i></a></li>
+                                <li class="d-flex align-items-center justify-content-center"><a href="#" class=""><i
+                                            class="fa-brands fa-telegram fa-xl"></i></a></li>
+                                <li class="d-flex align-items-center justify-content-center"><a href="#" class=""><i
+                                            class="fa-brands fa-linkedin-in fa-xl"></i></a></li>
+                                <li class="d-flex align-items-center justify-content-center"><a href="#" class=""><i
+                                            class="fa-brands fa-instagram fa-xl"></i></a></li>
+                            </ul>
+                        </li>
                         <li class="text-center mt-4 mb-2 designer-info fs-14"><span>Code By : </span> Code-n</li>
                     </ul>
                 </div>

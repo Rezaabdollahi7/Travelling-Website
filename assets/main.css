@@ -308,7 +308,7 @@ footer ul li.list-items a {
     transition: all 0.3s ease-out;
 }
 
-footer ul li.list-items:hover a {
+footer ul li.list-items:not(.h5):hover a {
     color: var(--blue-900);
     margin-right: 10px;
 }
@@ -316,7 +316,7 @@ footer ul li.list-items:hover a {
 footer ul li.list-items:nth-child(1)>a:nth-child(1) {
     color: var(--black-800);
     font-weight: 800;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 footer .company-info {
@@ -7874,6 +7874,9 @@ i.fa-comment-dots,
 }
 .breadcrumbs div[aria-label="breadcrumb"]{
     --bs-breadcrumb-divider: '>>'
+}
+.breadcrumbs li:nth-child(1) a{
+    margin-left: 0.5rem;
 }
 .container,
 .container-lg,

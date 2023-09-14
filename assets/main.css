@@ -742,7 +742,6 @@ nav .dropdown button {
 
 .breadcrumb-item+.breadcrumb-item::before {
     float: right;
-    margin-left: 0.5rem;
     font-size: 1.2rem;
     margin-top: 0.2rem;
     content: url("../../assets/images/عکس های ویزا/visaPost/chevron-double-left.svg") !important;
@@ -2228,7 +2227,6 @@ img {
 
 #hotelDetailsPage .breadcrumb-item+.breadcrumb-item::before {
     float: right;
-    margin-left: 0.5rem;
     font-size: 1.2rem;
     margin-top: 0.2rem;
     content: url("../assets/images/عکس های ویزا/visaPost/chevron-double-left.svg") !important;
@@ -2855,7 +2853,6 @@ img {
 
 #hotelHomePage .breadcrumb-item+.breadcrumb-item::before {
     float: right;
-    margin-left: 0.5rem;
     font-size: 1.2rem;
     color: var(--white-900);
 }
@@ -2871,7 +2868,6 @@ img {
 
 #hotelHomePage .breadcrumb-item+.breadcrumb-item::before {
     float: right;
-    margin-left: 0.5rem;
     font-size: 1.2rem;
     margin-top: 0.2rem;
     content: url("../assets/images/عکس های ویزا/visaPost/chevron-double-left.svg") !important;
@@ -3073,7 +3069,6 @@ img {
 
 #tourCategoryPage .breadcrumb-item+.breadcrumb-item::before {
     float: right;
-    margin-left: 0.5rem;
     font-size: 1.2rem;
     color: var(--white-900);
 }
@@ -3173,7 +3168,6 @@ img {
 /* breadcrumb */
 #tourCategoryPage .breadcrumb-item+.breadcrumb-item::before {
     float: right;
-    margin-left: 0.5rem;
     font-size: 1.2rem;
     margin-top: 0.2rem;
     content: url("../assets/images/عکس های ویزا/visaPost/chevron-double-left.svg") !important;
@@ -3397,7 +3391,6 @@ img {
 
 #tourCategoryPage .breadcrumb-item+.breadcrumb-item::before {
     float: right;
-    margin-left: 0.5rem;
     font-size: 1.2rem;
     color: var(--white-900);
 }
@@ -3497,7 +3490,6 @@ img {
 /* breadcrumb */
 #tourCategoryPage .breadcrumb-item+.breadcrumb-item::before {
     float: right;
-    margin-left: 0.5rem;
     font-size: 1.2rem;
     margin-top: 0.2rem;
     content: url("../assets/images/عکس های ویزا/visaPost/chevron-double-left.svg") !important;
@@ -3598,7 +3590,6 @@ img {
 
 #tourDetailsPage .breadcrumb-item+.breadcrumb-item::before {
     float: right;
-    margin-left: 0.5rem;
     font-size: 1.2rem;
     color: var(--white-900);
 }
@@ -3904,7 +3895,6 @@ img {
 
 #tourDetailsPage .breadcrumb-item+.breadcrumb-item::before {
     float: right;
-    margin-left: 0.5rem;
     font-size: 1.2rem;
     margin-top: 0.2rem;
     content: url("../assets/images/عکس های ویزا/visaPost/chevron-double-left.svg") !important;
@@ -4093,7 +4083,6 @@ img {
 
 #tourHomePage .breadcrumb-item+.breadcrumb-item::before {
     float: right;
-    margin-left: 0.5rem;
     font-size: 1.2rem;
     color: var(--white-900);
 }
@@ -4280,7 +4269,6 @@ img {
 /* breadcrumbs */
 #tourHomePage .breadcrumb-item+.breadcrumb-item::before {
     float: right;
-    margin-left: 0.5rem;
     font-size: 1.2rem;
     margin-top: 0.2rem;
     content: url("../assets/images/عکس های ویزا/visaPost/chevron-double-left.svg") !important;
@@ -4996,7 +4984,7 @@ img {
 
 #visaHomePage .breadcrumb-item+.breadcrumb-item::before {
     float: right;
-    margin-left: 0.5rem;
+
     font-size: 1.2rem;
     margin-top: 0.2rem;
     content: url("../assets/images/عکس های ویزا/visaPost/chevron-double-left.svg") !important;
@@ -5380,7 +5368,6 @@ i.fa-comment-dots,
 #visaDetailsPage .breadcrumb-item+.breadcrumb-item::before,
 #aboutUsPage .breadcrumb-item+.breadcrumb-item::before {
     float: right;
-    margin-left: 0.5rem;
     font-size: 1.2rem;
     margin-top: 0.2rem;
     content: url("../assets/images/عکس های ویزا/visaPost/chevron-double-left.svg") !important;
@@ -7884,6 +7871,9 @@ i.fa-comment-dots,
 }
 #hotelHomePage .breadcrumbs , #hotelListPage  .breadcrumbs{
     border-radius: 10px;
+}
+.breadcrumbs div[aria-label="breadcrumb"]{
+    --bs-breadcrumb-divider: '>>'
 }
 .container,
 .container-lg,

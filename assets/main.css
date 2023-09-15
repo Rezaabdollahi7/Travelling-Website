@@ -873,7 +873,6 @@ nav .dropdown button {
     content: "-";
     width: 19.5px;
     height: 18.5px;
-    line-height: 16px;
 }
 
 .question-answer .accordion-button:focus,

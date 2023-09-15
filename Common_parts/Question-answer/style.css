@@ -106,9 +106,6 @@
 
 .question-answer .accordion-header.active .accordion-button::after {
     content: "-";
-    width: 19.5px;
-    height: 18.5px;
-    line-height: 16px;
 }
 
 .question-answer .accordion-button:focus,

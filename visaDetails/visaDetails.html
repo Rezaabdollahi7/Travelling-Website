@@ -875,6 +875,29 @@
 
 
     </script>
+    <script>
+        // HEADER events
+        const Header_events = () => {
+            const icontainers = document.querySelectorAll('.icontainer');
+            icontainers.forEach(container => {
+                container.addEventListener('click', (e) => {
+                    const activeShowHidden = document.querySelector('.showHidden-a');
+                    if (activeShowHidden) activeShowHidden.classList.remove('showHidden-a')
+                    container.classList.add('showHidden-a');
+                    e.stopPropagation();
+                });
+            });
+
+            document.addEventListener('click', (e) => {
+                const ihides = document.querySelectorAll('.showHidden-a');
+                ihides.forEach(container => {
+                    container.classList.remove('showHidden-a');
+                });
+            });
+        };
+
+        Header_events()
+    </script>
 </body>
 
 </html>

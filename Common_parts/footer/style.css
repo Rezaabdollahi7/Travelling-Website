@@ -119,17 +119,13 @@ footer .brands-logo li {
     border-radius: 10px;
     margin-right: 10px;
 }
-
+footer .brands-logo li img{
+    aspect-ratio: 1/0.8;
+}
 
 @media screen and (max-width:1200px) {
     footer .brands-logo {
         margin-top: 40px;
-    }
-}
-
-@media screen and (max-width: 700px) {
-    footer .brands-logo li {
-        width: 40%;
     }
 }
 

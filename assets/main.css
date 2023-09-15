@@ -6699,7 +6699,7 @@ i.fa-comment-dots,
     color: var(--gray-900);
 }
 
-#homePage #price {
+#homePage .price {
     color: var(--blue-900);
     font-weight: 700;
 }

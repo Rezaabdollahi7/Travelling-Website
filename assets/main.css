@@ -1160,7 +1160,9 @@ img {
 #contactUsPage .h-md-33 {
     height: fit-content;
 }
-
+#contactUsPage .breadcrumb-item+.breadcrumb-item::before {
+    margin-left: 0.5rem;
+}
 @media (min-width: 768px) {
     #contactUsPage .h-md-33 {
         height: 33.333333%;
@@ -1489,7 +1491,9 @@ img {
 /* =========================== */
 /* !=======  hotel details ========= */
 /* =========================== */
-
+#hotelDetailsPage li.breadcrumb-item:nth-child(2)>a:nth-child(1) , li.breadcrumb-item:nth-child(3)>a:nth-child(1) {
+    margin-left: 0.5rem;
+}
 #hotelDetailsPage .swiperHotels {
     min-height: 200px;
     margin-top: 2rem;
@@ -4973,7 +4977,7 @@ img {
 
 /* breadcrumbs */
 #visaHomePage .page-about {
-    margin-top: 4rem;
+    margin-top: 3.8rem;
 }
 
 #visaHomePage .worldmap-img {

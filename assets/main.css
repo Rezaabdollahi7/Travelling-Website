@@ -1925,14 +1925,7 @@ img {
     color: var(--gray-900);
     font-size: 12px;
     margin: 7px 0 7px 0;
-}
-
-#hotelDetailsPage .line {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 1px;
-    background: var(--blue-800);
+    border-color: var(--blue-800) !important ;
 }
 
 

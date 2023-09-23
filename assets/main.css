@@ -38,18 +38,22 @@ body {
 /* .comments-row {
     padding: 0 2%;
 } */
-nav.navbar{
+nav.navbar {
     z-index: 999 !important;
 }
-.pl-2percent{
+
+.pl-2percent {
     padding-left: 2%;
 }
-.w-70{
+
+.w-70 {
     width: 70%;
 }
-.mr-8percent{
+
+.mr-8percent {
     margin-right: 8%;
 }
+
 .comments .send-comment #comment-input {
     height: 135px;
     background: #EFF2F5 0% 0% no-repeat padding-box;
@@ -1159,9 +1163,11 @@ img {
 #contactUsPage .h-md-33 {
     height: fit-content;
 }
+
 #contactUsPage .breadcrumb-item+.breadcrumb-item::before {
     margin-left: 0.5rem;
 }
+
 @media (min-width: 768px) {
     #contactUsPage .h-md-33 {
         height: 33.333333%;
@@ -1490,9 +1496,11 @@ img {
 /* =========================== */
 /* !=======  hotel details ========= */
 /* =========================== */
-#hotelDetailsPage li.breadcrumb-item:nth-child(2)>a:nth-child(1) , li.breadcrumb-item:nth-child(3)>a:nth-child(1) {
+#hotelDetailsPage li.breadcrumb-item:nth-child(2)>a:nth-child(1),
+li.breadcrumb-item:nth-child(3)>a:nth-child(1) {
     margin-left: 0.5rem;
 }
+
 #hotelDetailsPage .swiperHotels {
     min-height: 200px;
     margin-top: 2rem;
@@ -1556,6 +1564,38 @@ img {
     direction: ltr;
 }
 
+#tourDetailsPage .header-hotels-gallery {
+    display: grid;
+    grid-template-areas:
+        'item1 item2 item3'
+        'item4 item2 item5';
+    gap: 10px;
+    grid-template-rows: repeat(2, 160px);
+    grid-template-columns: 1fr 2fr 1fr;
+    direction: initial;
+}
+
+
+#tourDetailsPage .hotel-img-1 {
+    grid-area: item1;
+}
+
+#tourDetailsPage .hotel-img-2 {
+    grid-area: item2;
+}
+
+#tourDetailsPage .hotel-img-3 {
+    grid-area: item3;
+}
+
+#tourDetailsPage .hotel-img-4 {
+    grid-area: item4;
+}
+
+#tourDetailsPage .hotel-img-5 {
+    grid-area: item5;
+}
+
 #hotelDetailsPage .hotel-img-1 {
     grid-area: one;
 }
@@ -1572,20 +1612,23 @@ img {
     grid-area: four;
 }
 
-#hotelDetailsPage .header-hotels-gallery .img {
+#hotelDetailsPage .header-hotels-gallery .img,
+#tourDetailsPage .header-hotels-gallery .img {
     border-radius: 15px;
     overflow: hidden;
     position: relative;
 }
 
-#hotelDetailsPage .header-hotels-gallery .img img {
+#hotelDetailsPage .header-hotels-gallery .img img,
+#tourDetailsPage .header-hotels-gallery .img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     aspect-ratio: 3/4;
 }
 
-#hotelDetailsPage .header-hotels-gallery .img-text {
+#hotelDetailsPage .header-hotels-gallery .img-text,
+#tourDetailsPage .header-hotels-gallery .img-text {
     background-color: #0088d13a;
     display: flex;
     justify-content: center;
@@ -1598,11 +1641,13 @@ img {
     opacity: 0;
 }
 
-#hotelDetailsPage .header-hotels-gallery .img:hover .img-text {
+#hotelDetailsPage .header-hotels-gallery .img:hover .img-text,
+#tourDetailsPage .header-hotels-gallery .img:hover .img-text {
     opacity: 1;
 }
 
-#hotelDetailsPage .header-hotels-gallery .img-text p {
+#hotelDetailsPage .header-hotels-gallery .img-text p,
+#tourDetailsPage .header-hotels-gallery .img-text p {
     background: var(--white-800);
     color: var(--blue-800);
     border-radius: 30px;
@@ -1612,7 +1657,9 @@ img {
 }
 
 @media (max-width: 1000px) {
-    #hotelDetailsPage .header-hotels-gallery {
+
+    #hotelDetailsPage .header-hotels-gallery,
+    #tourDetailsPage .header-hotels-gallery {
         grid-template-areas:
             'one two'
             'three four';
@@ -1621,7 +1668,8 @@ img {
     }
 }
 
-#hotelDetailsPage .btn-see-more {
+#hotelDetailsPage .btn-see-more,
+#tourDetailsPage .btn-see-more {
     position: absolute;
     bottom: 10px;
     left: 15px;
@@ -1637,13 +1685,16 @@ img {
     cursor: pointer;
 }
 
-#hotelDetailsPage .btn-see-more i {
+#hotelDetailsPage .btn-see-more i,
+#tourDetailsPage .btn-see-more i {
     margin-left: 5px;
     color: var(--white-800);
 }
 
 @media (max-width: 610px) {
-    #hotelDetailsPage .header-album-pic {
+
+    #hotelDetailsPage .header-album-pic,
+    #tourDetailsPage .header-album-pic {
         display: flex;
         justify-content: center;
     }
@@ -1654,6 +1705,17 @@ img {
             'two'
             'three'
             'four';
+        grid-template-columns: 1fr;
+        grid-template-areas: repeat(4, 200px);
+    }
+
+    #tourDetailsPage .header-hotels-gallery {
+        grid-template-areas:
+            'item1'
+            'item2'
+            'item3'
+            'item4'
+            'item5';
         grid-template-columns: 1fr;
         grid-template-areas: repeat(4, 200px);
     }
@@ -1925,7 +1987,7 @@ img {
     color: var(--gray-900);
     font-size: 12px;
     margin: 7px 0 7px 0;
-    border-color: var(--blue-800) !important ;
+    border-color: var(--blue-800) !important;
 }
 
 
@@ -2278,33 +2340,40 @@ img {
 }
 
 /* open gallery */
-#hotelDetailsPage .clicked-gallery {
+#hotelDetailsPage .clicked-gallery,
+#tourDetailsPage .clicked-gallery {
     z-index: 1001;
     background-color: #000000cc;
     display: flex;
 }
 
-#hotelDetailsPage .gallery-swiper {
+#hotelDetailsPage .gallery-swiper,
+#tourDetailsPage .gallery-swiper {
     width: 60%;
     height: 85%;
     overflow: hidden;
 }
 
 #hotelDetailsPage .gallery-swiper .swiper-button-prev::after,
-#hotelDetailsPage .gallery-swiper .swiper-button-next::after {
+#hotelDetailsPage .gallery-swiper .swiper-button-next::after,
+#tourDetailsPage .gallery-swiper .swiper-button-prev::after,
+#tourDetailsPage .gallery-swiper .swiper-button-next::after {
     font-size: 2rem !important;
     color: var(--blue-900);
 }
 
-#hotelDetailsPage .gallery-swiper .swiper-button-prev {
+#hotelDetailsPage .gallery-swiper .swiper-button-prev,
+#tourDetailsPage .gallery-swiper .swiper-button-prev {
     right: 0 !important;
 }
 
-#hotelDetailsPage .gallery-swiper .swiper-button-next {
+#hotelDetailsPage .gallery-swiper .swiper-button-next,
+#tourDetailsPage .gallery-swiper .swiper-button-next {
     left: 0 !important;
 }
 
-#hotelDetailsPage .exit-gallery-btn {
+#hotelDetailsPage .exit-gallery-btn,
+#tourDetailsPage .exit-gallery-btn {
     top: 10px;
     right: 10px;
     font-size: 2rem;
@@ -2313,14 +2382,18 @@ img {
 }
 
 @media screen and (max-width:800px) {
-    #hotelDetailsPage .gallery-swiper {
+
+    #hotelDetailsPage .gallery-swiper,
+    #tourDetailsPage .gallery-swiper {
         height: 80%;
         width: 80%;
     }
 }
 
 @media screen and (max-width:500px) {
-    #hotelDetailsPage .gallery-swiper {
+
+    #hotelDetailsPage .gallery-swiper,
+    #tourDetailsPage .gallery-swiper {
         height: 60%;
         width: 80%;
     }
@@ -5030,7 +5103,8 @@ img {
 #visaPostPage .visa-page-main-tittle .breadcrumb-wrapper {
     background-color: var(--blue-800);
 }
-#visaPostPage .pl-5px{
+
+#visaPostPage .pl-5px {
     padding-left: 5px;
 }
 
@@ -5595,12 +5669,15 @@ i.fa-comment-dots,
 #homePage .same-as-selected {
     background-color: rgba(0, 0, 0, 0.1);
 }
-#homePage .input-container.passengers-wrapper input{
+
+#homePage .input-container.passengers-wrapper input {
     margin-bottom: -40px;
 }
+
 #homePage .input-container.passengers-wrapper .dropdown {
     width: 103%;
 }
+
 @media screen and (max-width: 524px) {
     #homePage .tour-classification-gallery p {
         visibility: visible !important;
@@ -5797,10 +5874,12 @@ i.fa-comment-dots,
     align-items: center;
     justify-content: center;
 }
-#homePage #newsletter button{
+
+#homePage #newsletter button {
     color: var(--white-900);
     margin-top: 8px;
 }
+
 #homePage .newsletter-card {
     position: relative;
     width: 100%;
@@ -6659,12 +6738,14 @@ i.fa-comment-dots,
     row-gap: 0.5rem;
     padding: 0.5rem;
 }
+
 @media screen and (max-width:620px) {
     #homePage .pop-tours__slide {
 
         padding: 1.5rem;
     }
 }
+
 #homePage .pop-tours__slide img {
     aspect-ratio: 8/9.5;
     width: 100%;
@@ -6710,10 +6791,12 @@ i.fa-comment-dots,
     top: 39%;
     left: 8%;
 }
-#homePage .nextTour{
+
+#homePage .nextTour {
     top: 39%;
     right: 8%;
 }
+
 #homePage .prevTour,
 #homePage .nextTour {
     font-size: 1.5rem;
@@ -7829,15 +7912,19 @@ i.fa-comment-dots,
 #hotelListPage .sort-part .h5 {
     font-size: 1.1rem !important;
 }
-#hotelListPage .sort-part i.fa-star-half-stroke{
+
+#hotelListPage .sort-part i.fa-star-half-stroke {
     margin-right: -2px;
 }
-#hotelListPage .sort-part i.fa-hotel{
+
+#hotelListPage .sort-part i.fa-hotel {
     margin-right: -1px;
 }
-#hotelListPage .sort-part i.fa-location-dot{
+
+#hotelListPage .sort-part i.fa-location-dot {
     margin-right: 1px;
 }
+
 #hotelListPage .star-container i {
     color: #B9B9B9;
 }
@@ -7865,15 +7952,20 @@ i.fa-comment-dots,
 .breadcrumbs {
     border-radius: 0 0 10px 10px;
 }
-#hotelHomePage .breadcrumbs , #hotelListPage  .breadcrumbs{
+
+#hotelHomePage .breadcrumbs,
+#hotelListPage .breadcrumbs {
     border-radius: 10px;
 }
-.breadcrumbs div[aria-label="breadcrumb"]{
+
+.breadcrumbs div[aria-label="breadcrumb"] {
     --bs-breadcrumb-divider: '>>'
 }
-.breadcrumbs li:nth-child(1) a{
+
+.breadcrumbs li:nth-child(1) a {
     margin-left: 0.5rem;
 }
+
 .container,
 .container-lg,
 .container-md,
